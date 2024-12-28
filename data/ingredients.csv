@@ -1,0 +1,100 @@
+Ingredient,Type
+Chocolate,Roasted
+Coffee,Roasted
+Peanut,Roasted
+Chicken,Meaty
+Pork,Meaty
+Black Pudding,Meaty
+Liver,Meaty
+Beef,Meaty
+Lamb,Meaty
+Goat Cheese,Cheesy
+Washed-rind Cheese,Cheesy
+Blue Cheese,Cheesy
+Hard Cheese,Cheesy
+Soft Cheese,Cheesy
+Mushroom,Earthy
+Eggplant,Earthy
+Cumin,Earthy
+Beetroot,Earthy
+Potato,Earthy
+Celery,Earthy
+Watercress,Mustardy
+Caper,Mustardy
+Horseradish,Mustardy
+Onion,Sulfurous
+Garlic,Sulfurous
+Truffle,Sulfurous
+Cabbage,Sulfurous
+Swede,Sulfurous
+Cauliflower,Sulfurous
+Broccoli,Sulfurous
+Globe Artichoke,Sulfurous
+Asparagus,Sulfurous
+Egg,Sulfurous
+Shellfish,Marine
+White Fish,Marine
+Oyster,Marine
+Caviar,Marine
+Oily Fish,Marine
+Anchovy,Brine & Salt
+Smoked Fish,Brine & Salt
+Bacon,Brine & Salt
+Prosciutto,Brine & Salt
+Olive,Brine & Salt
+Saffron,Green & Grassy
+Anise,Green & Grassy
+Cucumber,Green & Grassy
+Dill,Green & Grassy
+Parsley,Green & Grassy
+Coriander Leaf,Green & Grassy
+Avocado,Green & Grassy
+Pea,Green & Grassy
+Bell Pepper,Green & Grassy
+Chili,Green & Grassy
+Basil,Spicy
+Cinnamon,Spicy
+Clove,Spicy
+Nutmeg,Spicy
+Parsnip,Spicy
+Carrot,Woodland
+Butternut Squash,Woodland
+Chestnut,Woodland
+Walnut,Woodland
+Hazelnut,Woodland
+Almond,Woodland
+Cherry,Fresh Fruity
+Watermelon,Fresh Fruity
+Grape,Fresh Fruity
+Rhubarb,Fresh Fruity
+Tomato,Fresh Fruity
+Strawberry,Fresh Fruity
+Pineapple,Fresh Fruity
+Apple,Fresh Fruity
+Pear,Fresh Fruity
+Banana,Creamy Fruity
+Melon,Creamy Fruity
+Apricot,Creamy Fruity
+Peach,Creamy Fruity
+Coconut,Creamy Fruity
+Mango,Creamy Fruity
+Orange,Citrusy
+Grapefruit,Citrusy
+Lime,Citrusy
+Lemon,Citrusy
+Ginger,Citrusy
+Cardamom,Citrusy
+Rosemary,Berry & Bush
+Sage,Berry & Bush
+Juniper,Berry & Bush
+Thyme,Berry & Bush
+Mint,Berry & Bush
+Blackcurrant,Berry & Bush
+Blackberry,Berry & Bush
+Raspberry,Floral Fruity
+Fig,Floral Fruity
+Rose,Floral Fruity
+Blueberry,Floral Fruity
+Coriander Seed,Floral Fruity
+Vanilla,Floral Fruity
+White Chocolate,Floral Fruity
