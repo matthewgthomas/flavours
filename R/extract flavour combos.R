@@ -9,7 +9,7 @@ ingredients <- read_csv("https://docs.google.com/spreadsheets/d/12dxPZQAGA0UlaKs
 # Make a regular expression to identify all flavour combinations
 # e.g. "Chicken & Almond" or "Oily Fish & Horseradish"
 ingredients_list <- str_flatten(ingredients$Ingredient, collapse = "|")
-ingredients_regex <- str_glue("({ingredients_list}) & ({ingredients_list})")
+ingredients_regex <- str_glue("({ingredients_list}) & ({ingredients_list})\\b")
 
 # Extract flavour combinations
 flavour_combos <- str_extract_all(flavour_txt, ingredients_regex, simplify = TRUE)
