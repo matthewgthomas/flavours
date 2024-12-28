@@ -2,270 +2,178 @@ from,to
 Beetroot,Pork
 Chocolate,Almond
 Chocolate,Anise
-Anise,Chocolate
 Chocolate,Apricot
-Apricot,Chocolate
 Chocolate,Avocado
-Avocado,Chocolate
 Chocolate,Bacon
 Chocolate,Banana
-Banana,Chocolate
 Chocolate,Beetroot
-Beetroot,Chocolate
 Chocolate,Blackcurrant
 Chocolate,Black Pudding
-Black Pudding,Chocolate
 Chocolate,Cardamom
 Chocolate,Cauliflower
-Cauliflower,Chocolate
 Chocolate,Cherry
-Cherry,Chocolate
 Chocolate,Chestnut
 Chocolate,Chili
 Chocolate,Cinnamon
-Cinnamon,Chocolate
 Chocolate,Coconut
 Chocolate,Coffee
-Coffee,Chocolate
 Chocolate,Fig
-Fig,Chocolate
 Chocolate,Ginger
-Ginger,Chocolate
 Chocolate,Goat Cheese
-Goat Cheese,Chocolate
 Chocolate,Hazelnut
 Nutmeg,Walnut
 Chocolate,Lemon
-Lemon,Chocolate
 Chocolate,Lime
 Chocolate,Mint
-Mint,Chocolate
 Chocolate,Nutmeg
 Egg,Nutmeg
 Chocolate,Orange
-Orange,Chocolate
 Chocolate,Peanut
-Chocolate,Pea
+Chocolate,Pear
 Chocolate,Pineapple
-Pineapple,Chocolate
 Chocolate,Raspberry
 Chocolate,Rose
-Rose,Chocolate
 Chocolate,Rosemary
-Rosemary,Chocolate
 Chocolate,Strawberry
 Chocolate,Thyme
-Thyme,Chocolate
 Chocolate,Tomato
 Chocolate,Vanilla
-Vanilla,Chocolate
 Chocolate,Walnut
 Chocolate,Watermelon
-Watermelon,Chocolate
 Chocolate,White Chocolate
-White Chocolate,Chocolate
 Coffee,Almond
 Coffee,Walnut
 Coffee,Avocado
-Avocado,Coffee
 Coffee,Banana
-Banana,Coffee
 Coffee,Beef
 Coffee,Blackcurrant
 Coffee,Cardamom
 Coffee,Cherry
 Coffee,Cinnamon
 Coffee,Clove
-Clove,Coffee
 Coffee,Coriander Seed
-Coriander Seed,Coffee
 Coffee,Ginger
 Ginger,Cinnamon
 Coffee,Goat Cheese
-Goat Cheese,Coffee
 Coffee,Hazelnut
 Coffee,Orange
 Coffee,Rose
 Coffee,Vanilla
-Vanilla,Coffee
 Coffee,White Chocolate
-White Chocolate,Coffee
 Peanut,Apple
 Peanut,Asparagus
-Asparagus,Peanut
 Peanut,Banana
-Banana,Peanut
 Peanut,Beef
 Peanut,Blackcurrant
-Blackcurrant,Peanut
 Peanut,Broccoli
 Peanut,Coconut
 Peanut,Chicken
 Peanut,Carrot
 Peanut,Celery
-Celery,Peanut
 Peanut,Lamb
 Peanut,Chili
-Chili,Peanut
-Peanut,Chocolate
 Peanut,Coriander Leaf
-Coriander Leaf,Peanut
 Peanut,Cinnamon
 Peanut,Cucumber
 Peanut,Grape
-Grape,Peanut
 Peanut,Tomato
 Peanut,Lime
 Peanut,Mint
-Mint,Peanut
 Peanut,Pork
-Pork,Peanut
 Peanut,Potato
-Potato,Peanut
 Peanut,Shellfish
 Peanut,Vanilla
 Garlic,Chicken
 Chicken,Almond
-Almond,Chicken
 Chicken,Anise
-Anise,Chicken
 Chicken,Avocado
 Chicken,Bacon
-Bacon,Chicken
 Chicken,Banana
-Banana,Chicken
 Chicken,Basil
-Basil,Chicken
 Chicken,Bell Pepper
 Chicken,Blue Cheese
-Blue Cheese,Chicken
 Chicken,Cabbage
-Cabbage,Chicken
 Chicken,Caviar
 Chicken,Celery
-Celery,Chicken
 Chicken,Chestnut
-Chestnut,Chicken
 Chicken,Chili
 Ginger,Chili
 Chicken,Coriander Leaf
 Chicken,Coconut
-Coconut,Chicken
 Chicken,Egg
-Egg,Chicken
-Chicken,Garlic
 Chicken,Grape
-Grape,Chicken
 Chicken,Hard Cheese
 Chicken,Hazelnut
-Hazelnut,Chicken
 Chicken,Lemon
-Lemon,Chicken
 Chicken,Lime
 Chicken,Mushroom
 Chicken,Onion
 Chicken,Oyster
-Oyster,Chicken
 Chicken,Parsnip
 Chicken,Pea
-Pea,Chicken
-Chicken,Peanut
+Chicken,Pear
 Vanilla,Apple
 Chicken,Potato
 Chicken,Rose
 Chicken,Saffron
-Saffron,Chicken
 Chicken,Sage
 Chicken,Shellfish
-Shellfish,Chicken
 Chicken,Thyme
 Chicken,Tomato
 Chicken,Truffle
-Truffle,Chicken
 Chicken,Walnut
 Chicken,Watercress
-Watercress,Chicken
 Pork,Anise
 Anise,White Fish
 Pork,Tomato
 Pork,Apple
-Apple,Pork
 Pork,Apricot
-Apricot,Pork
 Pork,Bacon
 Black Pudding,Pork
 Pork,Egg
 Pork,Beef
-Pork,Beetroot
-Pork,Black Pudding
 Pork,Broccoli
 Pork,Butternut Squash
-Butternut Squash,Pork
 Pork,Cabbage
-Cabbage,Pork
 Pork,Celery
 Egg,Lemon
 Prosciutto,Celery
 Pork,Chestnut
-Chestnut,Pork
 Pork,Chili
-Chili,Pork
 Pork,Coriander Leaf
 Pork,Cinnamon
-Cinnamon,Pork
 Pork,Clove
-Clove,Pork
 Pork,Coconut
 Pork,Coriander Seed
-Coriander Seed,Pork
 Pork,Cucumber
-Cucumber,Pork
 Pork,Cumin
 Pork,Dill
-Dill,Pork
 Black Pudding,Egg
 Pork,Garlic
 Pork,Ginger
-Ginger,Pork
 Pork,Globe Artichoke
-Globe Artichoke,Pork
 Pork,Grape
-Grape,Pork
+Pork,Grapefruit
 Pork,Juniper
-Juniper,Pork
 Pork,Mushroom
-Mushroom,Pork
 Pork,Oily Fish
 Pork,Onion
-Onion,Pork
 Pork,Oyster
-Oyster,Pork
 Pork,Parsnip
-Parsnip,Pork
 Pork,Pea
-Pea,Pork
-Pear,Pork
+Pork,Pear
 Pork,Pineapple
-Pineapple,Pork
 Pork,Potato
 Rosemary,Pork
 Pork,Rhubarb
-Pork,Rosemary
 Pork,Swede
 Pork,Sage
-Sage,Pork
 Pork,Shellfish
-Shellfish,Pork
 Pork,Thyme
-Thyme,Pork
 Pork,Truffle
-Truffle,Pork
 Pork,Watercress
-Watercress,Pork
 Pork,Watermelon
-Watermelon,Pork
 Black Pudding,Apple
-Apple,Black Pudding
 Black Pudding,Bacon
 Black Pudding,Lamb
 Black Pudding,Liver
@@ -278,182 +186,117 @@ Black Pudding,Shellfish
 Liver,Apple
 Liver,Bacon
 Liver,Beef
-Beef,Liver
 Liver,Beetroot
-Liver,Black Pudding
 Liver,Chili
 Liver,Fig
-Fig,Liver
 Liver,Garlic
 Liver,Oily Fish
 Liver,Onion
 Liver,Sage
-Sage,Liver
 Liver,Truffle
-Truffle,Liver
 Beef,Anchovy
-Anchovy,Beef
 Beef,Anise
-Anise,Beef
 Beef,Bacon
 Beef,Beetroot
 Caper,Beetroot
 Beef,Bell Pepper
-Bell Pepper,Beef
 Beef,Blackberry
-Blackberry,Beef
 Beef,Blue Cheese
-Blue Cheese,Beef
 Beef,Broccoli
-Broccoli,Beef
 Beef,Cabbage
-Cabbage,Beef
 Beef,Caper
 Beef,Egg
 Beef,Carrot
 Beef,Celery
-Celery,Beef
 Beef,Chili
 Beef,Cinnamon
 Beef,Clove
-Clove,Beef
 Beef,Coconut
-Beef,Coffee
 Beef,Dill
-Dill,Beef
 Beef,Garlic
 Beef,Ginger
-Ginger,Beef
 Beef,Hard Cheese
-Hard Cheese,Beef
 Beef,Horseradish
 Beef,Juniper
 Beef,Lemon
-Lemon,Beef
 Beef,Lime
-Lime,Beef
 Beef,Mint
-Mint,Beef
 Beef,Mushroom
 Beef,Oily Fish
 Beef,Olive
-Olive,Beef
 Beef,Onion
 Beef,Orange
-Orange,Beef
 Beef,Oyster
-Oyster,Beef
 Beef,Parsley
 Beef,Parsnip
-Parsnip,Beef
 Beef,Pea
-Pea,Beef
-Beef,Peanut
-Beef,Pork
+Beef,Pear
 Beef,Potato
-Potato,Beef
 Beef,Swede
 Beef,Shellfish
-Shellfish,Beef
 Beef,Thyme
-Thyme,Beef
 Beef,Tomato
 Beef,Truffle
 Beef,Walnut
 Beef,Watercress
-Watercress,Beef
 Lamb,Almond
 Lamb,Anchovy
 Lamb,Anise
 Lamb,Apricot
-Lamb,Black Pudding
 Lamb,Cabbage
 Lamb,Caper
-Caper,Lamb
 Lamb,Cardamom
-Cardamom,Lamb
 Lamb,Celery
-Celery,Lamb
 Lamb,Cherry
 Lamb,Chestnut
-Chestnut,Lamb
 Lamb,Coriander Leaf
-Coriander Leaf,Lamb
 Lamb,Cinnamon
-Cinnamon,Lamb
 Lamb,Cumin
 Lamb,Dill
-Dill,Lamb
 Lamb,Eggplant
 Lamb,Garlic
-Garlic,Lamb
 Lamb,Globe Artichoke
-Globe Artichoke,Lamb
 Lamb,Goat Cheese
 Lamb,Lemon
-Lemon,Lamb
 Lamb,Mint
 Lamb,Nutmeg
-Nutmeg,Lamb
 Lamb,Onion
-Onion,Lamb
 Lamb,Pea
-Lamb,Peanut
 Lamb,Potato
-Potato,Lamb
 Lamb,Rhubarb
-Rhubarb,Lamb
 Lamb,Rosemary
-Rosemary,Lamb
 Lamb,Swede
 Potato,Swede
 Lamb,Saffron
 Lamb,Shellfish
-Shellfish,Lamb
 Lamb,Thyme
-Thyme,Lamb
 Lamb,Tomato
-Tomato,Lamb
 Goat Cheese,Anise
-Anise,Goat Cheese
 Goat Cheese,Apricot
 Goat Cheese,Basil
-Basil,Goat Cheese
 Goat Cheese,Beetroot
-Beetroot,Goat Cheese
 Goat Cheese,Blackberry
 Goat Cheese,Butternut Squash
-Butternut Squash,Goat Cheese
 Goat Cheese,Caper
 Caper,Soft Cheese
 Goat Cheese,Cherry
-Cherry,Goat Cheese
 Goat Cheese,Chili
 Goat Cheese,Coriander Leaf
 Goat Cheese,Coriander Seed
-Coriander Seed,Goat Cheese
 Goat Cheese,Cucumber
-Cucumber,Goat Cheese
 Goat Cheese,Fig
-Fig,Goat Cheese
 Goat Cheese,Garlic
 Garlic,Basil
-Goat Cheese,Lamb
 Goat Cheese,Lemon
-Lemon,Goat Cheese
 Goat Cheese,Mint
 Goat Cheese,Mushroom
-Mushroom,Goat Cheese
 Goat Cheese,Olive
-Olive,Goat Cheese
-Goat Cheese,Pea
+Goat Cheese,Pear
 Goat Cheese,Raspberry
 Goat Cheese,Rosemary
 Goat Cheese,Thyme
-Thyme,Goat Cheese
 Goat Cheese,Walnut
 Goat Cheese,Watercress
-Watercress,Goat Cheese
 Goat Cheese,Watermelon
 Rosemary,Watermelon
 Washed-rind Cheese,Anise
@@ -461,52 +304,40 @@ Washed-rind Cheese,Apple
 Washed-rind Cheese,Bacon
 Potato,Washed-rind Cheese
 Washed-rind Cheese,Cumin
-Cumin,Washed-rind Cheese
 Washed-rind Cheese,Garlic
-Washed-rind Cheese,Pea
-Washed-rind Cheese,Potato
+Washed-rind Cheese,Pear
 Washed-rind Cheese,Walnut
 Blue Cheese,Avocado
 Blue Cheese,Bacon
-Bacon,Blue Cheese
 Blue Cheese,Blueberry
-Blueberry,Blue Cheese
 Blue Cheese,Broccoli
 Blue Cheese,Butternut Squash
 Blue Cheese,Sage
 Blue Cheese,Cabbage
 Blue Cheese,Celery
-Celery,Blue Cheese
 Blue Cheese,Fig
 Blue Cheese,Grape
-Grape,Blue Cheese
+Blue Cheese,Grapefruit
 Blue Cheese,Mushroom
-Mushroom,Blue Cheese
-Blue Cheese,Pea
+Blue Cheese,Peach
+Blue Cheese,Pear
 Pear,Walnut
 Blue Cheese,Pineapple
 Blue Cheese,Truffle
 Blue Cheese,Walnut
 Blue Cheese,Watercress
-Watercress,Blue Cheese
 Hard Cheese,Almond
 Hard Cheese,Anchovy
-Anchovy,Hard Cheese
 Hard Cheese,Anise
 Hard Cheese,Apple
-Apple,Hard Cheese
 Hard Cheese,Apricot
-Apricot,Hard Cheese
 Hard Cheese,Asparagus
 Hard Cheese,Bacon
-Bacon,Hard Cheese
 Hard Cheese,Banana
 Oily Fish,Chili
 Hard Cheese,Basil
 Hard Cheese,Broccoli
 Hard Cheese,Cauliflower
-Cauliflower,Hard Cheese
-Hard Cheese,Chicken
 Hard Cheese,Chili
 Butternut Squash,Chili
 Hard Cheese,Clove
@@ -514,45 +345,31 @@ Hard Cheese,Fig
 Hard Cheese,Globe Artichoke
 Hard Cheese,Grape
 Hard Cheese,Juniper
-Juniper,Hard Cheese
 Hard Cheese,Mushroom
-Mushroom,Hard Cheese
 Hard Cheese,Nutmeg
-Nutmeg,Hard Cheese
 Hard Cheese,Onion
 Hard Cheese,Orange
-Orange,Hard Cheese
 Hard Cheese,Parsnip
 Hard Cheese,Pea
-Pea,Hard Cheese
-Pear,Hard Cheese
+Hard Cheese,Pear
 Hard Cheese,Pineapple
 Hard Cheese,Potato
 Hard Cheese,Sage
 Hard Cheese,Shellfish
-Shellfish,Hard Cheese
 Hard Cheese,Tomato
 Hard Cheese,Walnut
-Walnut,Hard Cheese
 Hard Cheese,White Fish
-White Fish,Hard Cheese
 Soft Cheese,Anchovy
 Soft Cheese,Apple
 Soft Cheese,Avocado
-Avocado,Soft Cheese
 Soft Cheese,Basil
-Basil,Soft Cheese
 Soft Cheese,Bell Pepper
 Soft Cheese,Blackcurrant
-Soft Cheese,Caper
 Soft Cheese,Caviar
-Caviar,Soft Cheese
 Soft Cheese,Celery
 Walnut,Celery
 Soft Cheese,Cinnamon
-Cinnamon,Soft Cheese
 Soft Cheese,Eggplant
-Eggplant,Soft Cheese
 Soft Cheese,Fig
 Fig,Anise
 Soft Cheese,Garlic
@@ -561,21 +378,16 @@ Soft Cheese,Mushroom
 Soft Cheese,Smoked Fish
 Onion,Smoked Fish
 Soft Cheese,Strawberry
-Strawberry,Soft Cheese
 Soft Cheese,Tomato
 Soft Cheese,Truffle
 Soft Cheese,Walnut
 Mushroom,Anise
 Mushroom,Apricot
 Mushroom,Asparagus
-Asparagus,Mushroom
 Mushroom,Bacon
-Mushroom,Beef
 Mushroom,Blueberry
-Blueberry,Mushroom
 Mushroom,Butternut Squash
 Mushroom,Chestnut
-Mushroom,Chicken
 Mushroom,Dill
 Mushroom,Egg
 Mushroom,Garlic
@@ -583,14 +395,10 @@ Mushroom,Mint
 Mushroom,Oily Fish
 Mushroom,Onion
 Mushroom,Oyster
-Oyster,Mushroom
 Mushroom,Parsley
 Mushroom,Potato
-Potato,Mushroom
 Mushroom,Rosemary
-Rosemary,Mushroom
 Mushroom,Shellfish
-Mushroom,Soft Cheese
 Mushroom,Thyme
 Mushroom,Tomato
 Mushroom,Truffle
@@ -601,1565 +409,682 @@ Garlic,Thyme
 Eggplant,Chili
 Eggplant,Garlic
 Eggplant,Ginger
-Eggplant,Lamb
 Eggplant,Nutmeg
 Eggplant,Prosciutto
-Prosciutto,Eggplant
 Tomato,Eggplant
-Eggplant,Tomato
 Eggplant,Walnut
-Walnut,Eggplant
 Cumin,Apricot
 Cumin,Beetroot
 Cumin,Carrot
-Carrot,Cumin
 Cumin,Cauliflower
 Cumin,Coriander Leaf
-Coriander Leaf,Cumin
 Cumin,Coriander Seed
 Cumin,Cucumber
 Cumin,Egg
-Egg,Cumin
-Cumin,Lamb
 Cumin,Lemon
 Cumin,Lime
-Lime,Cumin
 Cumin,Mango
-Mango,Cumin
 Cumin,Mint
 Cumin,Oily Fish
-Cumin,Pork
 Cumin,Potato
 Cumin,Shellfish
-Shellfish,Cumin
 Beetroot,Anchovy
 Beetroot,Apple
-Apple,Beetroot
-Beetroot,Beef
-Beetroot,Caper
 Beetroot,Coconut
-Coconut,Beetroot
-Beetroot,Cumin
 Beetroot,Dill
 Beetroot,Egg
-Egg,Beetroot
 Beetroot,Horseradish
-Horseradish,Beetroot
-Beetroot,Liver
 Beetroot,Oily Fish
 Beetroot,Onion
-Onion,Beetroot
 Beetroot,Orange
-Orange,Beetroot
 Beetroot,Potato
-Potato,Beetroot
 Beetroot,Walnut
-Walnut,Beetroot
 Beetroot,Watercress
 Potato,Anchovy
-Anchovy,Potato
 Potato,Asparagus
-Asparagus,Potato
 Potato,Bacon
-Potato,Black Pudding
 Potato,Cabbage
 Cabbage,Onion
 Potato,Caper
-Caper,Potato
 Potato,Cauliflower
-Cauliflower,Potato
 Potato,Caviar
 Potato,Truffle
 Potato,Celery
-Celery,Potato
-Potato,Chicken
 Potato,Chili
 Chili,Tomato
 Potato,Coriander Leaf
-Coriander Leaf,Potato
-Potato,Cumin
 Potato,Dill
-Dill,Potato
 Potato,Egg
 Ginger,Egg
 Potato,Garlic
 Potato,Globe Artichoke
-Globe Artichoke,Potato
-Potato,Hard Cheese
 Potato,Horseradish
-Horseradish,Potato
 Potato,Lemon
-Lemon,Potato
 Potato,Mint
-Mint,Potato
 Potato,Nutmeg
 Potato,Oily Fish
-Oily Fish,Potato
 Potato,Olive
-Olive,Potato
 Potato,Onion
 Potato,Parsley
-Parsley,Potato
 Potato,Parsnip
-Parsnip,Potato
 Potato,Pea
-Potato,Pork
 Potato,Rosemary
 Potato,Saffron
-Saffron,Potato
 Potato,Shellfish
 Potato,Smoked Fish
-Smoked Fish,Potato
 Potato,Tomato
 Potato,Watercress
-Watercress,Potato
 Potato,White Fish
-White Fish,Potato
 Celery,Apple
 Celery,Carrot
-Carrot,Celery
 Celery,Chestnut
-Chestnut,Celery
 Celery,Egg
-Egg,Celery
 Celery,Horseradish
 Celery,Nutmeg
-Nutmeg,Celery
 Celery,Onion
-Onion,Celery
 Celery,Oyster
-Oyster,Celery
 Lime,Anchovy
-Celery,Pork
 Truffle,Celery
-Celery,Prosciutto
 Celery,Shellfish
-Celery,Soft Cheese
-Celery,Truffle
-Celery,Walnut
 Celery,White Fish
-White Fish,Celery
 Watercress,Anchovy
-Anchovy,Watercress
-Watercress,Beetroot
 Parsnip,Watercress
 Watercress,Egg
-Watercress,Grape
-Grapefruit,Watercress
+Watercress,Grapefruit
 Watercress,Oily Fish
 Watercress,Orange
-Orange,Watercress
-Watercress,Parsnip
 Watercress,Shellfish
 Watercress,Smoked Fish
 Watercress,Walnut
 Caper,Anchovy
-Caper,Beef
 Caper,Cauliflower
-Cauliflower,Caper
 Caper,Cucumber
-Caper,Goat Cheese
 Caper,Lemon
 Lemon,Basil
 Caper,Oily Fish
 Caper,Olive
-Olive,Caper
 Caper,Parsley
-Parsley,Caper
 Caper,Shellfish
 Caper,White Fish
 Caper,Smoked Fish
 Caper,Tomato
-Tomato,Caper
 Horseradish,Apple
-Apple,Horseradish
 Horseradish,Bacon
-Horseradish,Beef
-Horseradish,Celery
 Horseradish,Oily Fish
 Horseradish,Oyster
 Horseradish,Pea
-Pea,Horseradish
 Horseradish,Smoked Fish
-Smoked Fish,Horseradish
 Horseradish,Tomato
 Horseradish,White Fish
 Onion,Anchovy
 Onion,Bacon
-Bacon,Onion
-Onion,Beef
 Onion,Bell Pepper
-Onion,Black Pudding
-Onion,Cabbage
 Onion,Carrot
-Carrot,Onion
-Onion,Chicken
 Onion,Clove
 Onion,Cucumber
 Onion,Egg
-Egg,Onion
 Onion,Garlic
-Garlic,Onion
 Onion,Ginger
-Onion,Hard Cheese
-Onion,Liver
 Onion,Mint
 Chili,Mint
-Onion,Mushroom
 Onion,Nutmeg
 Onion,Oily Fish
-Oily Fish,Onion
 Onion,Orange
 Onion,Oyster
-Oyster,Onion
 Onion,Pea
-Pea,Onion
-Onion,Potato
 Onion,Rosemary
-Rosemary,Onion
 Onion,Sage
 Onion,Thyme
-Thyme,Onion
 Onion,Tomato
-Tomato,Onion
 Garlic,Almond
 Almond,Melon
 Garlic,Anchovy
-Anchovy,Garlic
-Garlic,Beef
 Garlic,Broccoli
-Broccoli,Garlic
 Garlic,Cabbage
-Cabbage,Garlic
 Garlic,Cauliflower
-Cauliflower,Garlic
 Garlic,Chili
-Chili,Garlic
 Garlic,Coriander Leaf
-Coriander Leaf,Garlic
 Garlic,Coriander Seed
-Coriander Seed,Garlic
 Garlic,Cucumber
-Garlic,Eggplant
 Garlic,Ginger
-Garlic,Goat Cheese
 Garlic,Hazelnut
-Hazelnut,Garlic
-Garlic,Liver
 Garlic,Mint
-Mint,Garlic
-Garlic,Mushroom
 Garlic,Oily Fish
-Oily Fish,Garlic
 Garlic,Olive
-Olive,Garlic
 Garlic,Parsley
-Parsley,Garlic
-Garlic,Pork
-Garlic,Potato
 Garlic,Rosemary
 Garlic,Shellfish
-Shellfish,Garlic
-Garlic,Soft Cheese
 Garlic,Tomato
-Tomato,Garlic
 Garlic,Truffle
-Truffle,Garlic
 Garlic,Walnut
-Walnut,Garlic
-Garlic,Washed-rind Cheese
 Garlic,White Fish
 Truffle,Asparagus
-Asparagus,Truffle
 Truffle,Bacon
-Truffle,Beef
-Truffle,Blue Cheese
 Truffle,Cabbage
 Truffle,Cauliflower
-Cauliflower,Truffle
 Truffle,Egg
 Truffle,Globe Artichoke
-Globe Artichoke,Truffle
-Truffle,Mushroom
-Truffle,Potato
 Truffle,Shellfish
-Truffle,Soft Cheese
 Cabbage,Apple
-Apple,Cabbage
 Cabbage,Bacon
-Cabbage,Blue Cheese
 Cabbage,Carrot
-Carrot,Cabbage
 Cabbage,Chestnut
-Chestnut,Cabbage
 Cabbage,Chili
-Chili,Cabbage
 Cabbage,Egg
-Egg,Cabbage
 Cabbage,Ginger
-Ginger,Cabbage
 Cabbage,Juniper
-Juniper,Cabbage
-Cabbage,Lamb
 Cabbage,Nutmeg
-Nutmeg,Cabbage
 Clove,Ginger
-Cabbage,Potato
 Cabbage,Shellfish
 Cabbage,Smoked Fish
-Smoked Fish,Cabbage
-Cabbage,Truffle
 Swede,Anise
-Swede,Beef
 Swede,Carrot
-Swede,Lamb
 Swede,Nutmeg
-Swede,Pork
-Swede,Potato
 Cauliflower,Almond
 Cauliflower,Anchovy
-Anchovy,Cauliflower
 Cauliflower,Broccoli
-Broccoli,Cauliflower
 Cauliflower,Caviar
-Caviar,Cauliflower
 Cauliflower,Chili
-Cauliflower,Cumin
 Cauliflower,Nutmeg
 Cauliflower,Saffron
-Saffron,Cauliflower
 Cauliflower,Shellfish
 Cauliflower,Walnut
 Broccoli,Anchovy
-Anchovy,Broccoli
 Broccoli,Bacon
-Broccoli,Blue Cheese
 Broccoli,Chili
-Broccoli,Hard Cheese
 Broccoli,Lemon
-Broccoli,Peanut
-Broccoli,Pork
 Broccoli,Walnut
-Walnut,Broccoli
 Globe Artichoke,Bacon
-Globe Artichoke,Hard Cheese
 Globe Artichoke,Lemon
 Globe Artichoke,Mint
 Globe Artichoke,Oyster
 Globe Artichoke,Pea
-Pea,Globe Artichoke
 Globe Artichoke,Prosciutto
-Prosciutto,Globe Artichoke
 Globe Artichoke,Shellfish
 Asparagus,Almond
-Almond,Asparagus
 Asparagus,Anise
 Asparagus,Egg
-Egg,Asparagus
-Asparagus,Hard Cheese
 Asparagus,Lemon
-Lemon,Asparagus
 Asparagus,Mint
 Asparagus,Oily Fish
-Oily Fish,Asparagus
 Asparagus,Orange
-Orange,Asparagus
 Asparagus,Pea
-Pea,Asparagus
 Asparagus,Prosciutto
-Prosciutto,Asparagus
 Asparagus,Shellfish
-Shellfish,Asparagus
 Asparagus,White Fish
-White Fish,Asparagus
 Egg,Anchovy
 Egg,Anise
-Anise,Egg
 Egg,Bacon
-Bacon,Egg
 Egg,Banana
 Egg,Basil
-Basil,Egg
-Egg,Beef
 Egg,Bell Pepper
-Bell Pepper,Egg
-Egg,Black Pudding
 Egg,Caviar
-Caviar,Egg
 Egg,Chili
-Chili,Egg
 Egg,Coconut
 Coconut,Cinnamon
 Egg,Dill
-Egg,Ginger
-Egg,Mushroom
 Egg,Oily Fish
-Oily Fish,Egg
 Egg,Oyster
-Oyster,Egg
 Egg,Parsley
-Parsley,Egg
 Egg,Pea
-Egg,Pork
-Egg,Potato
 Egg,Prosciutto
 Egg,Sage
-Sage,Egg
 Egg,Shellfish
 Egg,Smoked Fish
-Smoked Fish,Egg
 Egg,Tomato
-Egg,Truffle
 Egg,Vanilla
-Egg,Watercress
 Shellfish,Almond
 Shellfish,Anise
 Shellfish,Apple
-Apple,Shellfish
 Shellfish,Avocado
-Avocado,Shellfish
 Shellfish,Bacon
-Bacon,Shellfish
 Shellfish,Basil
 Shellfish,Bell Pepper
-Shellfish,Black Pudding
 Shellfish,Butternut Squash
-Butternut Squash,Shellfish
-Shellfish,Cabbage
-Shellfish,Caper
-Shellfish,Cauliflower
-Shellfish,Celery
 Shellfish,Chili
 Shellfish,Coriander Leaf
 Shellfish,Coconut
 Shellfish,Cucumber
-Cucumber,Shellfish
 Shellfish,Dill
-Dill,Shellfish
-Shellfish,Egg
-Shellfish,Globe Artichoke
-Shellfish,Grape
-Grapefruit,Shellfish
+Shellfish,Grapefruit
 Shellfish,Lemon
 Shellfish,Lime
 Lime,White Fish
 Shellfish,Mango
-Mango,Shellfish
-Shellfish,Mushroom
 Shellfish,Nutmeg
-Nutmeg,Shellfish
 Shellfish,Oily Fish
-Oily Fish,Shellfish
 Shellfish,Olive
-Olive,Shellfish
 Shellfish,Parsley
 Shellfish,Parsnip
-Parsnip,Shellfish
 Shellfish,Pea
-Shellfish,Peanut
 Shellfish,Pineapple
-Shellfish,Potato
 Shellfish,Saffron
-Saffron,Shellfish
 Shellfish,Smoked Fish
 Shellfish,Thyme
-Thyme,Shellfish
 Shellfish,Tomato
-Tomato,Shellfish
-Shellfish,Truffle
 Shellfish,Vanilla
-Vanilla,Shellfish
 Shellfish,Walnut
-Walnut,Shellfish
-Shellfish,Watercress
 Shellfish,White Fish
 White Fish,Anchovy
-White Fish,Anise
 White Fish,Bacon
-White Fish,Caper
 White Fish,Coriander Leaf
-Coriander Leaf,White Fish
 White Fish,Coconut
-Coconut,White Fish
 White Fish,Cucumber
-Cucumber,White Fish
 White Fish,Dill
-White Fish,Garlic
 White Fish,Ginger
-Ginger,White Fish
 White Fish,Grape
 White Fish,Hazelnut
-Hazelnut,White Fish
-White Fish,Horseradish
 White Fish,Lemon
-White Fish,Lime
 White Fish,Mango
-White Fish,Mushroom
 White Fish,Olive
 White Fish,Orange
-Orange,White Fish
 White Fish,Parsley
-Parsley,White Fish
 White Fish,Parsnip
 White Fish,Pea
-Pea,White Fish
 White Fish,Prosciutto
-Prosciutto,White Fish
 White Fish,Saffron
-White Fish,Shellfish
 White Fish,Thyme
 White Fish,Tomato
 Oyster,Anise
-Anise,Oyster
 Oyster,Bacon
 Oyster,Caviar
-Caviar,Oyster
 Oyster,Chili
-Oyster,Globe Artichoke
-Oyster,Horseradish
 Oyster,Lemon
 Oyster,Nutmeg
-Nutmeg,Oyster
 Oyster,Parsley
 Oyster,Watermelon
-Watermelon,Oyster
 Caviar,Banana
-Caviar,Chicken
 Caviar,Hazelnut
-Hazelnut,Caviar
 Caviar,Lemon
-Caviar,Potato
 Caviar,Smoked Fish
-Smoked Fish,Caviar
 Caviar,White Chocolate
 Oily Fish,Almond
-Almond,Oily Fish
 Oily Fish,Anise
 Oily Fish,Avocado
-Oily Fish,Beef
-Oily Fish,Beetroot
-Oily Fish,Caper
 Oily Fish,Cucumber
-Oily Fish,Cumin
 Oily Fish,Dill
 Oily Fish,Ginger
-Ginger,Oily Fish
-Oily Fish,Horseradish
 Oily Fish,Lemon
 Oily Fish,Lime
-Oily Fish,Liver
 Oily Fish,Mint
-Oily Fish,Mushroom
 Oily Fish,Parsley
-Parsley,Oily Fish
 Oily Fish,Pea
-Pea,Oily Fish
-Oily Fish,Pork
-Oily Fish,Rhubarb
 Oily Fish,Rosemary
-Rosemary,Oily Fish
 Oily Fish,Thyme
-Oily Fish,Watercress
-Anchovy,Beetroot
-Anchovy,Caper
 Anchovy,Chili
-Chili,Anchovy
 Anchovy,Coconut
-Coconut,Anchovy
-Anchovy,Egg
-Anchovy,Lamb
 Anchovy,Lemon
-Anchovy,Lime
 Anchovy,Olive
 Olive,Tomato
-Anchovy,Onion
 Anchovy,Pineapple
-Pineapple,Anchovy
 Anchovy,Rosemary
 Anchovy,Sage
-Anchovy,Soft Cheese
 Anchovy,Tomato
-Anchovy,White Fish
-Smoked Fish,Caper
 Smoked Fish,Cherry
-Cherry,Smoked Fish
 Smoked Fish,Coconut
 Smoked Fish,Dill
 Smoked Fish,Lemon
-Smoked Fish,Onion
 Smoked Fish,Parsley
 Smoked Fish,Pea
-Smoked Fish,Shellfish
-Smoked Fish,Soft Cheese
-Smoked Fish,Watercress
 Bacon,Anise
 Bacon,Apple
 Bacon,Avocado
-Avocado,Bacon
 Bacon,Banana
-Banana,Bacon
-Bacon,Beef
 Bacon,Bell Pepper
-Bell Pepper,Bacon
-Bacon,Black Pudding
-Bacon,Broccoli
 Bacon,Butternut Squash
-Butternut Squash,Bacon
-Bacon,Cabbage
 Bacon,Cardamom
-Cardamom,Bacon
 Bacon,Chili
-Chili,Bacon
-Bacon,Chocolate
 Bacon,Clove
-Bacon,Globe Artichoke
-Bacon,Horseradish
-Bacon,Liver
-Bacon,Mushroom
 Bacon,Orange
-Orange,Bacon
-Bacon,Oyster
 Bacon,Parsley
-Parsley,Bacon
 Bacon,Parsnip
 Bacon,Pea
 Bacon,Pineapple
-Bacon,Pork
-Bacon,Potato
 Bacon,Sage
-Sage,Bacon
 Bacon,Thyme
 Bacon,Tomato
-Tomato,Bacon
-Bacon,Truffle
-Bacon,Washed-rind Cheese
-Bacon,White Fish
 Prosciutto,Chestnut
-Prosciutto,Egg
 Prosciutto,Fig
 Prosciutto,Juniper
 Prosciutto,Melon
 Prosciutto,Olive
 Prosciutto,Pea
-Pear,Prosciutto
+Prosciutto,Peach
+Prosciutto,Pear
 Prosciutto,Pineapple
 Prosciutto,Sage
-Sage,Prosciutto
 Prosciutto,Tomato
 Olive,Almond
-Olive,Anchovy
 Olive,Anise
 Olive,Bell Pepper
-Bell Pepper,Olive
 Olive,Carrot
-Carrot,Olive
 Olive,Chili
-Chili,Olive
 Olive,Coriander Seed
 Olive,Juniper
-Juniper,Olive
 Olive,Lemon
-Lemon,Olive
 Olive,Orange
-Orange,Olive
-Olive,Prosciutto
 Olive,Rosemary
 Olive,Thyme
-Thyme,Olive
 Olive,White Chocolate
-Olive,White Fish
 Saffron,Almond
 Saffron,Anise
 Saffron,Cardamom
-Cardamom,Saffron
-Saffron,Lamb
 Saffron,Lemon
-Lemon,Saffron
 Saffron,Nutmeg
 Saffron,Orange
-Orange,Saffron
 Saffron,Rhubarb
-Rhubarb,Saffron
 Saffron,Rose
-Rose,Saffron
 Saffron,White Chocolate
-White Chocolate,Saffron
-Saffron,White Fish
 Anise,Almond
 Anise,Apple
-Anise,Asparagus
-Anise,Bacon
 Anise,Banana
-Banana,Anise
 Anise,Basil
-Basil,Anise
 Cinnamon,Anise
 Tomato,Anise
 Anise,Blackcurrant
-Blackcurrant,Anise
 Anise,Carrot
-Carrot,Anise
 Anise,Grape
 Anise,Chili
-Chili,Anise
-Anise,Cinnamon
 Anise,Coconut
 Anise,Cucumber
-Cucumber,Anise
-Anise,Fig
 Grape,Rosemary
-Anise,Hard Cheese
-Anise,Lamb
 Anise,Lemon
 Anise,Melon
-Melon,Anise
 Anise,Mint
-Anise,Mushroom
-Anise,Oily Fish
-Anise,Olive
 Anise,Orange
 Anise,Parsnip
-Parsnip,Anise
 Anise,Pea
-Pea,Anise
-Pear,Anise
+Anise,Pear
 Anise,Pineapple
-Anise,Pork
 Anise,Rhubarb
-Anise,Swede
-Anise,Saffron
-Anise,Shellfish
 Anise,Strawberry
-Anise,Tomato
 Anise,Vanilla
 Anise,Walnut
-Walnut,Anise
-Anise,Washed-rind Cheese
 Butternut Squash,Rosemary
 Cucumber,Avocado
-Avocado,Cucumber
-Cucumber,Caper
 Cucumber,Carrot
-Cucumber,Cumin
 Cucumber,Dill
-Cucumber,Garlic
 Cucumber,Melon
-Melon,Cucumber
 Cucumber,Mint
-Cucumber,Oily Fish
-Cucumber,Onion
-Cucumber,Peanut
 Cucumber,Rhubarb
-Rhubarb,Cucumber
 Cucumber,Rose
 Cucumber,Strawberry
-Strawberry,Cucumber
 Cucumber,Tomato
-Tomato,Cucumber
 Cucumber,Watermelon
-Watermelon,Cucumber
 Dill,Avocado
-Dill,Beetroot
 Dill,Coconut
 Vanilla,Clove
-Dill,Cucumber
-Dill,Egg
 Dill,Lemon
-Lemon,Dill
 Dill,Mint
-Dill,Mushroom
-Dill,Oily Fish
 Dill,Pea
-Dill,Smoked Fish
-Dill,White Fish
-Parsley,Beef
 Parsley,Carrot
-Carrot,Parsley
 Parsley,Coriander Leaf
-Coriander Leaf,Parsley
 Parsley,Lemon
-Lemon,Parsley
 Parsley,Mint
-Parsley,Mushroom
-Parsley,Oyster
-Parsley,Shellfish
-Parsley,Smoked Fish
 Parsley,Walnut
-Walnut,Parsley
 Coriander Leaf,Avocado
-Coriander Leaf,Chicken
 Coriander Leaf,Chili
-Chili,Coriander Leaf
 Coriander Leaf,Coconut
 Coriander Seed,Coriander Leaf
-Coriander Leaf,Goat Cheese
 Coriander Leaf,Lemon
-Lemon,Coriander Leaf
 Coriander Leaf,Lime
 Coriander Leaf,Mango
-Mango,Coriander Leaf
 Coriander Leaf,Mint
-Mint,Coriander Leaf
 Coriander Leaf,Orange
 Orange,Coriander Seed
 Coriander Leaf,Pineapple
-Pineapple,Coriander Leaf
-Coriander Leaf,Pork
-Coriander Leaf,Shellfish
 Coriander Leaf,Tomato
 Coriander Leaf,Watermelon
-Watermelon,Coriander Leaf
-Avocado,Blue Cheese
-Avocado,Chicken
 Avocado,Chili
-Avocado,Coriander Leaf
-Avocado,Dill
 Avocado,Grape
-Grape,Avocado
-Grapefruit,Avocado
+Avocado,Grapefruit
 Avocado,Hazelnut
 Avocado,Lime
 Avocado,Mango
 Avocado,Mint
 Avocado,Nutmeg
-Nutmeg,Avocado
-Avocado,Oily Fish
 Avocado,Pineapple
-Pineapple,Avocado
 Avocado,Strawberry
-Strawberry,Avocado
 Avocado,Tomato
 Walnut,Chili
-Pea,Bacon
-Pea,Dill
-Pea,Egg
-Pea,Lamb
 Pea,Mint
-Mint,Pea
 Pea,Parsnip
-Parsnip,Pea
-Pea,Potato
-Pea,Prosciutto
 Pea,Rosemary
-Pea,Shellfish
-Pea,Smoked Fish
-Bell Pepper,Chicken
 Bell Pepper,Chili
-Chili,Bell Pepper
-Bell Pepper,Eggplant
-Bell Pepper,Onion
-Bell Pepper,Shellfish
-Bell Pepper,Soft Cheese
 Bell Pepper,Tomato
-Tomato,Bell Pepper
 Chili,Almond
-Chili,Avocado
-Chili,Beef
-Chili,Broccoli
-Chili,Butternut Squash
-Chili,Cauliflower
-Chili,Chicken
-Chili,Chocolate
 Chili,Coconut
-Chili,Eggplant
-Chili,Ginger
-Chili,Goat Cheese
-Chili,Hard Cheese
 Chili,Lemon
 Chili,Lime
-Lime,Chili
-Chili,Liver
 Chili,Mango
-Mango,Chili
-Chili,Oily Fish
 Chili,Orange
-Orange,Chili
-Chili,Oyster
 Chili,Pineapple
-Pineapple,Chili
-Chili,Potato
-Chili,Shellfish
-Chili,Walnut
 Chili,Watermelon
-Watermelon,Chili
 Basil,Clove
 Basil,Coconut
-Basil,Garlic
-Basil,Hard Cheese
-Basil,Lemon
 Basil,Lime
-Lime,Basil
 Basil,Mint
 Basil,Raspberry
-Raspberry,Basil
-Basil,Shellfish
 Basil,Tomato
 Tomato,Clove
 Basil,Walnut
 Cinnamon,Almond
-Almond,Cinnamon
 Cinnamon,Apple
-Apple,Cinnamon
 Cinnamon,Apricot
 Cinnamon,Banana
-Banana,Cinnamon
-Cinnamon,Beef
 Cinnamon,Blueberry
-Blueberry,Cinnamon
 Cinnamon,Butternut Squash
 Ginger,Butternut Squash
 Cinnamon,Cardamom
-Cardamom,Cinnamon
 Cinnamon,Carrot
 Cinnamon,Cherry
 Cinnamon,Clove
-Cinnamon,Coconut
-Cinnamon,Coffee
 Cinnamon,Fig
-Cinnamon,Ginger
-Cinnamon,Grape
+Cinnamon,Grapefruit
 Cinnamon,Lime
-Lime,Cinnamon
 Cinnamon,Mint
 Mint,Watermelon
 Cinnamon,Orange
 Orange,Almond
-Cinnamon,Peanut
-Cinnamon,Pea
-Pear,Cinnamon
+Cinnamon,Pear
 Cinnamon,Pineapple
-Pineapple,Cinnamon
 Cinnamon,Strawberry
-Strawberry,Cinnamon
 Cinnamon,Thyme
 Cinnamon,Tomato
 Cinnamon,Walnut
-Walnut,Cinnamon
 Cinnamon,Watermelon
-Watermelon,Cinnamon
 Clove,Apple
-Apple,Clove
-Clove,Bacon
-Clove,Basil
-Clove,Cinnamon
-Clove,Hard Cheese
-Clove,Onion
 Clove,Orange
-Orange,Clove
-Clove,Pea
-Clove,Tomato
-Clove,Vanilla
+Clove,Peach
 Nutmeg,Apple
 Nutmeg,Butternut Squash
-Nutmeg,Cauliflower
-Nutmeg,Chocolate
-Nutmeg,Egg
-Nutmeg,Eggplant
-Nutmeg,Onion
 Nutmeg,Parsnip
-Nutmeg,Potato
-Nutmeg,Swede
-Nutmeg,Saffron
 Nutmeg,Tomato
 Nutmeg,Vanilla
-Vanilla,Nutmeg
-Parsnip,Bacon
 Parsnip,Banana
-Parsnip,Chicken
-Parsnip,Hard Cheese
-Parsnip,Nutmeg
 Parsnip,Walnut
-Walnut,Parsnip
-Parsnip,White Fish
 Carrot,Apple
-Carrot,Beef
 Carrot,Cardamom
-Carrot,Cinnamon
 Carrot,Coconut
-Carrot,Cucumber
 Carrot,Hazelnut
-Hazelnut,Carrot
 Carrot,Orange
-Carrot,Peanut
-Carrot,Swede
 Carrot,Walnut
 Butternut Squash,Almond
 Butternut Squash,Apple
-Butternut Squash,Blue Cheese
 Butternut Squash,Chestnut
-Butternut Squash,Cinnamon
-Butternut Squash,Ginger
 Butternut Squash,Lime
-Lime,Butternut Squash
-Butternut Squash,Mushroom
-Butternut Squash,Nutmeg
 Butternut Squash,Sage
-Sage,Butternut Squash
-Chestnut,Butternut Squash
-Chestnut,Chocolate
-Chestnut,Mushroom
-Chestnut,Pea
-Chestnut,Prosciutto
+Chestnut,Pear
 Chestnut,Rosemary
 Chestnut,Vanilla
 Walnut,Apple
-Apple,Walnut
 Walnut,Banana
-Walnut,Basil
-Walnut,Beef
-Walnut,Blue Cheese
-Walnut,Carrot
-Walnut,Cauliflower
 Walnut,Cherry
-Cherry,Walnut
-Walnut,Chicken
-Walnut,Chocolate
-Walnut,Coffee
 Walnut,Fig
-Fig,Walnut
-Walnut,Goat Cheese
 Walnut,Grape
-Grape,Walnut
-Walnut,Mushroom
-Walnut,Nutmeg
 Walnut,Orange
-Orange,Walnut
-Walnut,Pea
-Walnut,Soft Cheese
 Walnut,Vanilla
-Walnut,Washed-rind Cheese
-Walnut,Watercress
 Hazelnut,Almond
 Hazelnut,Apple
-Apple,Hazelnut
-Hazelnut,Avocado
 Hazelnut,Banana
 Hazelnut,Cherry
-Cherry,Hazelnut
-Hazelnut,Chocolate
-Hazelnut,Coffee
 Hazelnut,Fig
-Hazelnut,Pea
+Hazelnut,Pear
 Hazelnut,Raspberry
-Raspberry,Hazelnut
 Hazelnut,Rosemary
 Hazelnut,Strawberry
-Strawberry,Hazelnut
 Hazelnut,Vanilla
-Almond,Anise
 Almond,Apple
-Apple,Almond
 Almond,Apricot
 Almond,Banana
-Banana,Almond
 Almond,Blackberry
 Almond,Blackcurrant
-Blackcurrant,Almond
 Almond,Blueberry
-Almond,Butternut Squash
 Almond,Cardamom
-Cardamom,Almond
-Almond,Cauliflower
 Almond,Cherry
-Cherry,Almond
-Almond,Chili
-Almond,Chocolate
 Almond,Coconut
-Almond,Coffee
 Almond,Fig
-Fig,Almond
-Almond,Garlic
 Almond,Ginger
 Almond,Grape
-Grape,Almond
-Almond,Hard Cheese
-Almond,Hazelnut
-Almond,Lamb
 Almond,Lemon
 Raspberry,Almond
-Almond,Olive
-Almond,Orange
-Almond,Pea
-Pear,Almond
-Almond,Raspberry
+Almond,Peach
+Almond,Pear
 Almond,Rhubarb
-Rhubarb,Almond
 Almond,Rose
 Almond,Rosemary
-Almond,Saffron
-Almond,Shellfish
 Almond,Strawberry
-Strawberry,Almond
 Almond,White Chocolate
-White Chocolate,Almond
 Cherry,Banana
-Banana,Cherry
-Cherry,Cinnamon
 Cherry,Coconut
-Coconut,Cherry
-Cherry,Coffee
-Cherry,Lamb
-Cherry,Pea
-Peach,Cherry
+Cherry,Peach
 Cherry,Vanilla
-Watermelon,Goat Cheese
 Watermelon,Lime
 Watermelon,Melon
-Watermelon,Mint
-Watermelon,Rosemary
 Watermelon,Tomato
-Grape,Anise
-Grape,Hard Cheese
 Grape,Melon
-Melon,Grape
-Grape,Pea
-Peach,Grape
+Grape,Peach
 Grape,Pineapple
-Grape,Soft Cheese
 Grape,Strawberry
-Grape,White Fish
-Rhubarb,Anise
-Rhubarb,Black Pudding
 Rhubarb,Ginger
-Ginger,Rhubarb
 Rhubarb,Juniper
 Rhubarb,Mango
 Rhubarb,Orange
-Orange,Rhubarb
-Rhubarb,Pork
 Rhubarb,Rosemary
-Rosemary,Rhubarb
 Rhubarb,Strawberry
 Rhubarb,Vanilla
 Tomato,Strawberry
-Tomato,Anchovy
-Tomato,Avocado
-Tomato,Basil
-Tomato,Beef
-Tomato,Chicken
-Tomato,Chili
-Tomato,Chocolate
-Tomato,Coriander Leaf
-Tomato,Cinnamon
-Tomato,Egg
 Tomato,Ginger
-Ginger,Tomato
-Tomato,Hard Cheese
-Tomato,Horseradish
 Tomato,Lemon
 Tomato,Lime
-Lime,Tomato
-Tomato,Mushroom
-Tomato,Nutmeg
-Tomato,Olive
-Tomato,Peanut
-Tomato,Pork
-Tomato,Potato
-Tomato,Prosciutto
 Tomato,Sage
-Sage,Tomato
-Tomato,Soft Cheese
 Tomato,Thyme
-Thyme,Tomato
 Tomato,Vanilla
-Vanilla,Tomato
-Tomato,Watermelon
-Tomato,White Fish
-Strawberry,Anise
-Strawberry,Chocolate
 Strawberry,Coconut
-Strawberry,Grape
 Strawberry,Melon
-Melon,Strawberry
 Strawberry,Mint
 Strawberry,Orange
-Orange,Strawberry
-Strawberry,Pea
-Peach,Strawberry
+Strawberry,Peach
 Strawberry,Pineapple
-Pineapple,Strawberry
 Strawberry,Raspberry
-Strawberry,Rhubarb
-Strawberry,Tomato
 Strawberry,Vanilla
 Strawberry,White Chocolate
-Pineapple,Anise
 Pineapple,Apple
-Pineapple,Bacon
 Pineapple,Banana
-Pineapple,Blue Cheese
 Pineapple,Coconut
-Coconut,Pineapple
-Pineapple,Grape
-Pineapple,Hard Cheese
+Pineapple,Grapefruit
 Pineapple,Mango
-Mango,Pineapple
 Pineapple,Orange
-Orange,Pineapple
-Pineapple,Prosciutto
 Pineapple,Raspberry
-Raspberry,Pineapple
 Pineapple,Sage
-Pineapple,Shellfish
 Pineapple,Vanilla
 Pineapple,White Chocolate
-White Chocolate,Pineapple
-Apple,Anise
-Apple,Bacon
 Apple,Blackberry
 Apple,Blueberry
-Apple,Butternut Squash
-Apple,Carrot
-Apple,Celery
 Apple,Coriander Seed
-Coriander Seed,Apple
-Apple,Liver
 Apple,Mango
-Mango,Apple
-Apple,Nutmeg
 Apple,Orange
-Apple,Peanut
-Apple,Pea
-Apple,Pineapple
+Apple,Pear
 Apple,Rose
-Rose,Apple
 Apple,Sage
-Sage,Apple
-Apple,Soft Cheese
-Apple,Vanilla
-Apple,Washed-rind Cheese
-Pear,Apple
 Pear,Banana
-Pear,Beef
-Pear,Blue Cheese
 Pear,Cardamom
-Pear,Chestnut
-Pear,Chicken
-Pear,Chocolate
-Pear,Goat Cheese
-Pear,Hazelnut
-Pear,Washed-rind Cheese
 Banana,Cardamom
-Cardamom,Banana
-Banana,Caviar
 Banana,Coconut
-Coconut,Banana
-Banana,Egg
-Banana,Hard Cheese
-Banana,Hazelnut
-Banana,Parsnip
-Banana,Pea
-Banana,Pineapple
 Banana,Vanilla
-Banana,Walnut
-Melon,Almond
 Melon,Ginger
 Melon,Mint
 Melon,Orange
-Melon,Prosciutto
 Melon,Rose
 Rose,Cardamom
-Melon,Watermelon
-Apricot,Almond
 Apricot,Cardamom
-Cardamom,Apricot
-Apricot,Cinnamon
-Apricot,Cumin
 Apricot,Ginger
-Apricot,Goat Cheese
-Apricot,Lamb
 Apricot,Mango
-Mango,Apricot
-Apricot,Mushroom
 Apricot,Orange
-Apricot,Pea
+Apricot,Peach
 Apricot,Raspberry
-Raspberry,Apricot
 Apricot,Rose
 Apricot,Rosemary
-Rosemary,Apricot
 Apricot,Vanilla
-Peach,Almond
-Peach,Apricot
 Peach,Blackberry
 Peach,Blueberry
-Peach,Blue Cheese
-Peach,Clove
 Peach,Mango
-Mango,Pea
 Peach,Orange
-Peach,Prosciutto
 Peach,Raspberry
-Raspberry,Pea
 Peach,Vanilla
-Coconut,Almond
-Coconut,Anise
-Coconut,Basil
-Coconut,Beef
 Coconut,Cardamom
-Coconut,Carrot
-Coconut,Chili
-Coconut,Chocolate
-Coconut,Coriander Leaf
-Coconut,Dill
-Coconut,Egg
 Coconut,Lemon
 Mango,Coconut
 Coconut,Lime
-Lime,Coconut
-Coconut,Mango
-Coconut,Peanut
-Coconut,Pork
 Coconut,Raspberry
-Coconut,Shellfish
-Coconut,Smoked Fish
-Coconut,Strawberry
 Coconut,Vanilla
 Coconut,White Chocolate
-White Chocolate,Coconut
-Mango,Avocado
 Mango,Cardamom
-Cardamom,Mango
 Mango,Ginger
-Ginger,Mango
 Mango,Lime
 Mango,Mint
-Mint,Mango
 Mango,Orange
-Mango,Rhubarb
-Mango,White Fish
-Orange,Anise
-Orange,Apple
-Orange,Apricot
-Orange,Carrot
-Orange,Coriander Leaf
-Orange,Cinnamon
-Orange,Coffee
 Orange,Fig
-Fig,Orange
 Orange,Ginger
-Ginger,Orange
-Orange,Grape
-Grapefruit,Orange
+Orange,Grapefruit
 Orange,Juniper
-Juniper,Orange
 Orange,Lemon
 Orange,Lime
-Lime,Orange
-Orange,Mango
-Orange,Melon
 Orange,Mint
-Mint,Orange
-Orange,Onion
-Orange,Pea
 Orange,Rose
 Orange,Rosemary
-Rosemary,Orange
 Vanilla,Raspberry
 Orange,Thyme
-Thyme,Orange
 Orange,Vanilla
-Vanilla,Orange
-Grapefruit,Blue Cheese
-Grapefruit,Cinnamon
 Grapefruit,Juniper
-Juniper,Grape
-Grapefruit,Pineapple
-Grapefruit,Pork
-Lime,Avocado
-Lime,Chicken
-Lime,Chocolate
-Lime,Coriander Leaf
 Lime,Ginger
-Ginger,Lime
 Lime,Lemon
-Lemon,Lime
-Lime,Mango
 Lime,Mint
-Lime,Oily Fish
-Lime,Peanut
-Lime,Shellfish
-Lime,Watermelon
-Lemon,Almond
-Lemon,Anchovy
-Lemon,Anise
 Lemon,Blueberry
-Lemon,Broccoli
-Lemon,Caper
-Lemon,Caviar
-Lemon,Chili
-Lemon,Coconut
 Lemon,Coriander Seed
-Coriander Seed,Lemon
-Lemon,Cumin
-Lemon,Egg
 Lemon,Ginger
-Lemon,Globe Artichoke
 Lemon,Juniper
-Juniper,Lemon
 Lemon,Mint
-Mint,Lemon
-Lemon,Oily Fish
-Lemon,Orange
-Lemon,Oyster
 Lemon,Rose
-Rose,Lemon
 Lemon,Rosemary
-Lemon,Shellfish
-Lemon,Smoked Fish
 Lemon,Thyme
-Lemon,Tomato
 Lemon,White Chocolate
-White Chocolate,Lemon
-Lemon,White Fish
-Ginger,Almond
-Ginger,Apricot
 Ginger,Cardamom
-Ginger,Clove
-Ginger,Coffee
-Ginger,Eggplant
-Ginger,Garlic
-Ginger,Lemon
-Ginger,Melon
 Ginger,Mint
-Ginger,Onion
 Ginger,Vanilla
-Cardamom,Carrot
-Cardamom,Chocolate
-Cardamom,Coconut
-Cardamom,Coffee
 Cardamom,Coriander Seed
-Cardamom,Ginger
-Cardamom,Pea
-Cardamom,Rose
 Cardamom,Vanilla
-Vanilla,Cardamom
 Cardamom,White Chocolate
-White Chocolate,Cardamom
-Rosemary,Almond
-Rosemary,Anchovy
-Rosemary,Butternut Squash
-Rosemary,Chestnut
-Rosemary,Garlic
-Rosemary,Goat Cheese
-Rosemary,Grape
-Rosemary,Hazelnut
-Rosemary,Lemon
-Rosemary,Olive
-Rosemary,Pea
-Rosemary,Potato
-Sage,Anchovy
-Sage,Blue Cheese
-Sage,Chicken
-Sage,Hard Cheese
 Sage,Juniper
-Juniper,Sage
-Sage,Onion
-Sage,Pineapple
-Juniper,Beef
 Juniper,Blackcurrant
-Blackcurrant,Juniper
-Juniper,Prosciutto
-Juniper,Rhubarb
-Thyme,Bacon
-Thyme,Chicken
-Thyme,Cinnamon
-Thyme,Garlic
-Thyme,Lemon
-Thyme,Mushroom
-Thyme,Oily Fish
-Thyme,White Fish
-Mint,Anise
-Mint,Asparagus
-Mint,Avocado
-Mint,Basil
 Mint,Blackcurrant
-Mint,Black Pudding
-Mint,Chili
-Mint,Cinnamon
-Mint,Cucumber
-Mint,Cumin
-Mint,Dill
 Mint,Fig
-Fig,Mint
-Mint,Ginger
-Mint,Globe Artichoke
-Mint,Goat Cheese
-Mint,Lamb
-Mint,Lime
-Mint,Melon
-Mint,Mushroom
-Mint,Oily Fish
-Mint,Onion
-Mint,Parsley
 Mint,Raspberry
-Raspberry,Mint
-Mint,Strawberry
-Blackcurrant,Chocolate
-Blackcurrant,Coffee
-Blackcurrant,Mint
-Blackcurrant,Soft Cheese
-Blackberry,Almond
-Blackberry,Apple
-Blackberry,Goat Cheese
-Blackberry,Pea
 Blackberry,Raspberry
 Blackberry,Vanilla
-Vanilla,Blackberry
 Blackberry,White Chocolate
-Raspberry,Blackberry
-Raspberry,Chocolate
-Raspberry,Coconut
 Raspberry,Fig
-Raspberry,Goat Cheese
-Raspberry,Strawberry
-Raspberry,Vanilla
 Raspberry,White Chocolate
-Fig,Blue Cheese
-Fig,Cinnamon
-Fig,Hard Cheese
-Fig,Hazelnut
-Fig,Prosciutto
-Fig,Raspberry
-Fig,Soft Cheese
 Fig,Vanilla
-Rose,Almond
-Rose,Apricot
-Rose,Chicken
-Rose,Coffee
-Rose,Cucumber
-Rose,Melon
-Rose,Orange
-Blueberry,Almond
-Blueberry,Apple
 Blueberry,Coriander Seed
-Coriander Seed,Blueberry
-Blueberry,Lemon
-Blueberry,Pea
 Blueberry,Vanilla
-Coriander Seed,Cardamom
-Coriander Seed,Cumin
-Coriander Seed,Olive
-Coriander Seed,Orange
-Vanilla,Anise
-Vanilla,Apricot
-Vanilla,Banana
-Vanilla,Blueberry
-Vanilla,Cherry
-Vanilla,Chestnut
-Vanilla,Coconut
-Vanilla,Egg
-Vanilla,Fig
-Vanilla,Ginger
-Vanilla,Hazelnut
-Vanilla,Pea
-Vanilla,Peanut
-Vanilla,Pineapple
-Vanilla,Rhubarb
-Vanilla,Strawberry
-Vanilla,Walnut
-White Chocolate,Blackberry
-White Chocolate,Caviar
-White Chocolate,Olive
-White Chocolate,Raspberry
-White Chocolate,Strawberry

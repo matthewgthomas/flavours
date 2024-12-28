@@ -31,6 +31,17 @@ flavour_combos_edges <-
   separate_wider_delim(cols = V1, delim = " & ", names = c("from", "to")) |>
   distinct()
 
+# Ensure each pair is in sorted order and then remove duplicates
+flavour_combos_edges <-
+  flavour_combos_edges |>
+  rowwise() |>
+  mutate(
+    sorted_pair = list(sort(c(from, to)))  # Sort each pair
+  ) |>
+  ungroup() |>
+  distinct(sorted_pair, .keep_all = TRUE) |>  # Keep unique sorted pairs
+  select(-sorted_pair)  # Remove the helper column
+
 # Save nodes and edges for network analysis
 ingredients |>
   mutate(Ingredient = if_else(!is.na(`Ingredient (UK)`), `Ingredient (UK)`, Ingredient)) |>
