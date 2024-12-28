@@ -1,7 +1,7 @@
 library(tidyverse)
 library(igraph)
 
-# Set up network of flavour combinations
+# ---- Set up network of flavour combinations ----
 ingredients <- read_csv("data/ingredients.csv")
 ingredients$Type_fct <- as.factor(ingredients$Type)
 
@@ -9,6 +9,7 @@ flavour_combos <- read_csv("data/flavour-combos.csv")
 
 flavours <- graph_from_data_frame(flavour_combos, vertices = ingredients, directed = FALSE)
 
+# ---- Network stats ----
 # Which ingredients are most and least paired?
 flavour_degrees <- degree(flavours)
 ingredients$n_pairings = flavour_degrees[ as.character(ingredients$Ingredient) ]
@@ -30,3 +31,28 @@ ebs <- edge_betweenness(flavours)
 as_edgelist(g)[ebs == max(ebs), ]
 
 betweenness(flavours)
+
+# ---- Which flavour pairings don't appear in the book? ----
+all_pairs <-
+  expand_grid(from = ingredients$Ingredient, to = ingredients$Ingredient) |>
+  filter(from != to) |>
+  rowwise() |>
+  mutate(
+    sorted_pair = list(sort(c(from, to)))  # Sort each pair
+  ) |>
+  ungroup() |>
+  distinct(sorted_pair, .keep_all = TRUE) |>  # Keep unique sorted pairs
+  select(-sorted_pair)  # Remove the helper column
+
+# Make a bidirectional version of the actual edgelist
+flavour_combos_flipped <-
+  flavour_combos |>
+  rename(from = to, to = from)
+
+flavour_combos_all <-
+  bind_rows(flavour_combos, flavour_combos_flipped) |>
+  mutate(in_book = 1)
+
+all_pairs |>
+  left_join(flavour_combos_all) |>
+  filter(is.na(in_book))
