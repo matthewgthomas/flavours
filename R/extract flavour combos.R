@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # Load book as plain text
-flavour_txt <- read_file("data/The Flavor Thesaurus_ A Compendium of Pair - Segnit, Niki.txt")
+flavour_txt <- read_file("data/book/The Flavor Thesaurus_ A Compendium of Pair - Segnit, Niki.txt")
 
 # Load manually extracted list of ingredients from the book's contents
 ingredients <- read_csv("https://docs.google.com/spreadsheets/d/12dxPZQAGA0UlaKsnqIu9vLWUIejjjtIuHLoMHTw4-f8/export?gid=1099796692&format=csv")
@@ -23,6 +23,7 @@ flavour_combos_edges <-
   # Use British English names for selected ingredients
   mutate(
     V1 = str_replace(V1, "Beet", "Beetroot") |>
+         str_replace("Black Currant", "Blackcurrant") |>
          str_replace("Rutabaga", "Swede") |>
          str_replace("Cilantro", "Coriander Leaf")
   ) |>

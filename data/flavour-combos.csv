@@ -12,7 +12,7 @@ Chocolate,Banana
 Banana,Chocolate
 Chocolate,Beetroot
 Beetroot,Chocolate
-Chocolate,Black Currant
+Chocolate,Blackcurrant
 Chocolate,Black Pudding
 Black Pudding,Chocolate
 Chocolate,Cardamom
@@ -71,7 +71,7 @@ Avocado,Coffee
 Coffee,Banana
 Banana,Coffee
 Coffee,Beef
-Coffee,Black Currant
+Coffee,Blackcurrant
 Coffee,Cardamom
 Coffee,Cherry
 Coffee,Cinnamon
@@ -96,8 +96,8 @@ Asparagus,Peanut
 Peanut,Banana
 Banana,Peanut
 Peanut,Beef
-Peanut,Black Currant
-Black Currant,Peanut
+Peanut,Blackcurrant
+Blackcurrant,Peanut
 Peanut,Broccoli
 Peanut,Coconut
 Peanut,Chicken
@@ -543,7 +543,7 @@ Avocado,Soft Cheese
 Soft Cheese,Basil
 Basil,Soft Cheese
 Soft Cheese,Bell Pepper
-Soft Cheese,Black Currant
+Soft Cheese,Blackcurrant
 Soft Cheese,Caper
 Soft Cheese,Caviar
 Caviar,Soft Cheese
@@ -1295,8 +1295,8 @@ Anise,Basil
 Basil,Anise
 Cinnamon,Anise
 Tomato,Anise
-Anise,Black Currant
-Black Currant,Anise
+Anise,Blackcurrant
+Blackcurrant,Anise
 Anise,Carrot
 Carrot,Anise
 Anise,Grape
@@ -1653,8 +1653,8 @@ Almond,Apricot
 Almond,Banana
 Banana,Almond
 Almond,Blackberry
-Almond,Black Currant
-Black Currant,Almond
+Almond,Blackcurrant
+Blackcurrant,Almond
 Almond,Blueberry
 Almond,Butternut Squash
 Almond,Cardamom
@@ -2057,8 +2057,8 @@ Juniper,Sage
 Sage,Onion
 Sage,Pineapple
 Juniper,Beef
-Juniper,Black Currant
-Black Currant,Juniper
+Juniper,Blackcurrant
+Blackcurrant,Juniper
 Juniper,Prosciutto
 Juniper,Rhubarb
 Thyme,Bacon
@@ -2073,7 +2073,7 @@ Mint,Anise
 Mint,Asparagus
 Mint,Avocado
 Mint,Basil
-Mint,Black Currant
+Mint,Blackcurrant
 Mint,Black Pudding
 Mint,Chili
 Mint,Cinnamon
@@ -2095,10 +2095,10 @@ Mint,Parsley
 Mint,Raspberry
 Raspberry,Mint
 Mint,Strawberry
-Black Currant,Chocolate
-Black Currant,Coffee
-Black Currant,Mint
-Black Currant,Soft Cheese
+Blackcurrant,Chocolate
+Blackcurrant,Coffee
+Blackcurrant,Mint
+Blackcurrant,Soft Cheese
 Blackberry,Almond
 Blackberry,Apple
 Blackberry,Goat Cheese
