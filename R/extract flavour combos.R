@@ -24,6 +24,7 @@ flavour_combos_edges <-
   mutate(
     V1 = str_replace(V1, "Beet", "Beetroot") |>
          str_replace("Black Currant", "Blackcurrant") |>
+         str_replace("Eggplant", "Aubergine") |>
          str_replace("Rutabaga", "Swede") |>
          str_replace("Cilantro", "Coriander Leaf")
   ) |>

@@ -253,7 +253,7 @@ Lamb,Coriander Leaf
 Lamb,Cinnamon
 Lamb,Cumin
 Lamb,Dill
-Lamb,Eggplant
+Lamb,Aubergine
 Lamb,Garlic
 Lamb,Globe Artichoke
 Lamb,Goat Cheese
@@ -369,7 +369,7 @@ Soft Cheese,Caviar
 Soft Cheese,Celery
 Walnut,Celery
 Soft Cheese,Cinnamon
-Soft Cheese,Eggplant
+Soft Cheese,Aubergine
 Soft Cheese,Fig
 Fig,Anise
 Soft Cheese,Garlic
@@ -404,15 +404,15 @@ Mushroom,Tomato
 Mushroom,Truffle
 Mushroom,Walnut
 Mushroom,White Fish
-Eggplant,Bell Pepper
+Aubergine,Bell Pepper
 Garlic,Thyme
-Eggplant,Chili
-Eggplant,Garlic
-Eggplant,Ginger
-Eggplant,Nutmeg
-Eggplant,Prosciutto
-Tomato,Eggplant
-Eggplant,Walnut
+Aubergine,Chili
+Aubergine,Garlic
+Aubergine,Ginger
+Aubergine,Nutmeg
+Aubergine,Prosciutto
+Tomato,Aubergine
+Aubergine,Walnut
 Cumin,Apricot
 Cumin,Beetroot
 Cumin,Carrot
