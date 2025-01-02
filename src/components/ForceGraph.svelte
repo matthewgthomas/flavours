@@ -13,7 +13,7 @@
     const colorScale = scaleOrdinal(schemeCategory10);
   
     const linkForce = forceLink(links).id((d) => d.id);
-    const chargeForce = forceManyBody();
+    const chargeForce = forceManyBody().strength(-300);
     const xForce = forceX();
     const yForce = forceY();
 </script>
@@ -37,7 +37,7 @@
         {/key}
 
         {#each nodes as node}
-            <Circle cx={node.x} cy={node.y} r={3} fill={colorScale(node.type)} />
+            <Circle cx={node.x} cy={node.y} r={6} fill={colorScale(node.type)} />
         {/each}
         </ForceSimulation>
     </Svg>
