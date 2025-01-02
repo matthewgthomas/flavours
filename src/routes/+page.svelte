@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import ForceGraph from "../components/ForceGraph.svelte";
+
+    import nodes from "$data/ingredients.csv";
+    import links from "$data/flavour-combos.csv";
+
+    const data = { "nodes": nodes, "links": links };
+</script>
+
+<ForceGraph {data} />
