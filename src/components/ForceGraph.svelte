@@ -6,9 +6,9 @@
   
     import { Chart, Circle, ForceSimulation, Link, Svg } from 'layerchart';
    
-    let { data } = $props();
+    // let { data } = $props();
 
-    const { nodes, links } = data;
+    let { nodes, links } = $props();
   
     const colorScale = scaleOrdinal(schemeCategory10);
   
