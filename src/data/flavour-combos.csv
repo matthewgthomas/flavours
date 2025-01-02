@@ -1,0 +1,1090 @@
+from,to
+Beetroot,Pork
+Chocolate,Almond
+Chocolate,Anise
+Chocolate,Apricot
+Chocolate,Avocado
+Chocolate,Bacon
+Chocolate,Banana
+Chocolate,Beetroot
+Chocolate,Blackcurrant
+Chocolate,Black Pudding
+Chocolate,Cardamom
+Chocolate,Cauliflower
+Chocolate,Cherry
+Chocolate,Chestnut
+Chocolate,Chili
+Chocolate,Cinnamon
+Chocolate,Coconut
+Chocolate,Coffee
+Chocolate,Fig
+Chocolate,Ginger
+Chocolate,Goat Cheese
+Chocolate,Hazelnut
+Nutmeg,Walnut
+Chocolate,Lemon
+Chocolate,Lime
+Chocolate,Mint
+Chocolate,Nutmeg
+Egg,Nutmeg
+Chocolate,Orange
+Chocolate,Peanut
+Chocolate,Pear
+Chocolate,Pineapple
+Chocolate,Raspberry
+Chocolate,Rose
+Chocolate,Rosemary
+Chocolate,Strawberry
+Chocolate,Thyme
+Chocolate,Tomato
+Chocolate,Vanilla
+Chocolate,Walnut
+Chocolate,Watermelon
+Chocolate,White Chocolate
+Coffee,Almond
+Coffee,Walnut
+Coffee,Avocado
+Coffee,Banana
+Coffee,Beef
+Coffee,Blackcurrant
+Coffee,Cardamom
+Coffee,Cherry
+Coffee,Cinnamon
+Coffee,Clove
+Coffee,Coriander Seed
+Coffee,Ginger
+Ginger,Cinnamon
+Coffee,Goat Cheese
+Coffee,Hazelnut
+Coffee,Orange
+Coffee,Rose
+Coffee,Vanilla
+Coffee,White Chocolate
+Peanut,Apple
+Peanut,Asparagus
+Peanut,Banana
+Peanut,Beef
+Peanut,Blackcurrant
+Peanut,Broccoli
+Peanut,Coconut
+Peanut,Chicken
+Peanut,Carrot
+Peanut,Celery
+Peanut,Lamb
+Peanut,Chili
+Peanut,Coriander Leaf
+Peanut,Cinnamon
+Peanut,Cucumber
+Peanut,Grape
+Peanut,Tomato
+Peanut,Lime
+Peanut,Mint
+Peanut,Pork
+Peanut,Potato
+Peanut,Shellfish
+Peanut,Vanilla
+Garlic,Chicken
+Chicken,Almond
+Chicken,Anise
+Chicken,Avocado
+Chicken,Bacon
+Chicken,Banana
+Chicken,Basil
+Chicken,Bell Pepper
+Chicken,Blue Cheese
+Chicken,Cabbage
+Chicken,Caviar
+Chicken,Celery
+Chicken,Chestnut
+Chicken,Chili
+Ginger,Chili
+Chicken,Coriander Leaf
+Chicken,Coconut
+Chicken,Egg
+Chicken,Grape
+Chicken,Hard Cheese
+Chicken,Hazelnut
+Chicken,Lemon
+Chicken,Lime
+Chicken,Mushroom
+Chicken,Onion
+Chicken,Oyster
+Chicken,Parsnip
+Chicken,Pea
+Chicken,Pear
+Vanilla,Apple
+Chicken,Potato
+Chicken,Rose
+Chicken,Saffron
+Chicken,Sage
+Chicken,Shellfish
+Chicken,Thyme
+Chicken,Tomato
+Chicken,Truffle
+Chicken,Walnut
+Chicken,Watercress
+Pork,Anise
+Anise,White Fish
+Pork,Tomato
+Pork,Apple
+Pork,Apricot
+Pork,Bacon
+Black Pudding,Pork
+Pork,Egg
+Pork,Beef
+Pork,Broccoli
+Pork,Butternut Squash
+Pork,Cabbage
+Pork,Celery
+Egg,Lemon
+Prosciutto,Celery
+Pork,Chestnut
+Pork,Chili
+Pork,Coriander Leaf
+Pork,Cinnamon
+Pork,Clove
+Pork,Coconut
+Pork,Coriander Seed
+Pork,Cucumber
+Pork,Cumin
+Pork,Dill
+Black Pudding,Egg
+Pork,Garlic
+Pork,Ginger
+Pork,Globe Artichoke
+Pork,Grape
+Pork,Grapefruit
+Pork,Juniper
+Pork,Mushroom
+Pork,Oily Fish
+Pork,Onion
+Pork,Oyster
+Pork,Parsnip
+Pork,Pea
+Pork,Pear
+Pork,Pineapple
+Pork,Potato
+Rosemary,Pork
+Pork,Rhubarb
+Pork,Swede
+Pork,Sage
+Pork,Shellfish
+Pork,Thyme
+Pork,Truffle
+Pork,Watercress
+Pork,Watermelon
+Black Pudding,Apple
+Black Pudding,Bacon
+Black Pudding,Lamb
+Black Pudding,Liver
+Black Pudding,Mint
+Black Pudding,Onion
+Black Pudding,Potato
+Black Pudding,Rhubarb
+Rhubarb,Oily Fish
+Black Pudding,Shellfish
+Liver,Apple
+Liver,Bacon
+Liver,Beef
+Liver,Beetroot
+Liver,Chili
+Liver,Fig
+Liver,Garlic
+Liver,Oily Fish
+Liver,Onion
+Liver,Sage
+Liver,Truffle
+Beef,Anchovy
+Beef,Anise
+Beef,Bacon
+Beef,Beetroot
+Caper,Beetroot
+Beef,Bell Pepper
+Beef,Blackberry
+Beef,Blue Cheese
+Beef,Broccoli
+Beef,Cabbage
+Beef,Caper
+Beef,Egg
+Beef,Carrot
+Beef,Celery
+Beef,Chili
+Beef,Cinnamon
+Beef,Clove
+Beef,Coconut
+Beef,Dill
+Beef,Garlic
+Beef,Ginger
+Beef,Hard Cheese
+Beef,Horseradish
+Beef,Juniper
+Beef,Lemon
+Beef,Lime
+Beef,Mint
+Beef,Mushroom
+Beef,Oily Fish
+Beef,Olive
+Beef,Onion
+Beef,Orange
+Beef,Oyster
+Beef,Parsley
+Beef,Parsnip
+Beef,Pea
+Beef,Pear
+Beef,Potato
+Beef,Swede
+Beef,Shellfish
+Beef,Thyme
+Beef,Tomato
+Beef,Truffle
+Beef,Walnut
+Beef,Watercress
+Lamb,Almond
+Lamb,Anchovy
+Lamb,Anise
+Lamb,Apricot
+Lamb,Cabbage
+Lamb,Caper
+Lamb,Cardamom
+Lamb,Celery
+Lamb,Cherry
+Lamb,Chestnut
+Lamb,Coriander Leaf
+Lamb,Cinnamon
+Lamb,Cumin
+Lamb,Dill
+Lamb,Aubergine
+Lamb,Garlic
+Lamb,Globe Artichoke
+Lamb,Goat Cheese
+Lamb,Lemon
+Lamb,Mint
+Lamb,Nutmeg
+Lamb,Onion
+Lamb,Pea
+Lamb,Potato
+Lamb,Rhubarb
+Lamb,Rosemary
+Lamb,Swede
+Potato,Swede
+Lamb,Saffron
+Lamb,Shellfish
+Lamb,Thyme
+Lamb,Tomato
+Goat Cheese,Anise
+Goat Cheese,Apricot
+Goat Cheese,Basil
+Goat Cheese,Beetroot
+Goat Cheese,Blackberry
+Goat Cheese,Butternut Squash
+Goat Cheese,Caper
+Caper,Soft Cheese
+Goat Cheese,Cherry
+Goat Cheese,Chili
+Goat Cheese,Coriander Leaf
+Goat Cheese,Coriander Seed
+Goat Cheese,Cucumber
+Goat Cheese,Fig
+Goat Cheese,Garlic
+Garlic,Basil
+Goat Cheese,Lemon
+Goat Cheese,Mint
+Goat Cheese,Mushroom
+Goat Cheese,Olive
+Goat Cheese,Pear
+Goat Cheese,Raspberry
+Goat Cheese,Rosemary
+Goat Cheese,Thyme
+Goat Cheese,Walnut
+Goat Cheese,Watercress
+Goat Cheese,Watermelon
+Rosemary,Watermelon
+Washed-rind Cheese,Anise
+Washed-rind Cheese,Apple
+Washed-rind Cheese,Bacon
+Potato,Washed-rind Cheese
+Washed-rind Cheese,Cumin
+Washed-rind Cheese,Garlic
+Washed-rind Cheese,Pear
+Washed-rind Cheese,Walnut
+Blue Cheese,Avocado
+Blue Cheese,Bacon
+Blue Cheese,Blueberry
+Blue Cheese,Broccoli
+Blue Cheese,Butternut Squash
+Blue Cheese,Sage
+Blue Cheese,Cabbage
+Blue Cheese,Celery
+Blue Cheese,Fig
+Blue Cheese,Grape
+Blue Cheese,Grapefruit
+Blue Cheese,Mushroom
+Blue Cheese,Peach
+Blue Cheese,Pear
+Pear,Walnut
+Blue Cheese,Pineapple
+Blue Cheese,Truffle
+Blue Cheese,Walnut
+Blue Cheese,Watercress
+Hard Cheese,Almond
+Hard Cheese,Anchovy
+Hard Cheese,Anise
+Hard Cheese,Apple
+Hard Cheese,Apricot
+Hard Cheese,Asparagus
+Hard Cheese,Bacon
+Hard Cheese,Banana
+Oily Fish,Chili
+Hard Cheese,Basil
+Hard Cheese,Broccoli
+Hard Cheese,Cauliflower
+Hard Cheese,Chili
+Butternut Squash,Chili
+Hard Cheese,Clove
+Hard Cheese,Fig
+Hard Cheese,Globe Artichoke
+Hard Cheese,Grape
+Hard Cheese,Juniper
+Hard Cheese,Mushroom
+Hard Cheese,Nutmeg
+Hard Cheese,Onion
+Hard Cheese,Orange
+Hard Cheese,Parsnip
+Hard Cheese,Pea
+Hard Cheese,Pear
+Hard Cheese,Pineapple
+Hard Cheese,Potato
+Hard Cheese,Sage
+Hard Cheese,Shellfish
+Hard Cheese,Tomato
+Hard Cheese,Walnut
+Hard Cheese,White Fish
+Soft Cheese,Anchovy
+Soft Cheese,Apple
+Soft Cheese,Avocado
+Soft Cheese,Basil
+Soft Cheese,Bell Pepper
+Soft Cheese,Blackcurrant
+Soft Cheese,Caviar
+Soft Cheese,Celery
+Walnut,Celery
+Soft Cheese,Cinnamon
+Soft Cheese,Aubergine
+Soft Cheese,Fig
+Fig,Anise
+Soft Cheese,Garlic
+Soft Cheese,Grape
+Soft Cheese,Mushroom
+Soft Cheese,Smoked Fish
+Onion,Smoked Fish
+Soft Cheese,Strawberry
+Soft Cheese,Tomato
+Soft Cheese,Truffle
+Soft Cheese,Walnut
+Mushroom,Anise
+Mushroom,Apricot
+Mushroom,Asparagus
+Mushroom,Bacon
+Mushroom,Blueberry
+Mushroom,Butternut Squash
+Mushroom,Chestnut
+Mushroom,Dill
+Mushroom,Egg
+Mushroom,Garlic
+Mushroom,Mint
+Mushroom,Oily Fish
+Mushroom,Onion
+Mushroom,Oyster
+Mushroom,Parsley
+Mushroom,Potato
+Mushroom,Rosemary
+Mushroom,Shellfish
+Mushroom,Thyme
+Mushroom,Tomato
+Mushroom,Truffle
+Mushroom,Walnut
+Mushroom,White Fish
+Aubergine,Bell Pepper
+Garlic,Thyme
+Aubergine,Chili
+Aubergine,Garlic
+Aubergine,Ginger
+Aubergine,Nutmeg
+Aubergine,Prosciutto
+Tomato,Aubergine
+Aubergine,Walnut
+Cumin,Apricot
+Cumin,Beetroot
+Cumin,Carrot
+Cumin,Cauliflower
+Cumin,Coriander Leaf
+Cumin,Coriander Seed
+Cumin,Cucumber
+Cumin,Egg
+Cumin,Lemon
+Cumin,Lime
+Cumin,Mango
+Cumin,Mint
+Cumin,Oily Fish
+Cumin,Potato
+Cumin,Shellfish
+Beetroot,Anchovy
+Beetroot,Apple
+Beetroot,Coconut
+Beetroot,Dill
+Beetroot,Egg
+Beetroot,Horseradish
+Beetroot,Oily Fish
+Beetroot,Onion
+Beetroot,Orange
+Beetroot,Potato
+Beetroot,Walnut
+Beetroot,Watercress
+Potato,Anchovy
+Potato,Asparagus
+Potato,Bacon
+Potato,Cabbage
+Cabbage,Onion
+Potato,Caper
+Potato,Cauliflower
+Potato,Caviar
+Potato,Truffle
+Potato,Celery
+Potato,Chili
+Chili,Tomato
+Potato,Coriander Leaf
+Potato,Dill
+Potato,Egg
+Ginger,Egg
+Potato,Garlic
+Potato,Globe Artichoke
+Potato,Horseradish
+Potato,Lemon
+Potato,Mint
+Potato,Nutmeg
+Potato,Oily Fish
+Potato,Olive
+Potato,Onion
+Potato,Parsley
+Potato,Parsnip
+Potato,Pea
+Potato,Rosemary
+Potato,Saffron
+Potato,Shellfish
+Potato,Smoked Fish
+Potato,Tomato
+Potato,Watercress
+Potato,White Fish
+Celery,Apple
+Celery,Carrot
+Celery,Chestnut
+Celery,Egg
+Celery,Horseradish
+Celery,Nutmeg
+Celery,Onion
+Celery,Oyster
+Lime,Anchovy
+Truffle,Celery
+Celery,Shellfish
+Celery,White Fish
+Watercress,Anchovy
+Parsnip,Watercress
+Watercress,Egg
+Watercress,Grapefruit
+Watercress,Oily Fish
+Watercress,Orange
+Watercress,Shellfish
+Watercress,Smoked Fish
+Watercress,Walnut
+Caper,Anchovy
+Caper,Cauliflower
+Caper,Cucumber
+Caper,Lemon
+Lemon,Basil
+Caper,Oily Fish
+Caper,Olive
+Caper,Parsley
+Caper,Shellfish
+Caper,White Fish
+Caper,Smoked Fish
+Caper,Tomato
+Horseradish,Apple
+Horseradish,Bacon
+Horseradish,Oily Fish
+Horseradish,Oyster
+Horseradish,Pea
+Horseradish,Smoked Fish
+Horseradish,Tomato
+Horseradish,White Fish
+Onion,Anchovy
+Onion,Bacon
+Onion,Bell Pepper
+Onion,Carrot
+Onion,Clove
+Onion,Cucumber
+Onion,Egg
+Onion,Garlic
+Onion,Ginger
+Onion,Mint
+Chili,Mint
+Onion,Nutmeg
+Onion,Oily Fish
+Onion,Orange
+Onion,Oyster
+Onion,Pea
+Onion,Rosemary
+Onion,Sage
+Onion,Thyme
+Onion,Tomato
+Garlic,Almond
+Almond,Melon
+Garlic,Anchovy
+Garlic,Broccoli
+Garlic,Cabbage
+Garlic,Cauliflower
+Garlic,Chili
+Garlic,Coriander Leaf
+Garlic,Coriander Seed
+Garlic,Cucumber
+Garlic,Ginger
+Garlic,Hazelnut
+Garlic,Mint
+Garlic,Oily Fish
+Garlic,Olive
+Garlic,Parsley
+Garlic,Rosemary
+Garlic,Shellfish
+Garlic,Tomato
+Garlic,Truffle
+Garlic,Walnut
+Garlic,White Fish
+Truffle,Asparagus
+Truffle,Bacon
+Truffle,Cabbage
+Truffle,Cauliflower
+Truffle,Egg
+Truffle,Globe Artichoke
+Truffle,Shellfish
+Cabbage,Apple
+Cabbage,Bacon
+Cabbage,Carrot
+Cabbage,Chestnut
+Cabbage,Chili
+Cabbage,Egg
+Cabbage,Ginger
+Cabbage,Juniper
+Cabbage,Nutmeg
+Clove,Ginger
+Cabbage,Shellfish
+Cabbage,Smoked Fish
+Swede,Anise
+Swede,Carrot
+Swede,Nutmeg
+Cauliflower,Almond
+Cauliflower,Anchovy
+Cauliflower,Broccoli
+Cauliflower,Caviar
+Cauliflower,Chili
+Cauliflower,Nutmeg
+Cauliflower,Saffron
+Cauliflower,Shellfish
+Cauliflower,Walnut
+Broccoli,Anchovy
+Broccoli,Bacon
+Broccoli,Chili
+Broccoli,Lemon
+Broccoli,Walnut
+Globe Artichoke,Bacon
+Globe Artichoke,Lemon
+Globe Artichoke,Mint
+Globe Artichoke,Oyster
+Globe Artichoke,Pea
+Globe Artichoke,Prosciutto
+Globe Artichoke,Shellfish
+Asparagus,Almond
+Asparagus,Anise
+Asparagus,Egg
+Asparagus,Lemon
+Asparagus,Mint
+Asparagus,Oily Fish
+Asparagus,Orange
+Asparagus,Pea
+Asparagus,Prosciutto
+Asparagus,Shellfish
+Asparagus,White Fish
+Egg,Anchovy
+Egg,Anise
+Egg,Bacon
+Egg,Banana
+Egg,Basil
+Egg,Bell Pepper
+Egg,Caviar
+Egg,Chili
+Egg,Coconut
+Coconut,Cinnamon
+Egg,Dill
+Egg,Oily Fish
+Egg,Oyster
+Egg,Parsley
+Egg,Pea
+Egg,Prosciutto
+Egg,Sage
+Egg,Shellfish
+Egg,Smoked Fish
+Egg,Tomato
+Egg,Vanilla
+Shellfish,Almond
+Shellfish,Anise
+Shellfish,Apple
+Shellfish,Avocado
+Shellfish,Bacon
+Shellfish,Basil
+Shellfish,Bell Pepper
+Shellfish,Butternut Squash
+Shellfish,Chili
+Shellfish,Coriander Leaf
+Shellfish,Coconut
+Shellfish,Cucumber
+Shellfish,Dill
+Shellfish,Grapefruit
+Shellfish,Lemon
+Shellfish,Lime
+Lime,White Fish
+Shellfish,Mango
+Shellfish,Nutmeg
+Shellfish,Oily Fish
+Shellfish,Olive
+Shellfish,Parsley
+Shellfish,Parsnip
+Shellfish,Pea
+Shellfish,Pineapple
+Shellfish,Saffron
+Shellfish,Smoked Fish
+Shellfish,Thyme
+Shellfish,Tomato
+Shellfish,Vanilla
+Shellfish,Walnut
+Shellfish,White Fish
+White Fish,Anchovy
+White Fish,Bacon
+White Fish,Coriander Leaf
+White Fish,Coconut
+White Fish,Cucumber
+White Fish,Dill
+White Fish,Ginger
+White Fish,Grape
+White Fish,Hazelnut
+White Fish,Lemon
+White Fish,Mango
+White Fish,Olive
+White Fish,Orange
+White Fish,Parsley
+White Fish,Parsnip
+White Fish,Pea
+White Fish,Prosciutto
+White Fish,Saffron
+White Fish,Thyme
+White Fish,Tomato
+Oyster,Anise
+Oyster,Bacon
+Oyster,Caviar
+Oyster,Chili
+Oyster,Lemon
+Oyster,Nutmeg
+Oyster,Parsley
+Oyster,Watermelon
+Caviar,Banana
+Caviar,Hazelnut
+Caviar,Lemon
+Caviar,Smoked Fish
+Caviar,White Chocolate
+Oily Fish,Almond
+Oily Fish,Anise
+Oily Fish,Avocado
+Oily Fish,Cucumber
+Oily Fish,Dill
+Oily Fish,Ginger
+Oily Fish,Lemon
+Oily Fish,Lime
+Oily Fish,Mint
+Oily Fish,Parsley
+Oily Fish,Pea
+Oily Fish,Rosemary
+Oily Fish,Thyme
+Anchovy,Chili
+Anchovy,Coconut
+Anchovy,Lemon
+Anchovy,Olive
+Olive,Tomato
+Anchovy,Pineapple
+Anchovy,Rosemary
+Anchovy,Sage
+Anchovy,Tomato
+Smoked Fish,Cherry
+Smoked Fish,Coconut
+Smoked Fish,Dill
+Smoked Fish,Lemon
+Smoked Fish,Parsley
+Smoked Fish,Pea
+Bacon,Anise
+Bacon,Apple
+Bacon,Avocado
+Bacon,Banana
+Bacon,Bell Pepper
+Bacon,Butternut Squash
+Bacon,Cardamom
+Bacon,Chili
+Bacon,Clove
+Bacon,Orange
+Bacon,Parsley
+Bacon,Parsnip
+Bacon,Pea
+Bacon,Pineapple
+Bacon,Sage
+Bacon,Thyme
+Bacon,Tomato
+Prosciutto,Chestnut
+Prosciutto,Fig
+Prosciutto,Juniper
+Prosciutto,Melon
+Prosciutto,Olive
+Prosciutto,Pea
+Prosciutto,Peach
+Prosciutto,Pear
+Prosciutto,Pineapple
+Prosciutto,Sage
+Prosciutto,Tomato
+Olive,Almond
+Olive,Anise
+Olive,Bell Pepper
+Olive,Carrot
+Olive,Chili
+Olive,Coriander Seed
+Olive,Juniper
+Olive,Lemon
+Olive,Orange
+Olive,Rosemary
+Olive,Thyme
+Olive,White Chocolate
+Saffron,Almond
+Saffron,Anise
+Saffron,Cardamom
+Saffron,Lemon
+Saffron,Nutmeg
+Saffron,Orange
+Saffron,Rhubarb
+Saffron,Rose
+Saffron,White Chocolate
+Anise,Almond
+Anise,Apple
+Anise,Banana
+Anise,Basil
+Cinnamon,Anise
+Tomato,Anise
+Anise,Blackcurrant
+Anise,Carrot
+Anise,Grape
+Anise,Chili
+Anise,Coconut
+Anise,Cucumber
+Grape,Rosemary
+Anise,Lemon
+Anise,Melon
+Anise,Mint
+Anise,Orange
+Anise,Parsnip
+Anise,Pea
+Anise,Pear
+Anise,Pineapple
+Anise,Rhubarb
+Anise,Strawberry
+Anise,Vanilla
+Anise,Walnut
+Butternut Squash,Rosemary
+Cucumber,Avocado
+Cucumber,Carrot
+Cucumber,Dill
+Cucumber,Melon
+Cucumber,Mint
+Cucumber,Rhubarb
+Cucumber,Rose
+Cucumber,Strawberry
+Cucumber,Tomato
+Cucumber,Watermelon
+Dill,Avocado
+Dill,Coconut
+Vanilla,Clove
+Dill,Lemon
+Dill,Mint
+Dill,Pea
+Parsley,Carrot
+Parsley,Coriander Leaf
+Parsley,Lemon
+Parsley,Mint
+Parsley,Walnut
+Coriander Leaf,Avocado
+Coriander Leaf,Chili
+Coriander Leaf,Coconut
+Coriander Seed,Coriander Leaf
+Coriander Leaf,Lemon
+Coriander Leaf,Lime
+Coriander Leaf,Mango
+Coriander Leaf,Mint
+Coriander Leaf,Orange
+Orange,Coriander Seed
+Coriander Leaf,Pineapple
+Coriander Leaf,Tomato
+Coriander Leaf,Watermelon
+Avocado,Chili
+Avocado,Grape
+Avocado,Grapefruit
+Avocado,Hazelnut
+Avocado,Lime
+Avocado,Mango
+Avocado,Mint
+Avocado,Nutmeg
+Avocado,Pineapple
+Avocado,Strawberry
+Avocado,Tomato
+Walnut,Chili
+Pea,Mint
+Pea,Parsnip
+Pea,Rosemary
+Bell Pepper,Chili
+Bell Pepper,Tomato
+Chili,Almond
+Chili,Coconut
+Chili,Lemon
+Chili,Lime
+Chili,Mango
+Chili,Orange
+Chili,Pineapple
+Chili,Watermelon
+Basil,Clove
+Basil,Coconut
+Basil,Lime
+Basil,Mint
+Basil,Raspberry
+Basil,Tomato
+Tomato,Clove
+Basil,Walnut
+Cinnamon,Almond
+Cinnamon,Apple
+Cinnamon,Apricot
+Cinnamon,Banana
+Cinnamon,Blueberry
+Cinnamon,Butternut Squash
+Ginger,Butternut Squash
+Cinnamon,Cardamom
+Cinnamon,Carrot
+Cinnamon,Cherry
+Cinnamon,Clove
+Cinnamon,Fig
+Cinnamon,Grapefruit
+Cinnamon,Lime
+Cinnamon,Mint
+Mint,Watermelon
+Cinnamon,Orange
+Orange,Almond
+Cinnamon,Pear
+Cinnamon,Pineapple
+Cinnamon,Strawberry
+Cinnamon,Thyme
+Cinnamon,Tomato
+Cinnamon,Walnut
+Cinnamon,Watermelon
+Clove,Apple
+Clove,Orange
+Clove,Peach
+Nutmeg,Apple
+Nutmeg,Butternut Squash
+Nutmeg,Parsnip
+Nutmeg,Tomato
+Nutmeg,Vanilla
+Parsnip,Banana
+Parsnip,Walnut
+Carrot,Apple
+Carrot,Cardamom
+Carrot,Coconut
+Carrot,Hazelnut
+Carrot,Orange
+Carrot,Walnut
+Butternut Squash,Almond
+Butternut Squash,Apple
+Butternut Squash,Chestnut
+Butternut Squash,Lime
+Butternut Squash,Sage
+Chestnut,Pear
+Chestnut,Rosemary
+Chestnut,Vanilla
+Walnut,Apple
+Walnut,Banana
+Walnut,Cherry
+Walnut,Fig
+Walnut,Grape
+Walnut,Orange
+Walnut,Vanilla
+Hazelnut,Almond
+Hazelnut,Apple
+Hazelnut,Banana
+Hazelnut,Cherry
+Hazelnut,Fig
+Hazelnut,Pear
+Hazelnut,Raspberry
+Hazelnut,Rosemary
+Hazelnut,Strawberry
+Hazelnut,Vanilla
+Almond,Apple
+Almond,Apricot
+Almond,Banana
+Almond,Blackberry
+Almond,Blackcurrant
+Almond,Blueberry
+Almond,Cardamom
+Almond,Cherry
+Almond,Coconut
+Almond,Fig
+Almond,Ginger
+Almond,Grape
+Almond,Lemon
+Raspberry,Almond
+Almond,Peach
+Almond,Pear
+Almond,Rhubarb
+Almond,Rose
+Almond,Rosemary
+Almond,Strawberry
+Almond,White Chocolate
+Cherry,Banana
+Cherry,Coconut
+Cherry,Peach
+Cherry,Vanilla
+Watermelon,Lime
+Watermelon,Melon
+Watermelon,Tomato
+Grape,Melon
+Grape,Peach
+Grape,Pineapple
+Grape,Strawberry
+Rhubarb,Ginger
+Rhubarb,Juniper
+Rhubarb,Mango
+Rhubarb,Orange
+Rhubarb,Rosemary
+Rhubarb,Strawberry
+Rhubarb,Vanilla
+Tomato,Strawberry
+Tomato,Ginger
+Tomato,Lemon
+Tomato,Lime
+Tomato,Sage
+Tomato,Thyme
+Tomato,Vanilla
+Strawberry,Coconut
+Strawberry,Melon
+Strawberry,Mint
+Strawberry,Orange
+Strawberry,Peach
+Strawberry,Pineapple
+Strawberry,Raspberry
+Strawberry,Vanilla
+Strawberry,White Chocolate
+Pineapple,Apple
+Pineapple,Banana
+Pineapple,Coconut
+Pineapple,Grapefruit
+Pineapple,Mango
+Pineapple,Orange
+Pineapple,Raspberry
+Pineapple,Sage
+Pineapple,Vanilla
+Pineapple,White Chocolate
+Apple,Blackberry
+Apple,Blueberry
+Apple,Coriander Seed
+Apple,Mango
+Apple,Orange
+Apple,Pear
+Apple,Rose
+Apple,Sage
+Pear,Banana
+Pear,Cardamom
+Banana,Cardamom
+Banana,Coconut
+Banana,Vanilla
+Melon,Ginger
+Melon,Mint
+Melon,Orange
+Melon,Rose
+Rose,Cardamom
+Apricot,Cardamom
+Apricot,Ginger
+Apricot,Mango
+Apricot,Orange
+Apricot,Peach
+Apricot,Raspberry
+Apricot,Rose
+Apricot,Rosemary
+Apricot,Vanilla
+Peach,Blackberry
+Peach,Blueberry
+Peach,Mango
+Peach,Orange
+Peach,Raspberry
+Peach,Vanilla
+Coconut,Cardamom
+Coconut,Lemon
+Mango,Coconut
+Coconut,Lime
+Coconut,Raspberry
+Coconut,Vanilla
+Coconut,White Chocolate
+Mango,Cardamom
+Mango,Ginger
+Mango,Lime
+Mango,Mint
+Mango,Orange
+Orange,Fig
+Orange,Ginger
+Orange,Grapefruit
+Orange,Juniper
+Orange,Lemon
+Orange,Lime
+Orange,Mint
+Orange,Rose
+Orange,Rosemary
+Vanilla,Raspberry
+Orange,Thyme
+Orange,Vanilla
+Grapefruit,Juniper
+Lime,Ginger
+Lime,Lemon
+Lime,Mint
+Lemon,Blueberry
+Lemon,Coriander Seed
+Lemon,Ginger
+Lemon,Juniper
+Lemon,Mint
+Lemon,Rose
+Lemon,Rosemary
+Lemon,Thyme
+Lemon,White Chocolate
+Ginger,Cardamom
+Ginger,Mint
+Ginger,Vanilla
+Cardamom,Coriander Seed
+Cardamom,Vanilla
+Cardamom,White Chocolate
+Sage,Juniper
+Juniper,Blackcurrant
+Mint,Blackcurrant
+Mint,Fig
+Mint,Raspberry
+Blackberry,Raspberry
+Blackberry,Vanilla
+Blackberry,White Chocolate
+Raspberry,Fig
+Raspberry,White Chocolate
+Fig,Vanilla
+Blueberry,Coriander Seed
+Blueberry,Vanilla
