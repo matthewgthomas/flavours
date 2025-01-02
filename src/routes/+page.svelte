@@ -1,5 +1,6 @@
 <script>
     import ForceGraph from "../components/ForceGraph.svelte";
+    import Scroller from "@sveltejs/svelte-scroller";
 
     import nodes from "$data/ingredients.csv";
     import links from "$data/flavour-combos.csv";
@@ -29,6 +30,59 @@
 
     const filteredLinks = filterLinks(links, "Chocolate");
     const filteredNodes = filterNodes(nodes, filteredLinks);
+
+    let currentNodes = nodes;
+    let currentLinks = links;
+
+    // CONFIG FOR SCROLLER COMPONENTS
+	// Config
+	const threshold = 0.65;
+	// State
+    let offset, progress;
+	let index; // visible section ID of Scroller components
+	let indexPrev; // keep track of previous IDs, to compare for changes
+
+	// Actions for network of flavours scroller
+	// This array of functions correspond to the <section/> tags within the network chart <Scroller/> component
+	const chartActions = [
+        [
+			() => {
+				currentNodes = [{id: "Chocolate", type: "Roasted"}];
+                currentLinks = {};
+			},
+			() => {
+				currentNodes = filteredNodes;
+				currentLinks = filteredLinks;
+			},
+			() => {
+				currentNodes = nodes;
+				currentLinks = links;
+			}
+        ]
+    ];
+
+    $: if (index != indexPrev) {
+        chartActions[0][+index]();
+        indexPrev = index;
+    }
 </script>
 
-<ForceGraph nodes={filteredNodes} links={filteredLinks} />
+<Scroller top="{0.2}" bottom="{0.8}" bind:index bind:offset bind:progress>
+    <div slot="background">
+        <p>Section {index + 1} is currently active.</p>
+        {console.log(currentNodes)}
+        <ForceGraph nodes={currentNodes} links={currentLinks} />
+    </div>
+  
+    <div slot="foreground">
+      <section>This is the first section.</section>
+      <section>This is the second section.</section>
+      <section>This is the third section.</section>
+    </div>
+</Scroller>
+
+<style>
+    section {
+      height: 80vh;
+    }
+</style>
