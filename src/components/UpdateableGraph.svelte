@@ -14,6 +14,7 @@
     let simulation;
 
     const nodeRadius = 12;
+    const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
     
     onMount(() => {
       // Initialize the force simulation
@@ -44,7 +45,7 @@
         svg.append('circle')
           .attr('class', 'node')
           .attr('r', nodeRadius)
-          .attr('fill', getColorByGroup(node.group))
+          .attr('fill', colorScale(node.type))
           .attr('opacity', 0)  // Start hidden
           .datum(node)  // Attach data
       });
@@ -94,7 +95,7 @@
         .append('circle')
         .attr('class', 'node')
         .attr('r', nodeRadius)
-        .attr('fill', d => getColorByGroup(d.type))
+        .attr('fill', d => colorScale(d.type))
         .attr('opacity', 0);
   
       // Transition new nodes to their position
@@ -105,7 +106,7 @@
       // Update existing nodes
       nodeElements.transition()
         .duration(750)
-        .attr('fill', d => getColorByGroup(d.type))
+        .attr('fill', d => colorScale(d.type))
         .attr('opacity', 1);
         
       // Remove old nodes
@@ -167,12 +168,6 @@
           node.fy = null;
         });
       }, 750);
-    }
-    
-    // Color mapping function
-    function getColorByGroup(group) {
-      const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
-      return colorScale(group);
     }
     
     // Update on simulation tick
