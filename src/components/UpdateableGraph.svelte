@@ -12,6 +12,8 @@
   
     let svg;
     let simulation;
+
+    const nodeRadius = 12;
     
     onMount(() => {
       // Initialize the force simulation
@@ -41,7 +43,7 @@
       [...allNodes].forEach(node => {
         svg.append('circle')
           .attr('class', 'node')
-          .attr('r', 5)
+          .attr('r', nodeRadius)
           .attr('fill', getColorByGroup(node.group))
           .attr('opacity', 0)  // Start hidden
           .datum(node)  // Attach data
@@ -91,7 +93,7 @@
       const nodeEnter = nodeElements.enter()
         .append('circle')
         .attr('class', 'node')
-        .attr('r', 8)
+        .attr('r', nodeRadius)
         .attr('fill', d => getColorByGroup(d.type))
         .attr('opacity', 0);
   
