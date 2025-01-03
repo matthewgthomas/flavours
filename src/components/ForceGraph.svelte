@@ -1,7 +1,7 @@
 <script>
-    import { forceManyBody, forceLink, forceX, forceY } from 'd3-force';
+    import { forceManyBody, forceLink, forceX, forceY, forceCollide, forceCenter } from 'd3-force';
     import { curveLinear } from 'd3-shape';
-    import { scaleOrdinal } from 'd3-scale';
+    import { scaleBand, scaleOrdinal } from 'd3-scale';
     import { schemeCategory10 } from 'd3-scale-chromatic';
   
     import { Chart, Circle, ForceSimulation, Link, Svg } from 'layerchart';
@@ -13,21 +13,46 @@
     const colorScale = scaleOrdinal(schemeCategory10);
   
     const linkForce = forceLink(links).id((d) => d.id);
-    const chargeForce = forceManyBody().strength(-300);
-    const xForce = forceX();
+    const chargeForce = forceManyBody().strength(3);
+    const collideForce = forceCollide();
+    const centerForce = forceCenter();
+    const xForce = forceX().strength(0.1);
     const yForce = forceY();
+
+    let alpha = 1;
+    const nodeStrokeWidth = 1
+    let groupBy = true;
+    $effect(() => reheatSimulation({ groupBy }));
+
+    function reheatSimulation(args = {}) {
+        const _ = args;
+        alpha = 1.0;
+    }
 </script>
 
 <div class="h-[680px] p-2">
-    <Chart data={nodes}>
+    <Chart 
+        data={nodes}
+        x="type"
+        xScale={scaleBand()}
+        let:xGet
+        let:xScale
+        let:rGet
+        let:width
+        let:height
+    >
     <Svg center>
         <ForceSimulation
             forces={{
                 link: linkForce,
                 charge: chargeForce,
-                x: xForce,
                 y: yForce,
+                x: xForce.x((d) => (groupBy ? xGet(d) + xScale.bandwidth() / 2 : width / 2)),
+                charge: chargeForce,
+                center: centerForce.x(width / 2).y(height / 2),
             }}
+            cloneData
+            bind:alpha
             let:nodes
         >
         {#key nodes}
