@@ -29,7 +29,7 @@ flavour_combos_edges <-
          str_replace("Cilantro", "Coriander Leaf")
   ) |>
 
-  separate_wider_delim(cols = V1, delim = " & ", names = c("from", "to")) |>
+  separate_wider_delim(cols = V1, delim = " & ", names = c("source", "target")) |>
   distinct()
 
 # Ensure each pair is in sorted order and then remove duplicates
@@ -37,16 +37,34 @@ flavour_combos_edges <-
   flavour_combos_edges |>
   rowwise() |>
   mutate(
-    sorted_pair = list(sort(c(from, to)))  # Sort each pair
+    sorted_pair = list(sort(c(source, target)))  # Sort each pair
   ) |>
   ungroup() |>
   distinct(sorted_pair, .keep_all = TRUE) |>  # Keep unique sorted pairs
   select(-sorted_pair)  # Remove the helper column
 
 # Save nodes and edges for network analysis
-ingredients |>
+ingredients <-
+  ingredients |>
   mutate(Ingredient = if_else(!is.na(`Ingredient (UK)`), `Ingredient (UK)`, Ingredient)) |>
-  select(-`Ingredient (UK)`) |>
-  write_csv("data/ingredients.csv")
+  select(id = Ingredient, type = Type)
+
+write_csv(ingredients, "data/ingredients.csv")
 
 write_csv(flavour_combos_edges, "data/flavour-combos.csv")
+
+library(jsonlite)
+
+tibble(
+  nodes = ingredients |> nest(),
+  links = flavour_combos_edges |> nest()
+) |>
+  write_json("src/data/flavours.json")
+
+ingredients |> nest(nodes = everything()) |> toJSON()
+
+toJSON()
+
+
+tibble(x = c(1, 1, 1, 2, 2, 3), y = 1:6, z = 6:1) |>
+  nest(data = c(y,z))
