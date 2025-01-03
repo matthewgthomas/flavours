@@ -126,7 +126,8 @@
         .attr('class', 'link')
         .attr('stroke', '#999')
         .attr('stroke-opacity', 0.6)
-        .attr('opacity', 0);
+        .attr('opacity', 0)
+        .lower();
   
       // Transition new links to position
       linkEnter.transition()
