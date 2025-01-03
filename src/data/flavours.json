@@ -1,0 +1,4758 @@
+{
+    "nodes": [
+        {
+            "id": "Chocolate",
+            "type": "Roasted"
+        },
+        {
+            "id": "Coffee",
+            "type": "Roasted"
+        },
+        {
+            "id": "Peanut",
+            "type": "Roasted"
+        },
+        {
+            "id": "Chicken",
+            "type": "Meaty"
+        },
+        {
+            "id": "Pork",
+            "type": "Meaty"
+        },
+        {
+            "id": "Black Pudding",
+            "type": "Meaty"
+        },
+        {
+            "id": "Liver",
+            "type": "Meaty"
+        },
+        {
+            "id": "Beef",
+            "type": "Meaty"
+        },
+        {
+            "id": "Lamb",
+            "type": "Meaty"
+        },
+        {
+            "id": "Goat Cheese",
+            "type": "Cheesy"
+        },
+        {
+            "id": "Washed-rind Cheese",
+            "type": "Cheesy"
+        },
+        {
+            "id": "Blue Cheese",
+            "type": "Cheesy"
+        },
+        {
+            "id": "Hard Cheese",
+            "type": "Cheesy"
+        },
+        {
+            "id": "Soft Cheese",
+            "type": "Cheesy"
+        },
+        {
+            "id": "Mushroom",
+            "type": "Earthy"
+        },
+        {
+            "id": "Aubergine",
+            "type": "Earthy"
+        },
+        {
+            "id": "Cumin",
+            "type": "Earthy"
+        },
+        {
+            "id": "Beetroot",
+            "type": "Earthy"
+        },
+        {
+            "id": "Potato",
+            "type": "Earthy"
+        },
+        {
+            "id": "Celery",
+            "type": "Earthy"
+        },
+        {
+            "id": "Watercress",
+            "type": "Mustardy"
+        },
+        {
+            "id": "Caper",
+            "type": "Mustardy"
+        },
+        {
+            "id": "Horseradish",
+            "type": "Mustardy"
+        },
+        {
+            "id": "Onion",
+            "type": "Sulfurous"
+        },
+        {
+            "id": "Garlic",
+            "type": "Sulfurous"
+        },
+        {
+            "id": "Truffle",
+            "type": "Sulfurous"
+        },
+        {
+            "id": "Cabbage",
+            "type": "Sulfurous"
+        },
+        {
+            "id": "Swede",
+            "type": "Sulfurous"
+        },
+        {
+            "id": "Cauliflower",
+            "type": "Sulfurous"
+        },
+        {
+            "id": "Broccoli",
+            "type": "Sulfurous"
+        },
+        {
+            "id": "Globe Artichoke",
+            "type": "Sulfurous"
+        },
+        {
+            "id": "Asparagus",
+            "type": "Sulfurous"
+        },
+        {
+            "id": "Egg",
+            "type": "Sulfurous"
+        },
+        {
+            "id": "Shellfish",
+            "type": "Marine"
+        },
+        {
+            "id": "White Fish",
+            "type": "Marine"
+        },
+        {
+            "id": "Oyster",
+            "type": "Marine"
+        },
+        {
+            "id": "Caviar",
+            "type": "Marine"
+        },
+        {
+            "id": "Oily Fish",
+            "type": "Marine"
+        },
+        {
+            "id": "Anchovy",
+            "type": "Brine & Salt"
+        },
+        {
+            "id": "Smoked Fish",
+            "type": "Brine & Salt"
+        },
+        {
+            "id": "Bacon",
+            "type": "Brine & Salt"
+        },
+        {
+            "id": "Prosciutto",
+            "type": "Brine & Salt"
+        },
+        {
+            "id": "Olive",
+            "type": "Brine & Salt"
+        },
+        {
+            "id": "Saffron",
+            "type": "Green & Grassy"
+        },
+        {
+            "id": "Anise",
+            "type": "Green & Grassy"
+        },
+        {
+            "id": "Cucumber",
+            "type": "Green & Grassy"
+        },
+        {
+            "id": "Dill",
+            "type": "Green & Grassy"
+        },
+        {
+            "id": "Parsley",
+            "type": "Green & Grassy"
+        },
+        {
+            "id": "Coriander Leaf",
+            "type": "Green & Grassy"
+        },
+        {
+            "id": "Avocado",
+            "type": "Green & Grassy"
+        },
+        {
+            "id": "Pea",
+            "type": "Green & Grassy"
+        },
+        {
+            "id": "Bell Pepper",
+            "type": "Green & Grassy"
+        },
+        {
+            "id": "Chili",
+            "type": "Green & Grassy"
+        },
+        {
+            "id": "Basil",
+            "type": "Spicy"
+        },
+        {
+            "id": "Cinnamon",
+            "type": "Spicy"
+        },
+        {
+            "id": "Clove",
+            "type": "Spicy"
+        },
+        {
+            "id": "Nutmeg",
+            "type": "Spicy"
+        },
+        {
+            "id": "Parsnip",
+            "type": "Spicy"
+        },
+        {
+            "id": "Carrot",
+            "type": "Woodland"
+        },
+        {
+            "id": "Butternut Squash",
+            "type": "Woodland"
+        },
+        {
+            "id": "Chestnut",
+            "type": "Woodland"
+        },
+        {
+            "id": "Walnut",
+            "type": "Woodland"
+        },
+        {
+            "id": "Hazelnut",
+            "type": "Woodland"
+        },
+        {
+            "id": "Almond",
+            "type": "Woodland"
+        },
+        {
+            "id": "Cherry",
+            "type": "Fresh Fruity"
+        },
+        {
+            "id": "Watermelon",
+            "type": "Fresh Fruity"
+        },
+        {
+            "id": "Grape",
+            "type": "Fresh Fruity"
+        },
+        {
+            "id": "Rhubarb",
+            "type": "Fresh Fruity"
+        },
+        {
+            "id": "Tomato",
+            "type": "Fresh Fruity"
+        },
+        {
+            "id": "Strawberry",
+            "type": "Fresh Fruity"
+        },
+        {
+            "id": "Pineapple",
+            "type": "Fresh Fruity"
+        },
+        {
+            "id": "Apple",
+            "type": "Fresh Fruity"
+        },
+        {
+            "id": "Pear",
+            "type": "Fresh Fruity"
+        },
+        {
+            "id": "Banana",
+            "type": "Creamy Fruity"
+        },
+        {
+            "id": "Melon",
+            "type": "Creamy Fruity"
+        },
+        {
+            "id": "Apricot",
+            "type": "Creamy Fruity"
+        },
+        {
+            "id": "Peach",
+            "type": "Creamy Fruity"
+        },
+        {
+            "id": "Coconut",
+            "type": "Creamy Fruity"
+        },
+        {
+            "id": "Mango",
+            "type": "Creamy Fruity"
+        },
+        {
+            "id": "Orange",
+            "type": "Citrusy"
+        },
+        {
+            "id": "Grapefruit",
+            "type": "Citrusy"
+        },
+        {
+            "id": "Lime",
+            "type": "Citrusy"
+        },
+        {
+            "id": "Lemon",
+            "type": "Citrusy"
+        },
+        {
+            "id": "Ginger",
+            "type": "Citrusy"
+        },
+        {
+            "id": "Cardamom",
+            "type": "Citrusy"
+        },
+        {
+            "id": "Rosemary",
+            "type": "Berry & Bush"
+        },
+        {
+            "id": "Sage",
+            "type": "Berry & Bush"
+        },
+        {
+            "id": "Juniper",
+            "type": "Berry & Bush"
+        },
+        {
+            "id": "Thyme",
+            "type": "Berry & Bush"
+        },
+        {
+            "id": "Mint",
+            "type": "Berry & Bush"
+        },
+        {
+            "id": "Blackcurrant",
+            "type": "Berry & Bush"
+        },
+        {
+            "id": "Blackberry",
+            "type": "Berry & Bush"
+        },
+        {
+            "id": "Raspberry",
+            "type": "Floral Fruity"
+        },
+        {
+            "id": "Fig",
+            "type": "Floral Fruity"
+        },
+        {
+            "id": "Rose",
+            "type": "Floral Fruity"
+        },
+        {
+            "id": "Blueberry",
+            "type": "Floral Fruity"
+        },
+        {
+            "id": "Coriander Seed",
+            "type": "Floral Fruity"
+        },
+        {
+            "id": "Vanilla",
+            "type": "Floral Fruity"
+        },
+        {
+            "id": "White Chocolate",
+            "type": "Floral Fruity"
+        }
+    ],
+    "links": [
+        {
+            "source": "Beetroot",
+            "target": "Pork"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Almond"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Anise"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Apricot"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Avocado"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Bacon"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Banana"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Beetroot"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Blackcurrant"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Black Pudding"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Cauliflower"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Cherry"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Chestnut"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Chili"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Cinnamon"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Coconut"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Coffee"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Fig"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Ginger"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Goat Cheese"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Hazelnut"
+        },
+        {
+            "source": "Nutmeg",
+            "target": "Walnut"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Lemon"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Lime"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Mint"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Egg",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Orange"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Peanut"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Pear"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Rose"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Thyme"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Tomato"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Walnut"
+        },
+        {
+            "source": "Chocolate",
+            "target": "Watermelon"
+        },
+        {
+            "source": "Chocolate",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Coffee",
+            "target": "Almond"
+        },
+        {
+            "source": "Coffee",
+            "target": "Walnut"
+        },
+        {
+            "source": "Coffee",
+            "target": "Avocado"
+        },
+        {
+            "source": "Coffee",
+            "target": "Banana"
+        },
+        {
+            "source": "Coffee",
+            "target": "Beef"
+        },
+        {
+            "source": "Coffee",
+            "target": "Blackcurrant"
+        },
+        {
+            "source": "Coffee",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Coffee",
+            "target": "Cherry"
+        },
+        {
+            "source": "Coffee",
+            "target": "Cinnamon"
+        },
+        {
+            "source": "Coffee",
+            "target": "Clove"
+        },
+        {
+            "source": "Coffee",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Coffee",
+            "target": "Ginger"
+        },
+        {
+            "source": "Ginger",
+            "target": "Cinnamon"
+        },
+        {
+            "source": "Coffee",
+            "target": "Goat Cheese"
+        },
+        {
+            "source": "Coffee",
+            "target": "Hazelnut"
+        },
+        {
+            "source": "Coffee",
+            "target": "Orange"
+        },
+        {
+            "source": "Coffee",
+            "target": "Rose"
+        },
+        {
+            "source": "Coffee",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Coffee",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Peanut",
+            "target": "Apple"
+        },
+        {
+            "source": "Peanut",
+            "target": "Asparagus"
+        },
+        {
+            "source": "Peanut",
+            "target": "Banana"
+        },
+        {
+            "source": "Peanut",
+            "target": "Beef"
+        },
+        {
+            "source": "Peanut",
+            "target": "Blackcurrant"
+        },
+        {
+            "source": "Peanut",
+            "target": "Broccoli"
+        },
+        {
+            "source": "Peanut",
+            "target": "Coconut"
+        },
+        {
+            "source": "Peanut",
+            "target": "Chicken"
+        },
+        {
+            "source": "Peanut",
+            "target": "Carrot"
+        },
+        {
+            "source": "Peanut",
+            "target": "Celery"
+        },
+        {
+            "source": "Peanut",
+            "target": "Lamb"
+        },
+        {
+            "source": "Peanut",
+            "target": "Chili"
+        },
+        {
+            "source": "Peanut",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Peanut",
+            "target": "Cinnamon"
+        },
+        {
+            "source": "Peanut",
+            "target": "Cucumber"
+        },
+        {
+            "source": "Peanut",
+            "target": "Grape"
+        },
+        {
+            "source": "Peanut",
+            "target": "Tomato"
+        },
+        {
+            "source": "Peanut",
+            "target": "Lime"
+        },
+        {
+            "source": "Peanut",
+            "target": "Mint"
+        },
+        {
+            "source": "Peanut",
+            "target": "Pork"
+        },
+        {
+            "source": "Peanut",
+            "target": "Potato"
+        },
+        {
+            "source": "Peanut",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Peanut",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Garlic",
+            "target": "Chicken"
+        },
+        {
+            "source": "Chicken",
+            "target": "Almond"
+        },
+        {
+            "source": "Chicken",
+            "target": "Anise"
+        },
+        {
+            "source": "Chicken",
+            "target": "Avocado"
+        },
+        {
+            "source": "Chicken",
+            "target": "Bacon"
+        },
+        {
+            "source": "Chicken",
+            "target": "Banana"
+        },
+        {
+            "source": "Chicken",
+            "target": "Basil"
+        },
+        {
+            "source": "Chicken",
+            "target": "Bell Pepper"
+        },
+        {
+            "source": "Chicken",
+            "target": "Blue Cheese"
+        },
+        {
+            "source": "Chicken",
+            "target": "Cabbage"
+        },
+        {
+            "source": "Chicken",
+            "target": "Caviar"
+        },
+        {
+            "source": "Chicken",
+            "target": "Celery"
+        },
+        {
+            "source": "Chicken",
+            "target": "Chestnut"
+        },
+        {
+            "source": "Chicken",
+            "target": "Chili"
+        },
+        {
+            "source": "Ginger",
+            "target": "Chili"
+        },
+        {
+            "source": "Chicken",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Chicken",
+            "target": "Coconut"
+        },
+        {
+            "source": "Chicken",
+            "target": "Egg"
+        },
+        {
+            "source": "Chicken",
+            "target": "Grape"
+        },
+        {
+            "source": "Chicken",
+            "target": "Hard Cheese"
+        },
+        {
+            "source": "Chicken",
+            "target": "Hazelnut"
+        },
+        {
+            "source": "Chicken",
+            "target": "Lemon"
+        },
+        {
+            "source": "Chicken",
+            "target": "Lime"
+        },
+        {
+            "source": "Chicken",
+            "target": "Mushroom"
+        },
+        {
+            "source": "Chicken",
+            "target": "Onion"
+        },
+        {
+            "source": "Chicken",
+            "target": "Oyster"
+        },
+        {
+            "source": "Chicken",
+            "target": "Parsnip"
+        },
+        {
+            "source": "Chicken",
+            "target": "Pea"
+        },
+        {
+            "source": "Chicken",
+            "target": "Pear"
+        },
+        {
+            "source": "Vanilla",
+            "target": "Apple"
+        },
+        {
+            "source": "Chicken",
+            "target": "Potato"
+        },
+        {
+            "source": "Chicken",
+            "target": "Rose"
+        },
+        {
+            "source": "Chicken",
+            "target": "Saffron"
+        },
+        {
+            "source": "Chicken",
+            "target": "Sage"
+        },
+        {
+            "source": "Chicken",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Chicken",
+            "target": "Thyme"
+        },
+        {
+            "source": "Chicken",
+            "target": "Tomato"
+        },
+        {
+            "source": "Chicken",
+            "target": "Truffle"
+        },
+        {
+            "source": "Chicken",
+            "target": "Walnut"
+        },
+        {
+            "source": "Chicken",
+            "target": "Watercress"
+        },
+        {
+            "source": "Pork",
+            "target": "Anise"
+        },
+        {
+            "source": "Anise",
+            "target": "White Fish"
+        },
+        {
+            "source": "Pork",
+            "target": "Tomato"
+        },
+        {
+            "source": "Pork",
+            "target": "Apple"
+        },
+        {
+            "source": "Pork",
+            "target": "Apricot"
+        },
+        {
+            "source": "Pork",
+            "target": "Bacon"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Pork"
+        },
+        {
+            "source": "Pork",
+            "target": "Egg"
+        },
+        {
+            "source": "Pork",
+            "target": "Beef"
+        },
+        {
+            "source": "Pork",
+            "target": "Broccoli"
+        },
+        {
+            "source": "Pork",
+            "target": "Butternut Squash"
+        },
+        {
+            "source": "Pork",
+            "target": "Cabbage"
+        },
+        {
+            "source": "Pork",
+            "target": "Celery"
+        },
+        {
+            "source": "Egg",
+            "target": "Lemon"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Celery"
+        },
+        {
+            "source": "Pork",
+            "target": "Chestnut"
+        },
+        {
+            "source": "Pork",
+            "target": "Chili"
+        },
+        {
+            "source": "Pork",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Pork",
+            "target": "Cinnamon"
+        },
+        {
+            "source": "Pork",
+            "target": "Clove"
+        },
+        {
+            "source": "Pork",
+            "target": "Coconut"
+        },
+        {
+            "source": "Pork",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Pork",
+            "target": "Cucumber"
+        },
+        {
+            "source": "Pork",
+            "target": "Cumin"
+        },
+        {
+            "source": "Pork",
+            "target": "Dill"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Egg"
+        },
+        {
+            "source": "Pork",
+            "target": "Garlic"
+        },
+        {
+            "source": "Pork",
+            "target": "Ginger"
+        },
+        {
+            "source": "Pork",
+            "target": "Globe Artichoke"
+        },
+        {
+            "source": "Pork",
+            "target": "Grape"
+        },
+        {
+            "source": "Pork",
+            "target": "Grapefruit"
+        },
+        {
+            "source": "Pork",
+            "target": "Juniper"
+        },
+        {
+            "source": "Pork",
+            "target": "Mushroom"
+        },
+        {
+            "source": "Pork",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Pork",
+            "target": "Onion"
+        },
+        {
+            "source": "Pork",
+            "target": "Oyster"
+        },
+        {
+            "source": "Pork",
+            "target": "Parsnip"
+        },
+        {
+            "source": "Pork",
+            "target": "Pea"
+        },
+        {
+            "source": "Pork",
+            "target": "Pear"
+        },
+        {
+            "source": "Pork",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Pork",
+            "target": "Potato"
+        },
+        {
+            "source": "Rosemary",
+            "target": "Pork"
+        },
+        {
+            "source": "Pork",
+            "target": "Rhubarb"
+        },
+        {
+            "source": "Pork",
+            "target": "Swede"
+        },
+        {
+            "source": "Pork",
+            "target": "Sage"
+        },
+        {
+            "source": "Pork",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Pork",
+            "target": "Thyme"
+        },
+        {
+            "source": "Pork",
+            "target": "Truffle"
+        },
+        {
+            "source": "Pork",
+            "target": "Watercress"
+        },
+        {
+            "source": "Pork",
+            "target": "Watermelon"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Apple"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Bacon"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Lamb"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Liver"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Mint"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Onion"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Potato"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Rhubarb"
+        },
+        {
+            "source": "Rhubarb",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Black Pudding",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Liver",
+            "target": "Apple"
+        },
+        {
+            "source": "Liver",
+            "target": "Bacon"
+        },
+        {
+            "source": "Liver",
+            "target": "Beef"
+        },
+        {
+            "source": "Liver",
+            "target": "Beetroot"
+        },
+        {
+            "source": "Liver",
+            "target": "Chili"
+        },
+        {
+            "source": "Liver",
+            "target": "Fig"
+        },
+        {
+            "source": "Liver",
+            "target": "Garlic"
+        },
+        {
+            "source": "Liver",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Liver",
+            "target": "Onion"
+        },
+        {
+            "source": "Liver",
+            "target": "Sage"
+        },
+        {
+            "source": "Liver",
+            "target": "Truffle"
+        },
+        {
+            "source": "Beef",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Beef",
+            "target": "Anise"
+        },
+        {
+            "source": "Beef",
+            "target": "Bacon"
+        },
+        {
+            "source": "Beef",
+            "target": "Beetroot"
+        },
+        {
+            "source": "Caper",
+            "target": "Beetroot"
+        },
+        {
+            "source": "Beef",
+            "target": "Bell Pepper"
+        },
+        {
+            "source": "Beef",
+            "target": "Blackberry"
+        },
+        {
+            "source": "Beef",
+            "target": "Blue Cheese"
+        },
+        {
+            "source": "Beef",
+            "target": "Broccoli"
+        },
+        {
+            "source": "Beef",
+            "target": "Cabbage"
+        },
+        {
+            "source": "Beef",
+            "target": "Caper"
+        },
+        {
+            "source": "Beef",
+            "target": "Egg"
+        },
+        {
+            "source": "Beef",
+            "target": "Carrot"
+        },
+        {
+            "source": "Beef",
+            "target": "Celery"
+        },
+        {
+            "source": "Beef",
+            "target": "Chili"
+        },
+        {
+            "source": "Beef",
+            "target": "Cinnamon"
+        },
+        {
+            "source": "Beef",
+            "target": "Clove"
+        },
+        {
+            "source": "Beef",
+            "target": "Coconut"
+        },
+        {
+            "source": "Beef",
+            "target": "Dill"
+        },
+        {
+            "source": "Beef",
+            "target": "Garlic"
+        },
+        {
+            "source": "Beef",
+            "target": "Ginger"
+        },
+        {
+            "source": "Beef",
+            "target": "Hard Cheese"
+        },
+        {
+            "source": "Beef",
+            "target": "Horseradish"
+        },
+        {
+            "source": "Beef",
+            "target": "Juniper"
+        },
+        {
+            "source": "Beef",
+            "target": "Lemon"
+        },
+        {
+            "source": "Beef",
+            "target": "Lime"
+        },
+        {
+            "source": "Beef",
+            "target": "Mint"
+        },
+        {
+            "source": "Beef",
+            "target": "Mushroom"
+        },
+        {
+            "source": "Beef",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Beef",
+            "target": "Olive"
+        },
+        {
+            "source": "Beef",
+            "target": "Onion"
+        },
+        {
+            "source": "Beef",
+            "target": "Orange"
+        },
+        {
+            "source": "Beef",
+            "target": "Oyster"
+        },
+        {
+            "source": "Beef",
+            "target": "Parsley"
+        },
+        {
+            "source": "Beef",
+            "target": "Parsnip"
+        },
+        {
+            "source": "Beef",
+            "target": "Pea"
+        },
+        {
+            "source": "Beef",
+            "target": "Pear"
+        },
+        {
+            "source": "Beef",
+            "target": "Potato"
+        },
+        {
+            "source": "Beef",
+            "target": "Swede"
+        },
+        {
+            "source": "Beef",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Beef",
+            "target": "Thyme"
+        },
+        {
+            "source": "Beef",
+            "target": "Tomato"
+        },
+        {
+            "source": "Beef",
+            "target": "Truffle"
+        },
+        {
+            "source": "Beef",
+            "target": "Walnut"
+        },
+        {
+            "source": "Beef",
+            "target": "Watercress"
+        },
+        {
+            "source": "Lamb",
+            "target": "Almond"
+        },
+        {
+            "source": "Lamb",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Lamb",
+            "target": "Anise"
+        },
+        {
+            "source": "Lamb",
+            "target": "Apricot"
+        },
+        {
+            "source": "Lamb",
+            "target": "Cabbage"
+        },
+        {
+            "source": "Lamb",
+            "target": "Caper"
+        },
+        {
+            "source": "Lamb",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Lamb",
+            "target": "Celery"
+        },
+        {
+            "source": "Lamb",
+            "target": "Cherry"
+        },
+        {
+            "source": "Lamb",
+            "target": "Chestnut"
+        },
+        {
+            "source": "Lamb",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Lamb",
+            "target": "Cinnamon"
+        },
+        {
+            "source": "Lamb",
+            "target": "Cumin"
+        },
+        {
+            "source": "Lamb",
+            "target": "Dill"
+        },
+        {
+            "source": "Lamb",
+            "target": "Aubergine"
+        },
+        {
+            "source": "Lamb",
+            "target": "Garlic"
+        },
+        {
+            "source": "Lamb",
+            "target": "Globe Artichoke"
+        },
+        {
+            "source": "Lamb",
+            "target": "Goat Cheese"
+        },
+        {
+            "source": "Lamb",
+            "target": "Lemon"
+        },
+        {
+            "source": "Lamb",
+            "target": "Mint"
+        },
+        {
+            "source": "Lamb",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Lamb",
+            "target": "Onion"
+        },
+        {
+            "source": "Lamb",
+            "target": "Pea"
+        },
+        {
+            "source": "Lamb",
+            "target": "Potato"
+        },
+        {
+            "source": "Lamb",
+            "target": "Rhubarb"
+        },
+        {
+            "source": "Lamb",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Lamb",
+            "target": "Swede"
+        },
+        {
+            "source": "Potato",
+            "target": "Swede"
+        },
+        {
+            "source": "Lamb",
+            "target": "Saffron"
+        },
+        {
+            "source": "Lamb",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Lamb",
+            "target": "Thyme"
+        },
+        {
+            "source": "Lamb",
+            "target": "Tomato"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Anise"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Apricot"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Basil"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Beetroot"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Blackberry"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Butternut Squash"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Caper"
+        },
+        {
+            "source": "Caper",
+            "target": "Soft Cheese"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Cherry"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Chili"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Cucumber"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Fig"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Garlic"
+        },
+        {
+            "source": "Garlic",
+            "target": "Basil"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Lemon"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Mint"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Mushroom"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Olive"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Pear"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Thyme"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Walnut"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Watercress"
+        },
+        {
+            "source": "Goat Cheese",
+            "target": "Watermelon"
+        },
+        {
+            "source": "Rosemary",
+            "target": "Watermelon"
+        },
+        {
+            "source": "Washed-rind Cheese",
+            "target": "Anise"
+        },
+        {
+            "source": "Washed-rind Cheese",
+            "target": "Apple"
+        },
+        {
+            "source": "Washed-rind Cheese",
+            "target": "Bacon"
+        },
+        {
+            "source": "Potato",
+            "target": "Washed-rind Cheese"
+        },
+        {
+            "source": "Washed-rind Cheese",
+            "target": "Cumin"
+        },
+        {
+            "source": "Washed-rind Cheese",
+            "target": "Garlic"
+        },
+        {
+            "source": "Washed-rind Cheese",
+            "target": "Pear"
+        },
+        {
+            "source": "Washed-rind Cheese",
+            "target": "Walnut"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Avocado"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Bacon"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Blueberry"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Broccoli"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Butternut Squash"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Sage"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Cabbage"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Celery"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Fig"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Grape"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Grapefruit"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Mushroom"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Peach"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Pear"
+        },
+        {
+            "source": "Pear",
+            "target": "Walnut"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Truffle"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Walnut"
+        },
+        {
+            "source": "Blue Cheese",
+            "target": "Watercress"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Almond"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Anise"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Apple"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Apricot"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Asparagus"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Bacon"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Banana"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Chili"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Basil"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Broccoli"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Cauliflower"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Chili"
+        },
+        {
+            "source": "Butternut Squash",
+            "target": "Chili"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Clove"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Fig"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Globe Artichoke"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Grape"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Juniper"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Mushroom"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Onion"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Orange"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Parsnip"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Pea"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Pear"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Potato"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Sage"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Tomato"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "Walnut"
+        },
+        {
+            "source": "Hard Cheese",
+            "target": "White Fish"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Apple"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Avocado"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Basil"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Bell Pepper"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Blackcurrant"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Caviar"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Celery"
+        },
+        {
+            "source": "Walnut",
+            "target": "Celery"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Cinnamon"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Aubergine"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Fig"
+        },
+        {
+            "source": "Fig",
+            "target": "Anise"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Garlic"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Grape"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Mushroom"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Smoked Fish"
+        },
+        {
+            "source": "Onion",
+            "target": "Smoked Fish"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Tomato"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Truffle"
+        },
+        {
+            "source": "Soft Cheese",
+            "target": "Walnut"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Anise"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Apricot"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Asparagus"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Bacon"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Blueberry"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Butternut Squash"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Chestnut"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Dill"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Egg"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Garlic"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Mint"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Onion"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Oyster"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Parsley"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Potato"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Thyme"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Tomato"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Truffle"
+        },
+        {
+            "source": "Mushroom",
+            "target": "Walnut"
+        },
+        {
+            "source": "Mushroom",
+            "target": "White Fish"
+        },
+        {
+            "source": "Aubergine",
+            "target": "Bell Pepper"
+        },
+        {
+            "source": "Garlic",
+            "target": "Thyme"
+        },
+        {
+            "source": "Aubergine",
+            "target": "Chili"
+        },
+        {
+            "source": "Aubergine",
+            "target": "Garlic"
+        },
+        {
+            "source": "Aubergine",
+            "target": "Ginger"
+        },
+        {
+            "source": "Aubergine",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Aubergine",
+            "target": "Prosciutto"
+        },
+        {
+            "source": "Tomato",
+            "target": "Aubergine"
+        },
+        {
+            "source": "Aubergine",
+            "target": "Walnut"
+        },
+        {
+            "source": "Cumin",
+            "target": "Apricot"
+        },
+        {
+            "source": "Cumin",
+            "target": "Beetroot"
+        },
+        {
+            "source": "Cumin",
+            "target": "Carrot"
+        },
+        {
+            "source": "Cumin",
+            "target": "Cauliflower"
+        },
+        {
+            "source": "Cumin",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Cumin",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Cumin",
+            "target": "Cucumber"
+        },
+        {
+            "source": "Cumin",
+            "target": "Egg"
+        },
+        {
+            "source": "Cumin",
+            "target": "Lemon"
+        },
+        {
+            "source": "Cumin",
+            "target": "Lime"
+        },
+        {
+            "source": "Cumin",
+            "target": "Mango"
+        },
+        {
+            "source": "Cumin",
+            "target": "Mint"
+        },
+        {
+            "source": "Cumin",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Cumin",
+            "target": "Potato"
+        },
+        {
+            "source": "Cumin",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Apple"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Coconut"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Dill"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Egg"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Horseradish"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Onion"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Orange"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Potato"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Walnut"
+        },
+        {
+            "source": "Beetroot",
+            "target": "Watercress"
+        },
+        {
+            "source": "Potato",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Potato",
+            "target": "Asparagus"
+        },
+        {
+            "source": "Potato",
+            "target": "Bacon"
+        },
+        {
+            "source": "Potato",
+            "target": "Cabbage"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Onion"
+        },
+        {
+            "source": "Potato",
+            "target": "Caper"
+        },
+        {
+            "source": "Potato",
+            "target": "Cauliflower"
+        },
+        {
+            "source": "Potato",
+            "target": "Caviar"
+        },
+        {
+            "source": "Potato",
+            "target": "Truffle"
+        },
+        {
+            "source": "Potato",
+            "target": "Celery"
+        },
+        {
+            "source": "Potato",
+            "target": "Chili"
+        },
+        {
+            "source": "Chili",
+            "target": "Tomato"
+        },
+        {
+            "source": "Potato",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Potato",
+            "target": "Dill"
+        },
+        {
+            "source": "Potato",
+            "target": "Egg"
+        },
+        {
+            "source": "Ginger",
+            "target": "Egg"
+        },
+        {
+            "source": "Potato",
+            "target": "Garlic"
+        },
+        {
+            "source": "Potato",
+            "target": "Globe Artichoke"
+        },
+        {
+            "source": "Potato",
+            "target": "Horseradish"
+        },
+        {
+            "source": "Potato",
+            "target": "Lemon"
+        },
+        {
+            "source": "Potato",
+            "target": "Mint"
+        },
+        {
+            "source": "Potato",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Potato",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Potato",
+            "target": "Olive"
+        },
+        {
+            "source": "Potato",
+            "target": "Onion"
+        },
+        {
+            "source": "Potato",
+            "target": "Parsley"
+        },
+        {
+            "source": "Potato",
+            "target": "Parsnip"
+        },
+        {
+            "source": "Potato",
+            "target": "Pea"
+        },
+        {
+            "source": "Potato",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Potato",
+            "target": "Saffron"
+        },
+        {
+            "source": "Potato",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Potato",
+            "target": "Smoked Fish"
+        },
+        {
+            "source": "Potato",
+            "target": "Tomato"
+        },
+        {
+            "source": "Potato",
+            "target": "Watercress"
+        },
+        {
+            "source": "Potato",
+            "target": "White Fish"
+        },
+        {
+            "source": "Celery",
+            "target": "Apple"
+        },
+        {
+            "source": "Celery",
+            "target": "Carrot"
+        },
+        {
+            "source": "Celery",
+            "target": "Chestnut"
+        },
+        {
+            "source": "Celery",
+            "target": "Egg"
+        },
+        {
+            "source": "Celery",
+            "target": "Horseradish"
+        },
+        {
+            "source": "Celery",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Celery",
+            "target": "Onion"
+        },
+        {
+            "source": "Celery",
+            "target": "Oyster"
+        },
+        {
+            "source": "Lime",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Truffle",
+            "target": "Celery"
+        },
+        {
+            "source": "Celery",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Celery",
+            "target": "White Fish"
+        },
+        {
+            "source": "Watercress",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Parsnip",
+            "target": "Watercress"
+        },
+        {
+            "source": "Watercress",
+            "target": "Egg"
+        },
+        {
+            "source": "Watercress",
+            "target": "Grapefruit"
+        },
+        {
+            "source": "Watercress",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Watercress",
+            "target": "Orange"
+        },
+        {
+            "source": "Watercress",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Watercress",
+            "target": "Smoked Fish"
+        },
+        {
+            "source": "Watercress",
+            "target": "Walnut"
+        },
+        {
+            "source": "Caper",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Caper",
+            "target": "Cauliflower"
+        },
+        {
+            "source": "Caper",
+            "target": "Cucumber"
+        },
+        {
+            "source": "Caper",
+            "target": "Lemon"
+        },
+        {
+            "source": "Lemon",
+            "target": "Basil"
+        },
+        {
+            "source": "Caper",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Caper",
+            "target": "Olive"
+        },
+        {
+            "source": "Caper",
+            "target": "Parsley"
+        },
+        {
+            "source": "Caper",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Caper",
+            "target": "White Fish"
+        },
+        {
+            "source": "Caper",
+            "target": "Smoked Fish"
+        },
+        {
+            "source": "Caper",
+            "target": "Tomato"
+        },
+        {
+            "source": "Horseradish",
+            "target": "Apple"
+        },
+        {
+            "source": "Horseradish",
+            "target": "Bacon"
+        },
+        {
+            "source": "Horseradish",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Horseradish",
+            "target": "Oyster"
+        },
+        {
+            "source": "Horseradish",
+            "target": "Pea"
+        },
+        {
+            "source": "Horseradish",
+            "target": "Smoked Fish"
+        },
+        {
+            "source": "Horseradish",
+            "target": "Tomato"
+        },
+        {
+            "source": "Horseradish",
+            "target": "White Fish"
+        },
+        {
+            "source": "Onion",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Onion",
+            "target": "Bacon"
+        },
+        {
+            "source": "Onion",
+            "target": "Bell Pepper"
+        },
+        {
+            "source": "Onion",
+            "target": "Carrot"
+        },
+        {
+            "source": "Onion",
+            "target": "Clove"
+        },
+        {
+            "source": "Onion",
+            "target": "Cucumber"
+        },
+        {
+            "source": "Onion",
+            "target": "Egg"
+        },
+        {
+            "source": "Onion",
+            "target": "Garlic"
+        },
+        {
+            "source": "Onion",
+            "target": "Ginger"
+        },
+        {
+            "source": "Onion",
+            "target": "Mint"
+        },
+        {
+            "source": "Chili",
+            "target": "Mint"
+        },
+        {
+            "source": "Onion",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Onion",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Onion",
+            "target": "Orange"
+        },
+        {
+            "source": "Onion",
+            "target": "Oyster"
+        },
+        {
+            "source": "Onion",
+            "target": "Pea"
+        },
+        {
+            "source": "Onion",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Onion",
+            "target": "Sage"
+        },
+        {
+            "source": "Onion",
+            "target": "Thyme"
+        },
+        {
+            "source": "Onion",
+            "target": "Tomato"
+        },
+        {
+            "source": "Garlic",
+            "target": "Almond"
+        },
+        {
+            "source": "Almond",
+            "target": "Melon"
+        },
+        {
+            "source": "Garlic",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Garlic",
+            "target": "Broccoli"
+        },
+        {
+            "source": "Garlic",
+            "target": "Cabbage"
+        },
+        {
+            "source": "Garlic",
+            "target": "Cauliflower"
+        },
+        {
+            "source": "Garlic",
+            "target": "Chili"
+        },
+        {
+            "source": "Garlic",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Garlic",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Garlic",
+            "target": "Cucumber"
+        },
+        {
+            "source": "Garlic",
+            "target": "Ginger"
+        },
+        {
+            "source": "Garlic",
+            "target": "Hazelnut"
+        },
+        {
+            "source": "Garlic",
+            "target": "Mint"
+        },
+        {
+            "source": "Garlic",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Garlic",
+            "target": "Olive"
+        },
+        {
+            "source": "Garlic",
+            "target": "Parsley"
+        },
+        {
+            "source": "Garlic",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Garlic",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Garlic",
+            "target": "Tomato"
+        },
+        {
+            "source": "Garlic",
+            "target": "Truffle"
+        },
+        {
+            "source": "Garlic",
+            "target": "Walnut"
+        },
+        {
+            "source": "Garlic",
+            "target": "White Fish"
+        },
+        {
+            "source": "Truffle",
+            "target": "Asparagus"
+        },
+        {
+            "source": "Truffle",
+            "target": "Bacon"
+        },
+        {
+            "source": "Truffle",
+            "target": "Cabbage"
+        },
+        {
+            "source": "Truffle",
+            "target": "Cauliflower"
+        },
+        {
+            "source": "Truffle",
+            "target": "Egg"
+        },
+        {
+            "source": "Truffle",
+            "target": "Globe Artichoke"
+        },
+        {
+            "source": "Truffle",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Apple"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Bacon"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Carrot"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Chestnut"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Chili"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Egg"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Ginger"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Juniper"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Clove",
+            "target": "Ginger"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Cabbage",
+            "target": "Smoked Fish"
+        },
+        {
+            "source": "Swede",
+            "target": "Anise"
+        },
+        {
+            "source": "Swede",
+            "target": "Carrot"
+        },
+        {
+            "source": "Swede",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Cauliflower",
+            "target": "Almond"
+        },
+        {
+            "source": "Cauliflower",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Cauliflower",
+            "target": "Broccoli"
+        },
+        {
+            "source": "Cauliflower",
+            "target": "Caviar"
+        },
+        {
+            "source": "Cauliflower",
+            "target": "Chili"
+        },
+        {
+            "source": "Cauliflower",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Cauliflower",
+            "target": "Saffron"
+        },
+        {
+            "source": "Cauliflower",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Cauliflower",
+            "target": "Walnut"
+        },
+        {
+            "source": "Broccoli",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Broccoli",
+            "target": "Bacon"
+        },
+        {
+            "source": "Broccoli",
+            "target": "Chili"
+        },
+        {
+            "source": "Broccoli",
+            "target": "Lemon"
+        },
+        {
+            "source": "Broccoli",
+            "target": "Walnut"
+        },
+        {
+            "source": "Globe Artichoke",
+            "target": "Bacon"
+        },
+        {
+            "source": "Globe Artichoke",
+            "target": "Lemon"
+        },
+        {
+            "source": "Globe Artichoke",
+            "target": "Mint"
+        },
+        {
+            "source": "Globe Artichoke",
+            "target": "Oyster"
+        },
+        {
+            "source": "Globe Artichoke",
+            "target": "Pea"
+        },
+        {
+            "source": "Globe Artichoke",
+            "target": "Prosciutto"
+        },
+        {
+            "source": "Globe Artichoke",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Asparagus",
+            "target": "Almond"
+        },
+        {
+            "source": "Asparagus",
+            "target": "Anise"
+        },
+        {
+            "source": "Asparagus",
+            "target": "Egg"
+        },
+        {
+            "source": "Asparagus",
+            "target": "Lemon"
+        },
+        {
+            "source": "Asparagus",
+            "target": "Mint"
+        },
+        {
+            "source": "Asparagus",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Asparagus",
+            "target": "Orange"
+        },
+        {
+            "source": "Asparagus",
+            "target": "Pea"
+        },
+        {
+            "source": "Asparagus",
+            "target": "Prosciutto"
+        },
+        {
+            "source": "Asparagus",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Asparagus",
+            "target": "White Fish"
+        },
+        {
+            "source": "Egg",
+            "target": "Anchovy"
+        },
+        {
+            "source": "Egg",
+            "target": "Anise"
+        },
+        {
+            "source": "Egg",
+            "target": "Bacon"
+        },
+        {
+            "source": "Egg",
+            "target": "Banana"
+        },
+        {
+            "source": "Egg",
+            "target": "Basil"
+        },
+        {
+            "source": "Egg",
+            "target": "Bell Pepper"
+        },
+        {
+            "source": "Egg",
+            "target": "Caviar"
+        },
+        {
+            "source": "Egg",
+            "target": "Chili"
+        },
+        {
+            "source": "Egg",
+            "target": "Coconut"
+        },
+        {
+            "source": "Coconut",
+            "target": "Cinnamon"
+        },
+        {
+            "source": "Egg",
+            "target": "Dill"
+        },
+        {
+            "source": "Egg",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Egg",
+            "target": "Oyster"
+        },
+        {
+            "source": "Egg",
+            "target": "Parsley"
+        },
+        {
+            "source": "Egg",
+            "target": "Pea"
+        },
+        {
+            "source": "Egg",
+            "target": "Prosciutto"
+        },
+        {
+            "source": "Egg",
+            "target": "Sage"
+        },
+        {
+            "source": "Egg",
+            "target": "Shellfish"
+        },
+        {
+            "source": "Egg",
+            "target": "Smoked Fish"
+        },
+        {
+            "source": "Egg",
+            "target": "Tomato"
+        },
+        {
+            "source": "Egg",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Almond"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Anise"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Apple"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Avocado"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Bacon"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Basil"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Bell Pepper"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Butternut Squash"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Chili"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Coconut"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Cucumber"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Dill"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Grapefruit"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Lemon"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Lime"
+        },
+        {
+            "source": "Lime",
+            "target": "White Fish"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Mango"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Oily Fish"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Olive"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Parsley"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Parsnip"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Pea"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Saffron"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Smoked Fish"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Thyme"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Tomato"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Shellfish",
+            "target": "Walnut"
+        },
+        {
+            "source": "Shellfish",
+            "target": "White Fish"
+        },
+        {
+            "source": "White Fish",
+            "target": "Anchovy"
+        },
+        {
+            "source": "White Fish",
+            "target": "Bacon"
+        },
+        {
+            "source": "White Fish",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "White Fish",
+            "target": "Coconut"
+        },
+        {
+            "source": "White Fish",
+            "target": "Cucumber"
+        },
+        {
+            "source": "White Fish",
+            "target": "Dill"
+        },
+        {
+            "source": "White Fish",
+            "target": "Ginger"
+        },
+        {
+            "source": "White Fish",
+            "target": "Grape"
+        },
+        {
+            "source": "White Fish",
+            "target": "Hazelnut"
+        },
+        {
+            "source": "White Fish",
+            "target": "Lemon"
+        },
+        {
+            "source": "White Fish",
+            "target": "Mango"
+        },
+        {
+            "source": "White Fish",
+            "target": "Olive"
+        },
+        {
+            "source": "White Fish",
+            "target": "Orange"
+        },
+        {
+            "source": "White Fish",
+            "target": "Parsley"
+        },
+        {
+            "source": "White Fish",
+            "target": "Parsnip"
+        },
+        {
+            "source": "White Fish",
+            "target": "Pea"
+        },
+        {
+            "source": "White Fish",
+            "target": "Prosciutto"
+        },
+        {
+            "source": "White Fish",
+            "target": "Saffron"
+        },
+        {
+            "source": "White Fish",
+            "target": "Thyme"
+        },
+        {
+            "source": "White Fish",
+            "target": "Tomato"
+        },
+        {
+            "source": "Oyster",
+            "target": "Anise"
+        },
+        {
+            "source": "Oyster",
+            "target": "Bacon"
+        },
+        {
+            "source": "Oyster",
+            "target": "Caviar"
+        },
+        {
+            "source": "Oyster",
+            "target": "Chili"
+        },
+        {
+            "source": "Oyster",
+            "target": "Lemon"
+        },
+        {
+            "source": "Oyster",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Oyster",
+            "target": "Parsley"
+        },
+        {
+            "source": "Oyster",
+            "target": "Watermelon"
+        },
+        {
+            "source": "Caviar",
+            "target": "Banana"
+        },
+        {
+            "source": "Caviar",
+            "target": "Hazelnut"
+        },
+        {
+            "source": "Caviar",
+            "target": "Lemon"
+        },
+        {
+            "source": "Caviar",
+            "target": "Smoked Fish"
+        },
+        {
+            "source": "Caviar",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Almond"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Anise"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Avocado"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Cucumber"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Dill"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Ginger"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Lemon"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Lime"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Mint"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Parsley"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Pea"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Oily Fish",
+            "target": "Thyme"
+        },
+        {
+            "source": "Anchovy",
+            "target": "Chili"
+        },
+        {
+            "source": "Anchovy",
+            "target": "Coconut"
+        },
+        {
+            "source": "Anchovy",
+            "target": "Lemon"
+        },
+        {
+            "source": "Anchovy",
+            "target": "Olive"
+        },
+        {
+            "source": "Olive",
+            "target": "Tomato"
+        },
+        {
+            "source": "Anchovy",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Anchovy",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Anchovy",
+            "target": "Sage"
+        },
+        {
+            "source": "Anchovy",
+            "target": "Tomato"
+        },
+        {
+            "source": "Smoked Fish",
+            "target": "Cherry"
+        },
+        {
+            "source": "Smoked Fish",
+            "target": "Coconut"
+        },
+        {
+            "source": "Smoked Fish",
+            "target": "Dill"
+        },
+        {
+            "source": "Smoked Fish",
+            "target": "Lemon"
+        },
+        {
+            "source": "Smoked Fish",
+            "target": "Parsley"
+        },
+        {
+            "source": "Smoked Fish",
+            "target": "Pea"
+        },
+        {
+            "source": "Bacon",
+            "target": "Anise"
+        },
+        {
+            "source": "Bacon",
+            "target": "Apple"
+        },
+        {
+            "source": "Bacon",
+            "target": "Avocado"
+        },
+        {
+            "source": "Bacon",
+            "target": "Banana"
+        },
+        {
+            "source": "Bacon",
+            "target": "Bell Pepper"
+        },
+        {
+            "source": "Bacon",
+            "target": "Butternut Squash"
+        },
+        {
+            "source": "Bacon",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Bacon",
+            "target": "Chili"
+        },
+        {
+            "source": "Bacon",
+            "target": "Clove"
+        },
+        {
+            "source": "Bacon",
+            "target": "Orange"
+        },
+        {
+            "source": "Bacon",
+            "target": "Parsley"
+        },
+        {
+            "source": "Bacon",
+            "target": "Parsnip"
+        },
+        {
+            "source": "Bacon",
+            "target": "Pea"
+        },
+        {
+            "source": "Bacon",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Bacon",
+            "target": "Sage"
+        },
+        {
+            "source": "Bacon",
+            "target": "Thyme"
+        },
+        {
+            "source": "Bacon",
+            "target": "Tomato"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Chestnut"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Fig"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Juniper"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Melon"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Olive"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Pea"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Peach"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Pear"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Sage"
+        },
+        {
+            "source": "Prosciutto",
+            "target": "Tomato"
+        },
+        {
+            "source": "Olive",
+            "target": "Almond"
+        },
+        {
+            "source": "Olive",
+            "target": "Anise"
+        },
+        {
+            "source": "Olive",
+            "target": "Bell Pepper"
+        },
+        {
+            "source": "Olive",
+            "target": "Carrot"
+        },
+        {
+            "source": "Olive",
+            "target": "Chili"
+        },
+        {
+            "source": "Olive",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Olive",
+            "target": "Juniper"
+        },
+        {
+            "source": "Olive",
+            "target": "Lemon"
+        },
+        {
+            "source": "Olive",
+            "target": "Orange"
+        },
+        {
+            "source": "Olive",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Olive",
+            "target": "Thyme"
+        },
+        {
+            "source": "Olive",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Saffron",
+            "target": "Almond"
+        },
+        {
+            "source": "Saffron",
+            "target": "Anise"
+        },
+        {
+            "source": "Saffron",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Saffron",
+            "target": "Lemon"
+        },
+        {
+            "source": "Saffron",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Saffron",
+            "target": "Orange"
+        },
+        {
+            "source": "Saffron",
+            "target": "Rhubarb"
+        },
+        {
+            "source": "Saffron",
+            "target": "Rose"
+        },
+        {
+            "source": "Saffron",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Anise",
+            "target": "Almond"
+        },
+        {
+            "source": "Anise",
+            "target": "Apple"
+        },
+        {
+            "source": "Anise",
+            "target": "Banana"
+        },
+        {
+            "source": "Anise",
+            "target": "Basil"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Anise"
+        },
+        {
+            "source": "Tomato",
+            "target": "Anise"
+        },
+        {
+            "source": "Anise",
+            "target": "Blackcurrant"
+        },
+        {
+            "source": "Anise",
+            "target": "Carrot"
+        },
+        {
+            "source": "Anise",
+            "target": "Grape"
+        },
+        {
+            "source": "Anise",
+            "target": "Chili"
+        },
+        {
+            "source": "Anise",
+            "target": "Coconut"
+        },
+        {
+            "source": "Anise",
+            "target": "Cucumber"
+        },
+        {
+            "source": "Grape",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Anise",
+            "target": "Lemon"
+        },
+        {
+            "source": "Anise",
+            "target": "Melon"
+        },
+        {
+            "source": "Anise",
+            "target": "Mint"
+        },
+        {
+            "source": "Anise",
+            "target": "Orange"
+        },
+        {
+            "source": "Anise",
+            "target": "Parsnip"
+        },
+        {
+            "source": "Anise",
+            "target": "Pea"
+        },
+        {
+            "source": "Anise",
+            "target": "Pear"
+        },
+        {
+            "source": "Anise",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Anise",
+            "target": "Rhubarb"
+        },
+        {
+            "source": "Anise",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Anise",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Anise",
+            "target": "Walnut"
+        },
+        {
+            "source": "Butternut Squash",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Cucumber",
+            "target": "Avocado"
+        },
+        {
+            "source": "Cucumber",
+            "target": "Carrot"
+        },
+        {
+            "source": "Cucumber",
+            "target": "Dill"
+        },
+        {
+            "source": "Cucumber",
+            "target": "Melon"
+        },
+        {
+            "source": "Cucumber",
+            "target": "Mint"
+        },
+        {
+            "source": "Cucumber",
+            "target": "Rhubarb"
+        },
+        {
+            "source": "Cucumber",
+            "target": "Rose"
+        },
+        {
+            "source": "Cucumber",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Cucumber",
+            "target": "Tomato"
+        },
+        {
+            "source": "Cucumber",
+            "target": "Watermelon"
+        },
+        {
+            "source": "Dill",
+            "target": "Avocado"
+        },
+        {
+            "source": "Dill",
+            "target": "Coconut"
+        },
+        {
+            "source": "Vanilla",
+            "target": "Clove"
+        },
+        {
+            "source": "Dill",
+            "target": "Lemon"
+        },
+        {
+            "source": "Dill",
+            "target": "Mint"
+        },
+        {
+            "source": "Dill",
+            "target": "Pea"
+        },
+        {
+            "source": "Parsley",
+            "target": "Carrot"
+        },
+        {
+            "source": "Parsley",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Parsley",
+            "target": "Lemon"
+        },
+        {
+            "source": "Parsley",
+            "target": "Mint"
+        },
+        {
+            "source": "Parsley",
+            "target": "Walnut"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Avocado"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Chili"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Coconut"
+        },
+        {
+            "source": "Coriander Seed",
+            "target": "Coriander Leaf"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Lemon"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Lime"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Mango"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Mint"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Orange"
+        },
+        {
+            "source": "Orange",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Tomato"
+        },
+        {
+            "source": "Coriander Leaf",
+            "target": "Watermelon"
+        },
+        {
+            "source": "Avocado",
+            "target": "Chili"
+        },
+        {
+            "source": "Avocado",
+            "target": "Grape"
+        },
+        {
+            "source": "Avocado",
+            "target": "Grapefruit"
+        },
+        {
+            "source": "Avocado",
+            "target": "Hazelnut"
+        },
+        {
+            "source": "Avocado",
+            "target": "Lime"
+        },
+        {
+            "source": "Avocado",
+            "target": "Mango"
+        },
+        {
+            "source": "Avocado",
+            "target": "Mint"
+        },
+        {
+            "source": "Avocado",
+            "target": "Nutmeg"
+        },
+        {
+            "source": "Avocado",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Avocado",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Avocado",
+            "target": "Tomato"
+        },
+        {
+            "source": "Walnut",
+            "target": "Chili"
+        },
+        {
+            "source": "Pea",
+            "target": "Mint"
+        },
+        {
+            "source": "Pea",
+            "target": "Parsnip"
+        },
+        {
+            "source": "Pea",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Bell Pepper",
+            "target": "Chili"
+        },
+        {
+            "source": "Bell Pepper",
+            "target": "Tomato"
+        },
+        {
+            "source": "Chili",
+            "target": "Almond"
+        },
+        {
+            "source": "Chili",
+            "target": "Coconut"
+        },
+        {
+            "source": "Chili",
+            "target": "Lemon"
+        },
+        {
+            "source": "Chili",
+            "target": "Lime"
+        },
+        {
+            "source": "Chili",
+            "target": "Mango"
+        },
+        {
+            "source": "Chili",
+            "target": "Orange"
+        },
+        {
+            "source": "Chili",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Chili",
+            "target": "Watermelon"
+        },
+        {
+            "source": "Basil",
+            "target": "Clove"
+        },
+        {
+            "source": "Basil",
+            "target": "Coconut"
+        },
+        {
+            "source": "Basil",
+            "target": "Lime"
+        },
+        {
+            "source": "Basil",
+            "target": "Mint"
+        },
+        {
+            "source": "Basil",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Basil",
+            "target": "Tomato"
+        },
+        {
+            "source": "Tomato",
+            "target": "Clove"
+        },
+        {
+            "source": "Basil",
+            "target": "Walnut"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Almond"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Apple"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Apricot"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Banana"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Blueberry"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Butternut Squash"
+        },
+        {
+            "source": "Ginger",
+            "target": "Butternut Squash"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Carrot"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Cherry"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Clove"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Fig"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Grapefruit"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Lime"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Mint"
+        },
+        {
+            "source": "Mint",
+            "target": "Watermelon"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Orange"
+        },
+        {
+            "source": "Orange",
+            "target": "Almond"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Pear"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Thyme"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Tomato"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Walnut"
+        },
+        {
+            "source": "Cinnamon",
+            "target": "Watermelon"
+        },
+        {
+            "source": "Clove",
+            "target": "Apple"
+        },
+        {
+            "source": "Clove",
+            "target": "Orange"
+        },
+        {
+            "source": "Clove",
+            "target": "Peach"
+        },
+        {
+            "source": "Nutmeg",
+            "target": "Apple"
+        },
+        {
+            "source": "Nutmeg",
+            "target": "Butternut Squash"
+        },
+        {
+            "source": "Nutmeg",
+            "target": "Parsnip"
+        },
+        {
+            "source": "Nutmeg",
+            "target": "Tomato"
+        },
+        {
+            "source": "Nutmeg",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Parsnip",
+            "target": "Banana"
+        },
+        {
+            "source": "Parsnip",
+            "target": "Walnut"
+        },
+        {
+            "source": "Carrot",
+            "target": "Apple"
+        },
+        {
+            "source": "Carrot",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Carrot",
+            "target": "Coconut"
+        },
+        {
+            "source": "Carrot",
+            "target": "Hazelnut"
+        },
+        {
+            "source": "Carrot",
+            "target": "Orange"
+        },
+        {
+            "source": "Carrot",
+            "target": "Walnut"
+        },
+        {
+            "source": "Butternut Squash",
+            "target": "Almond"
+        },
+        {
+            "source": "Butternut Squash",
+            "target": "Apple"
+        },
+        {
+            "source": "Butternut Squash",
+            "target": "Chestnut"
+        },
+        {
+            "source": "Butternut Squash",
+            "target": "Lime"
+        },
+        {
+            "source": "Butternut Squash",
+            "target": "Sage"
+        },
+        {
+            "source": "Chestnut",
+            "target": "Pear"
+        },
+        {
+            "source": "Chestnut",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Chestnut",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Walnut",
+            "target": "Apple"
+        },
+        {
+            "source": "Walnut",
+            "target": "Banana"
+        },
+        {
+            "source": "Walnut",
+            "target": "Cherry"
+        },
+        {
+            "source": "Walnut",
+            "target": "Fig"
+        },
+        {
+            "source": "Walnut",
+            "target": "Grape"
+        },
+        {
+            "source": "Walnut",
+            "target": "Orange"
+        },
+        {
+            "source": "Walnut",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Hazelnut",
+            "target": "Almond"
+        },
+        {
+            "source": "Hazelnut",
+            "target": "Apple"
+        },
+        {
+            "source": "Hazelnut",
+            "target": "Banana"
+        },
+        {
+            "source": "Hazelnut",
+            "target": "Cherry"
+        },
+        {
+            "source": "Hazelnut",
+            "target": "Fig"
+        },
+        {
+            "source": "Hazelnut",
+            "target": "Pear"
+        },
+        {
+            "source": "Hazelnut",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Hazelnut",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Hazelnut",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Hazelnut",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Almond",
+            "target": "Apple"
+        },
+        {
+            "source": "Almond",
+            "target": "Apricot"
+        },
+        {
+            "source": "Almond",
+            "target": "Banana"
+        },
+        {
+            "source": "Almond",
+            "target": "Blackberry"
+        },
+        {
+            "source": "Almond",
+            "target": "Blackcurrant"
+        },
+        {
+            "source": "Almond",
+            "target": "Blueberry"
+        },
+        {
+            "source": "Almond",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Almond",
+            "target": "Cherry"
+        },
+        {
+            "source": "Almond",
+            "target": "Coconut"
+        },
+        {
+            "source": "Almond",
+            "target": "Fig"
+        },
+        {
+            "source": "Almond",
+            "target": "Ginger"
+        },
+        {
+            "source": "Almond",
+            "target": "Grape"
+        },
+        {
+            "source": "Almond",
+            "target": "Lemon"
+        },
+        {
+            "source": "Raspberry",
+            "target": "Almond"
+        },
+        {
+            "source": "Almond",
+            "target": "Peach"
+        },
+        {
+            "source": "Almond",
+            "target": "Pear"
+        },
+        {
+            "source": "Almond",
+            "target": "Rhubarb"
+        },
+        {
+            "source": "Almond",
+            "target": "Rose"
+        },
+        {
+            "source": "Almond",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Almond",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Almond",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Cherry",
+            "target": "Banana"
+        },
+        {
+            "source": "Cherry",
+            "target": "Coconut"
+        },
+        {
+            "source": "Cherry",
+            "target": "Peach"
+        },
+        {
+            "source": "Cherry",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Watermelon",
+            "target": "Lime"
+        },
+        {
+            "source": "Watermelon",
+            "target": "Melon"
+        },
+        {
+            "source": "Watermelon",
+            "target": "Tomato"
+        },
+        {
+            "source": "Grape",
+            "target": "Melon"
+        },
+        {
+            "source": "Grape",
+            "target": "Peach"
+        },
+        {
+            "source": "Grape",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Grape",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Rhubarb",
+            "target": "Ginger"
+        },
+        {
+            "source": "Rhubarb",
+            "target": "Juniper"
+        },
+        {
+            "source": "Rhubarb",
+            "target": "Mango"
+        },
+        {
+            "source": "Rhubarb",
+            "target": "Orange"
+        },
+        {
+            "source": "Rhubarb",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Rhubarb",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Rhubarb",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Tomato",
+            "target": "Strawberry"
+        },
+        {
+            "source": "Tomato",
+            "target": "Ginger"
+        },
+        {
+            "source": "Tomato",
+            "target": "Lemon"
+        },
+        {
+            "source": "Tomato",
+            "target": "Lime"
+        },
+        {
+            "source": "Tomato",
+            "target": "Sage"
+        },
+        {
+            "source": "Tomato",
+            "target": "Thyme"
+        },
+        {
+            "source": "Tomato",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Strawberry",
+            "target": "Coconut"
+        },
+        {
+            "source": "Strawberry",
+            "target": "Melon"
+        },
+        {
+            "source": "Strawberry",
+            "target": "Mint"
+        },
+        {
+            "source": "Strawberry",
+            "target": "Orange"
+        },
+        {
+            "source": "Strawberry",
+            "target": "Peach"
+        },
+        {
+            "source": "Strawberry",
+            "target": "Pineapple"
+        },
+        {
+            "source": "Strawberry",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Strawberry",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Strawberry",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Pineapple",
+            "target": "Apple"
+        },
+        {
+            "source": "Pineapple",
+            "target": "Banana"
+        },
+        {
+            "source": "Pineapple",
+            "target": "Coconut"
+        },
+        {
+            "source": "Pineapple",
+            "target": "Grapefruit"
+        },
+        {
+            "source": "Pineapple",
+            "target": "Mango"
+        },
+        {
+            "source": "Pineapple",
+            "target": "Orange"
+        },
+        {
+            "source": "Pineapple",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Pineapple",
+            "target": "Sage"
+        },
+        {
+            "source": "Pineapple",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Pineapple",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Apple",
+            "target": "Blackberry"
+        },
+        {
+            "source": "Apple",
+            "target": "Blueberry"
+        },
+        {
+            "source": "Apple",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Apple",
+            "target": "Mango"
+        },
+        {
+            "source": "Apple",
+            "target": "Orange"
+        },
+        {
+            "source": "Apple",
+            "target": "Pear"
+        },
+        {
+            "source": "Apple",
+            "target": "Rose"
+        },
+        {
+            "source": "Apple",
+            "target": "Sage"
+        },
+        {
+            "source": "Pear",
+            "target": "Banana"
+        },
+        {
+            "source": "Pear",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Banana",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Banana",
+            "target": "Coconut"
+        },
+        {
+            "source": "Banana",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Melon",
+            "target": "Ginger"
+        },
+        {
+            "source": "Melon",
+            "target": "Mint"
+        },
+        {
+            "source": "Melon",
+            "target": "Orange"
+        },
+        {
+            "source": "Melon",
+            "target": "Rose"
+        },
+        {
+            "source": "Rose",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Apricot",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Apricot",
+            "target": "Ginger"
+        },
+        {
+            "source": "Apricot",
+            "target": "Mango"
+        },
+        {
+            "source": "Apricot",
+            "target": "Orange"
+        },
+        {
+            "source": "Apricot",
+            "target": "Peach"
+        },
+        {
+            "source": "Apricot",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Apricot",
+            "target": "Rose"
+        },
+        {
+            "source": "Apricot",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Apricot",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Peach",
+            "target": "Blackberry"
+        },
+        {
+            "source": "Peach",
+            "target": "Blueberry"
+        },
+        {
+            "source": "Peach",
+            "target": "Mango"
+        },
+        {
+            "source": "Peach",
+            "target": "Orange"
+        },
+        {
+            "source": "Peach",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Peach",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Coconut",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Coconut",
+            "target": "Lemon"
+        },
+        {
+            "source": "Mango",
+            "target": "Coconut"
+        },
+        {
+            "source": "Coconut",
+            "target": "Lime"
+        },
+        {
+            "source": "Coconut",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Coconut",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Coconut",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Mango",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Mango",
+            "target": "Ginger"
+        },
+        {
+            "source": "Mango",
+            "target": "Lime"
+        },
+        {
+            "source": "Mango",
+            "target": "Mint"
+        },
+        {
+            "source": "Mango",
+            "target": "Orange"
+        },
+        {
+            "source": "Orange",
+            "target": "Fig"
+        },
+        {
+            "source": "Orange",
+            "target": "Ginger"
+        },
+        {
+            "source": "Orange",
+            "target": "Grapefruit"
+        },
+        {
+            "source": "Orange",
+            "target": "Juniper"
+        },
+        {
+            "source": "Orange",
+            "target": "Lemon"
+        },
+        {
+            "source": "Orange",
+            "target": "Lime"
+        },
+        {
+            "source": "Orange",
+            "target": "Mint"
+        },
+        {
+            "source": "Orange",
+            "target": "Rose"
+        },
+        {
+            "source": "Orange",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Vanilla",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Orange",
+            "target": "Thyme"
+        },
+        {
+            "source": "Orange",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Grapefruit",
+            "target": "Juniper"
+        },
+        {
+            "source": "Lime",
+            "target": "Ginger"
+        },
+        {
+            "source": "Lime",
+            "target": "Lemon"
+        },
+        {
+            "source": "Lime",
+            "target": "Mint"
+        },
+        {
+            "source": "Lemon",
+            "target": "Blueberry"
+        },
+        {
+            "source": "Lemon",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Lemon",
+            "target": "Ginger"
+        },
+        {
+            "source": "Lemon",
+            "target": "Juniper"
+        },
+        {
+            "source": "Lemon",
+            "target": "Mint"
+        },
+        {
+            "source": "Lemon",
+            "target": "Rose"
+        },
+        {
+            "source": "Lemon",
+            "target": "Rosemary"
+        },
+        {
+            "source": "Lemon",
+            "target": "Thyme"
+        },
+        {
+            "source": "Lemon",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Ginger",
+            "target": "Cardamom"
+        },
+        {
+            "source": "Ginger",
+            "target": "Mint"
+        },
+        {
+            "source": "Ginger",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Cardamom",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Cardamom",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Cardamom",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Sage",
+            "target": "Juniper"
+        },
+        {
+            "source": "Juniper",
+            "target": "Blackcurrant"
+        },
+        {
+            "source": "Mint",
+            "target": "Blackcurrant"
+        },
+        {
+            "source": "Mint",
+            "target": "Fig"
+        },
+        {
+            "source": "Mint",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Blackberry",
+            "target": "Raspberry"
+        },
+        {
+            "source": "Blackberry",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Blackberry",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Raspberry",
+            "target": "Fig"
+        },
+        {
+            "source": "Raspberry",
+            "target": "White Chocolate"
+        },
+        {
+            "source": "Fig",
+            "target": "Vanilla"
+        },
+        {
+            "source": "Blueberry",
+            "target": "Coriander Seed"
+        },
+        {
+            "source": "Blueberry",
+            "target": "Vanilla"
+        }
+    ]
+}
