@@ -7,51 +7,36 @@
     import { Chart, Circle, ForceSimulation, Link, Svg } from 'layerchart';
    
     // let { data } = $props();
-
-    let { nodes, links, index = 0 } = $props();
+    // let { nodes, links, index = 0 } = $props();
+    export let nodes, links;
+    export let index = 0;
   
     const colorScale = scaleOrdinal(schemeCategory10);
   
     const linkForce = forceLink(links).id((d) => d.id);
-    // const chargeForce = forceManyBody().strength(3);
-    // const collideForce = forceCollide();
-    const centerForce = forceCenter(20, 5);
-    // const xForce = forceX().strength(0.1);
-    // const yForce = forceY();
+    const chargeForce = forceManyBody();
+    const collideForce = forceCollide();
+    const centerForce = forceCenter(0, 0);
+    const xForce = forceX(); //.strength(0.1);
+    const yForce = forceY(); //.strength(0.1);
 
-    let alpha = $state(1);
+    let alpha = 1;
     const nodeStrokeWidth = 1;
 
-    const linkedForce = {
-        link: linkForce,
-        charge: forceManyBody().distanceMin(0).distanceMax(1000).strength(-150),
-        collide: forceCollide(),
-        center: centerForce,
-    };
-
-    const unlinkedForce = {
-        y: forceY().strength(0.1),
-        x: forceX().strength(0.1),
-        charge: forceManyBody().strength(-30),
-        center: centerForce,
-    };
-
-    const graphForces = [unlinkedForce, linkedForce];
-
-    let currentForces = $derived(graphForces[index]);
-
     function reheatSimulation(args = {}) {
+        console.log("Reheating sim: args = ", args)
         const _ = args;
         alpha = 1.0;
     }
 
-    $effect(() => {
+    $: {
         reheatSimulation({ index });
-    });
+        chargeForce.strength(index <= 1 ? -30 : -300)
+    }
 </script>
 
 <p>Alpha = {alpha}</p>
-<div class="h-[680px] p-2">
+<div class="h-[300px] p-4 border rounded">
     <Chart 
         data={nodes}
         x="type"
@@ -62,23 +47,36 @@
         let:width
         let:height
     >
-    {console.log(`height: ${height}; width: ${width}`)}
-    {console.log(currentForces)}
+    <p>Height: {height}; width: {width}</p>
     <Svg center>
         <ForceSimulation
-            forces={graphForces[index]}
-            cloneData
+            forces={{
+                charge: chargeForce,
+                collide: collideForce,
+                center: centerForce,
+                ...(index <= 1 && { x: xForce.strength(0.1).x((d) => (index === 1 ? xGet(d) + xScale.bandwidth() / 2 : width / 2)) }),
+                ...(index <= 1 && { y: yForce.strength(0.1) }),
+                ...(index > 1 && { link: linkForce.id((d) => d.id).links(links) })
+            }}
+            alphaTarget={0.15}
             bind:alpha
             let:nodes
         >
         {#key nodes}
+        {#if index > 1}
             {#each links as link}
                 <Link data={link} class="stroke-surface-content/50" curve={curveLinear} stroke="#e1e1e1" stroke-width=0.4 />
             {/each}
+        {/if}
         {/key}
 
         {#each nodes as node}
-            <Circle cx={node.x} cy={node.y} r={10} fill={colorScale(node.type)} />
+            <Circle 
+                cx={node.x} 
+                cy={node.y} 
+                r={10} 
+                fill={index === 0 ? "#e0e0e0" : colorScale(node.type)} 
+            />
         {/each}
         </ForceSimulation>
     </Svg>

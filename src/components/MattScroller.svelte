@@ -4,6 +4,7 @@
 
     import nodes from "$data/ingredients.csv";
     import links from "$data/flavour-combos.csv";
+    import flavours from '$data/flavours.json';
 
     const data = { "nodes": nodes, "links": links };
 
@@ -70,8 +71,7 @@
 <Scroller top="{0.2}" bottom="{0.8}" bind:index bind:offset bind:progress>
     <div slot="background">
         <p>Section {index + 1} is currently active.</p>
-        {console.log(currentNodes)}
-        <ForceGraph nodes={currentNodes} links={currentLinks} />
+        <ForceGraph nodes={nodes} links={links} {index} />
     </div>
   
     <div slot="foreground">
