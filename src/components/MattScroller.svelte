@@ -47,9 +47,17 @@
 	// This array of functions correspond to the <section/> tags within the network chart <Scroller/> component
 	const chartActions = [
         [
+            () => {
+                currentNodes = nodes;
+                currentLinks = [];
+            },
+            () => {
+                currentNodes = nodes;
+                currentLinks = [];
+            },
 			() => {
 				currentNodes = [{id: "Chocolate", type: "Roasted"}];
-                currentLinks = {};
+                currentLinks = [];
 			},
 			() => {
 				currentNodes = filteredNodes;
@@ -71,13 +79,14 @@
 <Scroller top="{0.2}" bottom="{0.8}" bind:index bind:offset bind:progress>
     <div slot="background">
         <p>Section {index + 1} is currently active.</p>
-        <ForceGraph nodes={nodes} links={links} {index} />
+        <ForceGraph {nodes} {currentNodes} {links} {currentLinks} {index} />
     </div>
   
     <div slot="foreground">
-      <section>This is the first section.</section>
-      <section>This is the second section.</section>
-      <section>This is the third section.</section>
+      <section>Look at all these 99 ingredients.</section>
+      <section>They're in 16 categories.</section>
+      <section>This is chocolate.</section>
+      <section>Chocolate is paired with...</section>
     </div>
 </Scroller>
 

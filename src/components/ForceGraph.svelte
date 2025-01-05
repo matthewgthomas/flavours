@@ -9,6 +9,7 @@
     // let { data } = $props();
     // let { nodes, links, index = 0 } = $props();
     export let nodes, links;
+    export let currentNodes, currentLinks;
     export let index = 0;
   
     const colorScale = scaleOrdinal(schemeCategory10);
@@ -44,15 +45,17 @@
     const nodeStrokeWidth = 1;
 
     function reheatSimulation(args = {}) {
-        console.log("Reheating sim: args = ", args)
         const _ = args;
         alpha = 1.0;
     }
 
     $: {
         reheatSimulation({ index });
-        chargeForce.strength(index <= 1 ? -30 : -300)
+        chargeForce.strength(index <= 2 ? -30 : -150)
     }
+
+    let visibleNodes = nodes; 
+    $: visibleNodes = nodes.filter(node => currentNodes.includes(node.id));
 </script>
 
 <p>Alpha = {alpha}</p>
@@ -74,28 +77,34 @@
                 charge: chargeForce,
                 collide: collideForce,
                 center: centerForce,
-                ...(index <= 1 && { x: xForce.strength(0.1).x((d) => (index === 1 ? typesXY[d.type][0] : width / 2)) }),
-                ...(index <= 1 && { y: yForce.strength(0.1).y((d) => (index === 1 ? typesXY[d.type][1] : width / 2)) }),
-                ...(index > 1 && { link: linkForce.id((d) => d.id).links(links) })
+                ...(index < 3 && { x: xForce.strength(0.1).x((d) => (index == 1 ? typesXY[d.type][0] : width / 2)) }),
+                ...(index < 3 && { y: yForce.strength(0.1).y((d) => (index == 1 ? typesXY[d.type][1] : width / 2)) }),
+                ...(index >= 3 && { link: linkForce.id((d) => d.id).links(links) })
             }}
             alphaTarget={0.15}
             bind:alpha
             let:nodes
         >
         {#key nodes}
-        {#if index > 1}
+        {#if index > 1 && currentLinks.length > 0}
             {#each links as link}
-                <Link data={link} class="stroke-surface-content/50" curve={curveLinear} stroke="#e1e1e1" stroke-width=0.4 />
+                {#if currentLinks.some(currentLink => currentLink.source === link.source && currentLink.target === link.target)}
+                    <Link data={link} class="stroke-surface-content/50" curve={curveLinear} stroke="#e1e1e1" stroke-width=0.4 />
+                {/if}
             {/each}
         {/if}
         {/key}
+
+        {console.log("Current nodes = ", currentNodes)}
+        {console.log("Current links = ", currentLinks)}
 
         {#each nodes as node}
             <Circle 
                 cx={node.x} 
                 cy={node.y} 
                 r={10} 
-                fill={index === 0 ? "#e0e0e0" : colorScale(node.type)} 
+                fill={index === 0 ? "#e0e0e0" : colorScale(node.type)}
+                opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : 0}
             />
         {/each}
         </ForceSimulation>
