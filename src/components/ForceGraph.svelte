@@ -12,6 +12,26 @@
     export let index = 0;
   
     const colorScale = scaleOrdinal(schemeCategory10);
+
+    // There are 16 types of ingredient, so will show the clusters in a 4x4 grid
+    const typesXY = {
+        "Green & Grassy": [10, 0],
+        "Sulfurous": [30, 0],
+        "Fresh Fruity": [50, 0],
+        "Berry & Bush": [70, 0],
+        "Floral Fruity": [10, 30],
+        "Citrusy": [30, 30],
+        "Creamy Fruity": [50, 30],
+        "Earthy": [70, 30],
+        "Meaty": [10, 50],
+        "Woodland": [30, 50],
+        "Brine & Salt": [50, 50],
+        "Cheesy": [70, 50],
+        "Marine": [10, 70],
+        "Spicy": [30, 70],
+        "Mustardy": [50, 70],
+        "Roasted": [70, 70]
+    };
   
     const linkForce = forceLink(links).id((d) => d.id);
     const chargeForce = forceManyBody();
@@ -54,8 +74,8 @@
                 charge: chargeForce,
                 collide: collideForce,
                 center: centerForce,
-                ...(index <= 1 && { x: xForce.strength(0.1).x((d) => (index === 1 ? xGet(d) + xScale.bandwidth() / 2 : width / 2)) }),
-                ...(index <= 1 && { y: yForce.strength(0.1) }),
+                ...(index <= 1 && { x: xForce.strength(0.1).x((d) => (index === 1 ? typesXY[d.type][0] : width / 2)) }),
+                ...(index <= 1 && { y: yForce.strength(0.1).y((d) => (index === 1 ? typesXY[d.type][1] : width / 2)) }),
                 ...(index > 1 && { link: linkForce.id((d) => d.id).links(links) })
             }}
             alphaTarget={0.15}
