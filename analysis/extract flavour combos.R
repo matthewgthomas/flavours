@@ -1,4 +1,7 @@
 library(tidyverse)
+library(jsonlite)
+library(igraph)
+library(d3r)
 
 # Load book as plain text
 flavour_txt <- read_file("data/book/The Flavor Thesaurus_ A Compendium of Pair - Segnit, Niki.txt")
@@ -53,18 +56,19 @@ write_csv(ingredients, "data/ingredients.csv")
 
 write_csv(flavour_combos_edges, "data/flavour-combos.csv")
 
-library(jsonlite)
-
+# Save nodes and links as JSON
 tibble(
   nodes = ingredients |> nest(),
   links = flavour_combos_edges |> nest()
 ) |>
   write_json("src/data/flavours.json")
 
-ingredients |> nest(nodes = everything()) |> toJSON()
+# ---- Save as JSON using d3r ----
+# Make an igraph object
+# flavours <- graph_from_data_frame(flavour_combos, vertices = ingredients, directed = FALSE)
 
-toJSON()
+# Transform it in a JSON format for d3.js
+# flavours_json <- d3_igraph(flavours)
 
-
-tibble(x = c(1, 1, 1, 2, 2, 3), y = 1:6, z = 6:1) |>
-  nest(data = c(y,z))
+# Save this file
+# write(flavours_json, "src/data/flavours.json")
