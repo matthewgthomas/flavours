@@ -9,6 +9,17 @@ flavour_combos <- read_csv("data/flavour-combos.csv")
 
 flavours <- graph_from_data_frame(flavour_combos, vertices = ingredients, directed = FALSE)
 
+# ---- Basic stats ---
+# No. ingregients
+nrow(ingredients)
+
+# No. types of ingredients
+unique(ingredients$Type)
+length(unique(ingredients$Type))
+
+ingredients |>
+  count(Type, sort = TRUE)
+
 # ---- Network stats ----
 # Which ingredients are most and least paired?
 flavour_degrees <- degree(flavours)
