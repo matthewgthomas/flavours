@@ -11,6 +11,7 @@
     export let nodes, links;
     export let currentNodes, currentLinks;
     export let index = 0;
+    export let hiddenNodeOpacity = 0;
   
     const colorScale = scaleOrdinal(schemeCategory10);
 
@@ -104,7 +105,7 @@
                 cy={node.y} 
                 r={10} 
                 fill={index === 0 ? "#e0e0e0" : colorScale(node.type)}
-                opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : 0}
+                opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : hiddenNodeOpacity}
             />
         {/each}
         </ForceSimulation>

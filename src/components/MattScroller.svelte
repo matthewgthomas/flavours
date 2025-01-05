@@ -34,6 +34,7 @@
 
     let currentNodes = nodes;
     let currentLinks = links;
+    let hiddenNodeOpacity = 0;
 
     // CONFIG FOR SCROLLER COMPONENTS
 	// Config
@@ -58,14 +59,17 @@
 			() => {
 				currentNodes = [{id: "Chocolate", type: "Roasted"}];
                 currentLinks = [];
+                hiddenNodeOpacity = 0.1;
 			},
 			() => {
 				currentNodes = filteredNodes;
 				currentLinks = filteredLinks;
+                hiddenNodeOpacity = 0;
 			},
 			() => {
 				currentNodes = nodes;
 				currentLinks = links;
+                hiddenNodeOpacity = 0;
 			}
         ]
     ];
@@ -79,7 +83,7 @@
 <Scroller top="{0.2}" bottom="{0.8}" bind:index bind:offset bind:progress>
     <div slot="background">
         <p>Section {index + 1} is currently active.</p>
-        <ForceGraph {nodes} {currentNodes} {links} {currentLinks} {index} />
+        <ForceGraph {nodes} {currentNodes} {links} {currentLinks} {index} {hiddenNodeOpacity} />
     </div>
   
     <div slot="foreground">
