@@ -123,3 +123,13 @@
         </section>
     </div>
 </Scroller>
+
+<style>
+	/* Styles specific to elements within the demo */
+	:global(svelte-scroller-foreground) {
+		pointer-events: none !important;
+	}
+	:global(svelte-scroller-foreground section div) {
+		pointer-events: all !important;
+	}
+</style>

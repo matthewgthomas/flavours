@@ -4,7 +4,7 @@
     import { scaleBand, scaleOrdinal } from 'd3-scale';
     import { schemeCategory10 } from 'd3-scale-chromatic';
   
-    import { Chart, Circle, ForceSimulation, Link, Svg } from 'layerchart';
+    import { Chart, Circle, ForceSimulation, Link, Svg, Tooltip } from 'layerchart';
    
     export let nodes, links;
     export let currentNodes, currentLinks;
@@ -90,51 +90,58 @@
     $: visibleNodes = nodes.filter(node => currentNodes.includes(node.id));
 </script>
 
-<div class="h-[600px] p-4 border rounded">
-    <Chart 
-        data={nodes}
-        x="type"
-        xScale={scaleBand()}
-        let:xGet
-        let:xScale
-        let:width
-        let:height
+<Chart 
+    data={nodes}
+    x="type"
+    xScale={scaleBand()}
+    let:xGet
+    let:xScale
+    let:width
+    let:height
+    let:tooltip
+>
+<!-- <p>Height: {height}; width: {width}</p> -->
+ <!--alphaTarget={0.15}-->
+<Svg center>
+    <ForceSimulation
+        forces={{
+            charge: chargeForce,
+            collide: collideForce,
+            center: centerForce,
+            ...(index < 3 && { x: xForce.strength(0.1).x((d) => (index == 1 ? getTypeXY(d.type, 0, width) * width : width / 2)) }),
+            ...(index < 3 && { y: yForce.strength(0.1).y((d) => (index == 1 ? getTypeXY(d.type, 1, width) * height : height / 2)) }),
+            ...(index >= 3 && { link: linkForce.id((d) => d.id).links(links) })
+        }}
+        bind:alpha
+        let:nodes
     >
-    <!-- <p>Height: {height}; width: {width}</p> -->
-    <Svg center>
-        <ForceSimulation
-            forces={{
-                charge: chargeForce,
-                collide: collideForce,
-                center: centerForce,
-                ...(index < 3 && { x: xForce.strength(0.1).x((d) => (index == 1 ? getTypeXY(d.type, 0, width) * width : width / 2)) }),
-                ...(index < 3 && { y: yForce.strength(0.1).y((d) => (index == 1 ? getTypeXY(d.type, 1, width) * height : height / 2)) }),
-                ...(index >= 3 && { link: linkForce.id((d) => d.id).links(links) })
-            }}
-            alphaTarget={0.15}
-            bind:alpha
-            let:nodes
-        >
-        {#key nodes}
-        {#if index > 1 && currentLinks.length > 0}
-            {#each links as link}
-                {#if currentLinks.some(currentLink => currentLink.source === link.source && currentLink.target === link.target)}
-                    <Link data={link} class="stroke-surface-content/50" curve={curveLinear} stroke="#e1e1e1" stroke-width=0.4 />
-                {/if}
-            {/each}
-        {/if}
-        {/key}
-
-        {#each nodes as node}
-            <Circle 
-                cx={node.x} 
-                cy={node.y} 
-                r={10} 
-                fill={index === 0 ? "#e0e0e0" : colorScale(node.type)}
-                opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : hiddenNodeOpacity}
-            />
+    {#key nodes}
+    {#if index > 1 && currentLinks.length > 0}
+        {#each links as link}
+            {#if currentLinks.some(currentLink => currentLink.source === link.source && currentLink.target === link.target)}
+                <Link data={link} class="stroke-surface-content/50" curve={curveLinear} stroke="#e1e1e1" stroke-width=0.4 />
+            {/if}
         {/each}
-        </ForceSimulation>
-    </Svg>
-    </Chart>
-</div>
+    {/if}
+    {/key}
+
+    {#each nodes as node}
+        <Circle 
+            cx={node.x} 
+            cy={node.y} 
+            r={10} 
+            fill={index === 0 ? "#e0e0e0" : colorScale(node.type)}
+            opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : hiddenNodeOpacity}
+            on:click={(e) => tooltip.show(e, node)}
+            on:pointermove={(e) => tooltip.show(e, node)}
+            on:pointerleave={tooltip.hide}
+        />
+    {/each}
+    </ForceSimulation>
+</Svg>
+
+<Tooltip.Root let:data>
+    <Tooltip.Header>{data.id}</Tooltip.Header>
+    {data.type}
+</Tooltip.Root>
+</Chart>
