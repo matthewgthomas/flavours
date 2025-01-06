@@ -6,8 +6,6 @@
   
     import { Chart, Circle, ForceSimulation, Link, Svg } from 'layerchart';
    
-    // let { data } = $props();
-    // let { nodes, links, index = 0 } = $props();
     export let nodes, links;
     export let currentNodes, currentLinks;
     export let index = 0;
@@ -72,8 +70,8 @@
     const chargeForce = forceManyBody();
     const collideForce = forceCollide();
     const centerForce = forceCenter(0, 0);
-    const xForce = forceX(); //.strength(0.1);
-    const yForce = forceY(); //.strength(0.1);
+    const xForce = forceX();
+    const yForce = forceY();
 
     let alpha = 1;
     const nodeStrokeWidth = 1;
@@ -92,7 +90,6 @@
     $: visibleNodes = nodes.filter(node => currentNodes.includes(node.id));
 </script>
 
-<p>Alpha = {alpha}</p>
 <div class="h-[600px] p-4 border rounded">
     <Chart 
         data={nodes}
@@ -100,11 +97,10 @@
         xScale={scaleBand()}
         let:xGet
         let:xScale
-        let:rGet
         let:width
         let:height
     >
-    <p>Height: {height}; width: {width}</p>
+    <!-- <p>Height: {height}; width: {width}</p> -->
     <Svg center>
         <ForceSimulation
             forces={{
@@ -128,9 +124,6 @@
             {/each}
         {/if}
         {/key}
-
-        {console.log("Current nodes = ", currentNodes)}
-        {console.log("Current links = ", currentLinks)}
 
         {#each nodes as node}
             <Circle 
