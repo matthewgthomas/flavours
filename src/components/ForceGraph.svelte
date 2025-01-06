@@ -132,8 +132,8 @@
             r={10} 
             fill={index === 0 ? "#e0e0e0" : colorScale(node.type)}
             opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : hiddenNodeOpacity}
-            on:click={(e) => {if (currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
-            on:pointermove={(e) => {if (currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
+            on:click={(e) => {if (index > 0 && currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
+            on:pointermove={(e) => {if (index > 0 && currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
             on:pointerleave={tooltip.hide}
         />
     {/each}
