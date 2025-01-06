@@ -1,3 +1,110 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+header, section, nav, footer, figure, caption {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+/* CLASSES */
+
+.col-full {
+	width: 100%;
+}
+
+.col-wide {
+	width: 100%;
+	max-width: 980px;
+	margin: 0 24px;
+}
+
+.col-medium {
+	width: 100%;
+	max-width: 680px;
+	margin: 0 24px;
+}
+
+.col-narrow {
+	width: 100%;
+	max-width: 540px;
+	margin: 0 24px;
+}
+
+.height-full {
+	min-height: 100vh;
+}
+
+/* SCROLL-SPECIFIC ELEMENTS */
+/* Adapted from ONS's scrolly template: https://github.com/ONSvisual/sk-scrolly/blob/5cc52b4ad287dd5f483d467b7c5c5fd97af69282/src/app.css#L270 */
+svelte-scroller-background-container {
+	pointer-events: all !important;
+}
+
+[slot="foreground"] section {
+	padding: 100vh 0 100vh 0;
+}
+
+[slot="foreground"] section + section {
+	padding: 0 0 100vh 0;
+}
+
+[slot="foreground"] section > div {
+	padding: 12px;
+	position: relative;
+	background-color: rgba(255,255,255,0.8);
+}
+
+[slot="foreground"] section div p {
+	margin: 0;
+}
+
+[slot="foreground"] section div p + p {
+	margin-top: 30px;
+}
+
+[slot="foreground"] section div h2,
+[slot="foreground"] section div h3 {
+	margin: 10px 0 20px 0;
+}
+
+@media (min-width: 992px) {
+	svelte-scroller-background {
+		width: calc(100% - 480px) !important;
+		min-width: 65%;
+		margin: 0 0 0 auto;
+	}
+	[slot="foreground"] section div::before {
+		opacity: 0;
+	}
+	[slot="foreground"] section {
+		width: 480px;
+		max-width: 35%;
+		margin: 0 auto 0 0;
+		background-color: #fff;
+	}
+	[slot="foreground"] .col-medium {
+		width: 100%;
+		margin: 0;	
+		padding: 0 30px;
+	}
+}

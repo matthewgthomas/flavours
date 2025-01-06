@@ -78,24 +78,48 @@
         chartActions[0][+index]();
         indexPrev = index;
     }
+
+    // Set <Scroller> top and bottom based on whether mobile or not
 </script>
 
-<Scroller top="{0.2}" bottom="{0.8}" bind:index bind:offset bind:progress>
+<Scroller {threshold} top="{0}" bottom="{0.8}" bind:index bind:offset bind:progress>
     <div slot="background">
-        <p>Section {index + 1} is currently active.</p>
-        <ForceGraph {nodes} {currentNodes} {links} {currentLinks} {index} {hiddenNodeOpacity} />
+        <figure>
+            <div class="col-wide height-full">
+                <!--<p>Section {index + 1} is currently active.</p>-->
+                <ForceGraph {nodes} {currentNodes} {links} {currentLinks} {index} {hiddenNodeOpacity} />
+            </div>
+        </figure>
     </div>
   
     <div slot="foreground">
-      <section>Look at all these 99 ingredients.</section>
-      <section>They're in 16 categories.</section>
-      <section>This is chocolate.</section>
-      <section>Chocolate is paired with...</section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    Look at all these 99 ingredients.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    They're in 16 categories.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    This is chocolate.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    Chocolate is paired with...
+                </p>
+            </div>
+        </section>
     </div>
 </Scroller>
-
-<style>
-    section {
-      height: 80vh;
-    }
-</style>
