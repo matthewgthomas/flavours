@@ -83,7 +83,7 @@
 
     $: {
         reheatSimulation({ index });
-        chargeForce.strength(index <= 2 ? -30 : -150)
+        chargeForce.strength(index <= 2 ? -30 : -120)
     }
 
     let visibleNodes = nodes; 
