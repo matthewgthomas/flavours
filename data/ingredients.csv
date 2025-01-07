@@ -1,4 +1,4 @@
-Ingredient,Type
+id,type
 Chocolate,Roasted
 Coffee,Roasted
 Peanut,Roasted
@@ -22,16 +22,16 @@ Celery,Earthy
 Watercress,Mustardy
 Caper,Mustardy
 Horseradish,Mustardy
-Onion,Sulfurous
-Garlic,Sulfurous
-Truffle,Sulfurous
-Cabbage,Sulfurous
-Swede,Sulfurous
-Cauliflower,Sulfurous
-Broccoli,Sulfurous
-Globe Artichoke,Sulfurous
-Asparagus,Sulfurous
-Egg,Sulfurous
+Onion,Sulphurous
+Garlic,Sulphurous
+Truffle,Sulphurous
+Cabbage,Sulphurous
+Swede,Sulphurous
+Cauliflower,Sulphurous
+Broccoli,Sulphurous
+Globe Artichoke,Sulphurous
+Asparagus,Sulphurous
+Egg,Sulphurous
 Shellfish,Marine
 White Fish,Marine
 Oyster,Marine
@@ -78,12 +78,12 @@ Apricot,Creamy Fruity
 Peach,Creamy Fruity
 Coconut,Creamy Fruity
 Mango,Creamy Fruity
-Orange,Citrusy
-Grapefruit,Citrusy
-Lime,Citrusy
-Lemon,Citrusy
-Ginger,Citrusy
-Cardamom,Citrusy
+Orange,Citrussy
+Grapefruit,Citrussy
+Lime,Citrussy
+Lemon,Citrussy
+Ginger,Citrussy
+Cardamom,Citrussy
 Rosemary,Berry & Bush
 Sage,Berry & Bush
 Juniper,Berry & Bush

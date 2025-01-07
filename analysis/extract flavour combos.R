@@ -52,9 +52,9 @@ ingredients <-
   mutate(Ingredient = if_else(!is.na(`Ingredient (UK)`), `Ingredient (UK)`, Ingredient)) |>
   select(id = Ingredient, type = Type)
 
-write_csv(ingredients, "data/ingredients.csv")
+write_csv(ingredients, "src/data/ingredients.csv")
 
-write_csv(flavour_combos_edges, "data/flavour-combos.csv")
+write_csv(flavour_combos_edges, "src/data/flavour-combos.csv")
 
 # Save nodes and links as JSON
 tibble(
