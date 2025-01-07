@@ -4,6 +4,7 @@
     import { scaleBand, scaleOrdinal } from 'd3-scale';
     import { schemeCategory10 } from 'd3-scale-chromatic';
   
+    import { typeColours } from '$lib/colours.js';
     import { Chart, Circle, ForceSimulation, Link, Svg, Tooltip } from 'layerchart';
    
     export let nodes, links;
@@ -16,12 +17,12 @@
     // There are 16 types of ingredient, so will show the clusters in a 4x4 grid
     const typesXY_desktop = {
         "Green & Grassy": [0.3, 0.3],
-        "Sulfurous": [0.4, 0.3],
+        "Sulphurous": [0.4, 0.3],
         "Fresh Fruity": [0.5, 0.3],
         "Berry & Bush": [0.6, 0.3],
 
         "Floral Fruity": [0.3, 0.4],
-        "Citrusy": [0.4, 0.4],
+        "Citrussy": [0.4, 0.4],
         "Creamy Fruity": [0.5, 0.4],
         "Earthy": [0.6, 0.4],
 
@@ -48,7 +49,7 @@
         "Spicy": [0.6, 0.3],
 
         "Floral Fruity": [0.3, 0.4],
-        "Citrusy": [0.45, 0.4],
+        "Citrussy": [0.45, 0.4],
         "Mustardy": [0.6, 0.4],
 
         "Creamy Fruity": [0.3, 0.5],
@@ -57,7 +58,7 @@
 
         "Meaty": [0.3, 0.6],
         "Woodland": [0.45, 0.6],
-        "Sulfurous": [0.6, 0.6],
+        "Sulphurous": [0.6, 0.6],
 
         "Cheesy": [0.5, 0.7]
     };
@@ -130,7 +131,7 @@
             cx={node.x} 
             cy={node.y} 
             r={10} 
-            fill={index === 0 ? "#e0e0e0" : colorScale(node.type)}
+            fill={index === 0 ? "#e0e0e0" : typeColours[node.type]}
             opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : hiddenNodeOpacity}
             on:click={(e) => {if (index > 0 && currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
             on:pointermove={(e) => {if (index > 0 && currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
