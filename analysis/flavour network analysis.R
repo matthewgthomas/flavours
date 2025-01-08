@@ -3,7 +3,7 @@ library(igraph)
 
 # ---- Set up network of flavour combinations ----
 ingredients <- read_csv("data/ingredients.csv")
-ingredients$Type_fct <- as.factor(ingredients$Type)
+ingredients$type_fct <- as.factor(ingredients$type)
 
 flavour_combos <- read_csv("data/flavour-combos.csv")
 
@@ -14,19 +14,19 @@ flavours <- graph_from_data_frame(flavour_combos, vertices = ingredients, direct
 nrow(ingredients)
 
 # No. types of ingredients
-unique(ingredients$Type)
-length(unique(ingredients$Type))
+unique(ingredients$type)
+length(unique(ingredients$type))
 
 ingredients |>
-  count(Type, sort = TRUE)
+  count(type, sort = TRUE)
 
 # ---- Network stats ----
 # Which ingredients are most and least paired?
 flavour_degrees <- degree(flavours)
-ingredients$n_pairings = flavour_degrees[ as.character(ingredients$Ingredient) ]
+ingredients$n_pairings = flavour_degrees[ as.character(ingredients$id) ]
 
 # Assortativity
-assortativity_nominal(flavours, types = ingredients$Type_fct)
+assortativity_nominal(flavours, types = ingredients$type_fct)
 #--> 0.0066, a low value meaning paired ingredients tend not to be the same type (e.g. woodland isn't often paired with woodland)
 
 # Communities of flavour combos
@@ -45,7 +45,7 @@ betweenness(flavours)
 
 # ---- Which flavour pairings don't appear in the book? ----
 all_pairs <-
-  expand_grid(from = ingredients$Ingredient, to = ingredients$Ingredient) |>
+  expand_grid(from = ingredients$ingredient, to = ingredients$ingredient) |>
   filter(from != to) |>
   rowwise() |>
   mutate(
