@@ -46,17 +46,27 @@ flavour_combos_edges <-
   distinct(sorted_pair, .keep_all = TRUE) |>  # Keep unique sorted pairs
   select(-sorted_pair)  # Remove the helper column
 
-# Save nodes and edges for network analysis
+# ---- Save edges/links ----
+write_csv(flavour_combos_edges, "src/data/flavour-combos.csv")
+
+# ---- Save nodes ----
 ingredients <-
   ingredients |>
   mutate(Ingredient = if_else(!is.na(`Ingredient (UK)`), `Ingredient (UK)`, Ingredient)) |>
   select(id = Ingredient, type = Type)
 
+# - Calculate number of pairings (degree) for each ingredient
+# Make a network
+flavours <- graph_from_data_frame(flavour_combos_edges, vertices = ingredients, directed = FALSE)
+
+# Calculate degree
+flavour_degrees <- degree(flavours)
+ingredients$n_pairings = flavour_degrees[ as.character(ingredients$id) ]
+
+# Save
 write_csv(ingredients, "src/data/ingredients.csv")
 
-write_csv(flavour_combos_edges, "src/data/flavour-combos.csv")
-
-# Save nodes and links as JSON
+# ---- Save nodes and links as JSON ----
 tibble(
   nodes = ingredients |> nest(),
   links = flavour_combos_edges |> nest()
@@ -64,9 +74,6 @@ tibble(
   write_json("src/data/flavours.json")
 
 # ---- Save as JSON using d3r ----
-# Make an igraph object
-# flavours <- graph_from_data_frame(flavour_combos, vertices = ingredients, directed = FALSE)
-
 # Transform it in a JSON format for d3.js
 # flavours_json <- d3_igraph(flavours)
 

@@ -1,100 +1,100 @@
-id,type
-Chocolate,Roasted
-Coffee,Roasted
-Peanut,Roasted
-Chicken,Meaty
-Pork,Meaty
-Black Pudding,Meaty
-Liver,Meaty
-Beef,Meaty
-Lamb,Meaty
-Goat Cheese,Cheesy
-Washed-rind Cheese,Cheesy
-Blue Cheese,Cheesy
-Hard Cheese,Cheesy
-Soft Cheese,Cheesy
-Mushroom,Earthy
-Aubergine,Earthy
-Cumin,Earthy
-Beetroot,Earthy
-Potato,Earthy
-Celery,Earthy
-Watercress,Mustardy
-Caper,Mustardy
-Horseradish,Mustardy
-Onion,Sulphurous
-Garlic,Sulphurous
-Truffle,Sulphurous
-Cabbage,Sulphurous
-Swede,Sulphurous
-Cauliflower,Sulphurous
-Broccoli,Sulphurous
-Globe Artichoke,Sulphurous
-Asparagus,Sulphurous
-Egg,Sulphurous
-Shellfish,Marine
-White Fish,Marine
-Oyster,Marine
-Caviar,Marine
-Oily Fish,Marine
-Anchovy,Brine & Salt
-Smoked Fish,Brine & Salt
-Bacon,Brine & Salt
-Prosciutto,Brine & Salt
-Olive,Brine & Salt
-Saffron,Green & Grassy
-Anise,Green & Grassy
-Cucumber,Green & Grassy
-Dill,Green & Grassy
-Parsley,Green & Grassy
-Coriander Leaf,Green & Grassy
-Avocado,Green & Grassy
-Pea,Green & Grassy
-Bell Pepper,Green & Grassy
-Chili,Green & Grassy
-Basil,Spicy
-Cinnamon,Spicy
-Clove,Spicy
-Nutmeg,Spicy
-Parsnip,Spicy
-Carrot,Woodland
-Butternut Squash,Woodland
-Chestnut,Woodland
-Walnut,Woodland
-Hazelnut,Woodland
-Almond,Woodland
-Cherry,Fresh Fruity
-Watermelon,Fresh Fruity
-Grape,Fresh Fruity
-Rhubarb,Fresh Fruity
-Tomato,Fresh Fruity
-Strawberry,Fresh Fruity
-Pineapple,Fresh Fruity
-Apple,Fresh Fruity
-Pear,Fresh Fruity
-Banana,Creamy Fruity
-Melon,Creamy Fruity
-Apricot,Creamy Fruity
-Peach,Creamy Fruity
-Coconut,Creamy Fruity
-Mango,Creamy Fruity
-Orange,Citrussy
-Grapefruit,Citrussy
-Lime,Citrussy
-Lemon,Citrussy
-Ginger,Citrussy
-Cardamom,Citrussy
-Rosemary,Berry & Bush
-Sage,Berry & Bush
-Juniper,Berry & Bush
-Thyme,Berry & Bush
-Mint,Berry & Bush
-Blackcurrant,Berry & Bush
-Blackberry,Berry & Bush
-Raspberry,Floral Fruity
-Fig,Floral Fruity
-Rose,Floral Fruity
-Blueberry,Floral Fruity
-Coriander Seed,Floral Fruity
-Vanilla,Floral Fruity
-White Chocolate,Floral Fruity
+id,type,n_pairings
+Chocolate,Roasted,39
+Coffee,Roasted,19
+Peanut,Roasted,24
+Chicken,Meaty,39
+Pork,Meaty,48
+Black Pudding,Meaty,12
+Liver,Meaty,12
+Beef,Meaty,48
+Lamb,Meaty,33
+Goat Cheese,Cheesy,28
+Washed-rind Cheese,Cheesy,8
+Blue Cheese,Cheesy,20
+Hard Cheese,Cheesy,33
+Soft Cheese,Cheesy,20
+Mushroom,Earthy,30
+Aubergine,Earthy,10
+Cumin,Earthy,18
+Beetroot,Earthy,19
+Potato,Earthy,44
+Celery,Earthy,21
+Watercress,Mustardy,16
+Caper,Mustardy,17
+Horseradish,Mustardy,12
+Onion,Sulphurous,32
+Garlic,Sulphurous,35
+Truffle,Sulphurous,17
+Cabbage,Sulphurous,20
+Swede,Sulphurous,7
+Cauliflower,Sulphurous,16
+Broccoli,Sulphurous,12
+Globe Artichoke,Sulphurous,12
+Asparagus,Sulphurous,16
+Egg,Sulphurous,37
+Shellfish,Marine,51
+White Fish,Marine,31
+Oyster,Marine,17
+Caviar,Marine,11
+Oily Fish,Marine,30
+Anchovy,Brine & Salt,23
+Smoked Fish,Brine & Salt,16
+Bacon,Brine & Salt,38
+Prosciutto,Brine & Salt,17
+Olive,Brine & Salt,22
+Saffron,Green & Grassy,15
+Anise,Green & Grassy,44
+Cucumber,Green & Grassy,21
+Dill,Green & Grassy,17
+Parsley,Green & Grassy,17
+Coriander Leaf,Green & Grassy,23
+Avocado,Green & Grassy,22
+Pea,Green & Grassy,22
+Bell Pepper,Green & Grassy,11
+Chili,Green & Grassy,38
+Basil,Spicy,16
+Cinnamon,Spicy,32
+Clove,Spicy,14
+Nutmeg,Spicy,21
+Parsnip,Spicy,14
+Carrot,Woodland,18
+Butternut Squash,Woodland,16
+Chestnut,Woodland,12
+Walnut,Woodland,34
+Hazelnut,Woodland,18
+Almond,Woodland,40
+Cherry,Fresh Fruity,13
+Watermelon,Fresh Fruity,13
+Grape,Fresh Fruity,16
+Rhubarb,Fresh Fruity,15
+Tomato,Fresh Fruity,40
+Strawberry,Fresh Fruity,20
+Pineapple,Fresh Fruity,25
+Apple,Fresh Fruity,32
+Pear,Fresh Fruity,18
+Banana,Creamy Fruity,20
+Melon,Creamy Fruity,11
+Apricot,Creamy Fruity,18
+Peach,Creamy Fruity,14
+Coconut,Creamy Fruity,30
+Mango,Creamy Fruity,17
+Orange,Citrussy,40
+Grapefruit,Citrussy,9
+Lime,Citrussy,23
+Lemon,Citrussy,41
+Ginger,Citrussy,27
+Cardamom,Citrussy,18
+Rosemary,Berry & Bush,22
+Sage,Berry & Bush,15
+Juniper,Berry & Bush,12
+Thyme,Berry & Bush,18
+Mint,Berry & Bush,35
+Blackcurrant,Berry & Bush,8
+Blackberry,Berry & Bush,8
+Raspberry,Floral Fruity,15
+Fig,Floral Fruity,16
+Rose,Floral Fruity,12
+Blueberry,Floral Fruity,9
+Coriander Seed,Floral Fruity,12
+Vanilla,Floral Fruity,28
+White Chocolate,Floral Fruity,13
