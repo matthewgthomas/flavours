@@ -72,9 +72,16 @@
                 highlightedNodes = ["Chocolate"];
 			},
 			() => {
-				currentNodes = nodes;
-				currentLinks = links;
+				currentNodes = filteredNodes;
+				currentLinks = filteredLinks;
                 hiddenNodeOpacity = 0;
+                highlightedNodes = ["Chocolate", "Cinnamon"];
+			},
+            () => {
+				currentNodes = filteredNodes;
+				currentLinks = filteredLinks;
+                hiddenNodeOpacity = 0;
+                highlightedNodes = ["Chocolate", "Cauliflower", "Bacon"];
 			}
         ]
     ];
@@ -130,7 +137,21 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    Chocolate is paired with...
+                    Chocolate is paired with X ingredients.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    Chocolate is paired with obvious things like cinnamon.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    ... but also with weird things like cauliflower or bacon.
                 </p>
             </div>
         </section>
