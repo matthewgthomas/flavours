@@ -1,7 +1,6 @@
 <script>
     import { forceManyBody, forceLink, forceX, forceY, forceCollide, forceCenter } from 'd3-force';
     import { curveLinear } from 'd3-shape';
-    import { scaleBand, scaleOrdinal } from 'd3-scale';
     import { schemeCategory10 } from 'd3-scale-chromatic';
   
     import { typeColours } from '$lib/colours.js';
@@ -12,8 +11,6 @@
     export let index = 0;
     export let hiddenNodeOpacity = 0;
     export let highlightedNodes = [];
-  
-    const colorScale = scaleOrdinal(schemeCategory10);
 
     // There are 16 types of ingredient, so will show the clusters in a 4x4 grid
     const typesXY_desktop = {
@@ -95,9 +92,7 @@
 <Chart 
     data={nodes}
     x="type"
-    xScale={scaleBand()}
     let:xGet
-    let:xScale
     let:width
     let:height
     let:tooltip
