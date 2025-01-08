@@ -36,6 +36,8 @@
     let currentLinks = links;
     let hiddenNodeOpacity = 0;
     let highlightedNodes = [];
+    let sizeByDegree = false;
+    let clusterByType = false;
 
     // CONFIG FOR SCROLLER COMPONENTS
 	// Config
@@ -49,39 +51,60 @@
 	// This array of functions correspond to the <section/> tags within the network chart <Scroller/> component
 	const chartActions = [
         [
+            // All ingredients, greyed out
             () => {
                 currentNodes = nodes;
                 currentLinks = [];
                 highlightedNodes = [];
+                clusterByType = false;
             },
+            // All ingredients, clustered into types
             () => {
                 currentNodes = nodes;
                 currentLinks = [];
                 highlightedNodes = [];
+                clusterByType = true;
             },
+            // Focus on chocolate
 			() => {
 				currentNodes = [{id: "Chocolate", type: "Roasted"}];
                 currentLinks = [];
                 hiddenNodeOpacity = 0.1;
-                highlightedNodes = [];
+                highlightedNodes = ["Chocolate"];
+                clusterByType = false;
 			},
+            // Show chocolate's pairings
 			() => {
 				currentNodes = filteredNodes;
 				currentLinks = filteredLinks;
                 hiddenNodeOpacity = 0;
                 highlightedNodes = ["Chocolate"];
+                clusterByType = false;
 			},
+            // Show chocolate's pairings, highlighting cinnamon
 			() => {
 				currentNodes = filteredNodes;
 				currentLinks = filteredLinks;
                 hiddenNodeOpacity = 0;
                 highlightedNodes = ["Chocolate", "Cinnamon"];
+                clusterByType = false;
 			},
+            // Show chocolate's pairings, highlighting cauliflower and bacon
             () => {
 				currentNodes = filteredNodes;
 				currentLinks = filteredLinks;
                 hiddenNodeOpacity = 0;
                 highlightedNodes = ["Chocolate", "Cauliflower", "Bacon"];
+                clusterByType = false;
+			},
+            // All ingredients, clustered by type, sized by number of pairings
+            () => {
+				currentNodes = nodes;
+				currentLinks = [];
+                hiddenNodeOpacity = 0;
+                highlightedNodes = [];
+                clusterByType = false;
+                sizeByDegree = true;
 			}
         ]
     ];
@@ -107,6 +130,8 @@
                     {index} 
                     {hiddenNodeOpacity} 
                     {highlightedNodes}
+                    {sizeByDegree}
+                    {clusterByType}
                 />
             </div>
         </figure>
@@ -152,6 +177,13 @@
             <div class='col-medium'>
                 <p>
                     ... but also with weird things like cauliflower or bacon.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    Sized by number of pairings.
                 </p>
             </div>
         </section>

@@ -11,6 +11,8 @@
     export let index = 0;
     export let hiddenNodeOpacity = 0;
     export let highlightedNodes = [];
+    export let sizeByDegree = false;
+    export let clusterByType = false;
 
     // There are 16 types of ingredient, so will show the clusters in a 4x4 grid
     const typesXY_desktop = {
@@ -74,6 +76,7 @@
 
     let alpha = 1;
     const nodeStrokeWidth = 1;
+    const nodeRadius = 10;
 
     function reheatSimulation(args = {}) {
         const _ = args;
@@ -105,9 +108,9 @@
             charge: chargeForce,
             collide: collideForce,
             center: centerForce,
-            ...(index < 3 && { x: xForce.strength(0.1).x((d) => (index == 1 ? getTypeXY(d.type, 0, width) * width : width / 2)) }),
-            ...(index < 3 && { y: yForce.strength(0.1).y((d) => (index == 1 ? getTypeXY(d.type, 1, width) * height : height / 2)) }),
-            ...(index >= 3 && { link: linkForce.id((d) => d.id).links(links) })
+            ...(currentLinks.length === 0 && { x: xForce.strength(0.1).x((d) => (clusterByType ? getTypeXY(d.type, 0, width) * width : width / 2)) }),
+            ...(currentLinks.length === 0 && { y: yForce.strength(0.1).y((d) => (clusterByType ? getTypeXY(d.type, 1, width) * height : height / 2)) }),
+            ...(currentLinks.length > 0 && { link: linkForce.id((d) => d.id).links(links) })
         }}
         bind:alpha
         let:nodes
@@ -127,14 +130,14 @@
             <Circle 
                 cx={node.x} 
                 cy={node.y} 
-                r={14}
+                r={nodeRadius + 4}
                 fill="#e95a85"
             />
         {/if}
         <Circle 
             cx={node.x} 
             cy={node.y} 
-            r={10} 
+            r={sizeByDegree ? node.n_pairings : nodeRadius} 
             fill={index === 0 ? "#e0e0e0" : typeColours[node.type]}
             stroke={highlightedNodes.includes(node.id) ? "#fff" : "#fff"}
             stroke-width={highlightedNodes.includes(node.id) ? 1.5 : 0}
