@@ -123,13 +123,21 @@
     {/key}
 
     {#each nodes as node}
+        {#if highlightedNodes.includes(node.id)}
+            <Circle 
+                cx={node.x} 
+                cy={node.y} 
+                r={14}
+                fill="#e95a85"
+            />
+        {/if}
         <Circle 
             cx={node.x} 
             cy={node.y} 
             r={10} 
             fill={index === 0 ? "#e0e0e0" : typeColours[node.type]}
-            stroke={highlightedNodes.includes(node.id) ? "#e95a85" : "#fff"}
-            stroke-width={highlightedNodes.includes(node.id) ? 5 : 0}
+            stroke={highlightedNodes.includes(node.id) ? "#fff" : "#fff"}
+            stroke-width={highlightedNodes.includes(node.id) ? 1.5 : 0}
             opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : hiddenNodeOpacity}
             on:click={(e) => {if (index > 0 && currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
             on:pointermove={(e) => {if (index > 0 && currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
