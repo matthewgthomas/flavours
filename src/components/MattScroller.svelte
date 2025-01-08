@@ -35,6 +35,7 @@
     let currentNodes = nodes;
     let currentLinks = links;
     let hiddenNodeOpacity = 0;
+    let highlightedNodes = [];
 
     // CONFIG FOR SCROLLER COMPONENTS
 	// Config
@@ -51,20 +52,24 @@
             () => {
                 currentNodes = nodes;
                 currentLinks = [];
+                highlightedNodes = [];
             },
             () => {
                 currentNodes = nodes;
                 currentLinks = [];
+                highlightedNodes = [];
             },
 			() => {
 				currentNodes = [{id: "Chocolate", type: "Roasted"}];
                 currentLinks = [];
                 hiddenNodeOpacity = 0.1;
+                highlightedNodes = [];
 			},
 			() => {
 				currentNodes = filteredNodes;
 				currentLinks = filteredLinks;
                 hiddenNodeOpacity = 0;
+                highlightedNodes = ["Chocolate"];
 			},
 			() => {
 				currentNodes = nodes;
@@ -87,7 +92,15 @@
         <figure>
             <div class="col-wide height-full">
                 <!--<p>Section {index + 1} is currently active.</p>-->
-                <ForceGraph {nodes} {currentNodes} {links} {currentLinks} {index} {hiddenNodeOpacity} />
+                <ForceGraph 
+                    {nodes} 
+                    {currentNodes} 
+                    {links} 
+                    {currentLinks} 
+                    {index} 
+                    {hiddenNodeOpacity} 
+                    {highlightedNodes}
+                />
             </div>
         </figure>
     </div>
