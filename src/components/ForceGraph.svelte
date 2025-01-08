@@ -147,7 +147,7 @@
     </ForceSimulation>
 </Svg>
 
-<Tooltip.Root let:data>
+<Tooltip.Root let:data variant="invert">
     <Tooltip.Header>{data.id}</Tooltip.Header>
     {data.type}
 </Tooltip.Root>
