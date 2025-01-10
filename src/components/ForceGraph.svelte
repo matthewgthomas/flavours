@@ -1,5 +1,7 @@
 <script>
     import { forceManyBody, forceLink, forceX, forceY, forceCollide, forceCenter } from 'd3-force';
+    import { max } from 'd3-array';
+    import { scaleLinear } from 'd3-scale';
     import { curveLinear } from 'd3-shape';
     import { schemeCategory10 } from 'd3-scale-chromatic';
   
@@ -66,11 +68,37 @@
     function getTypeXY(type, xy = 0, width) {
         return (width < 768 ? typesXY_mobile[type][xy] : typesXY_desktop[type][xy]);
     }
+
+    function getOrderedPosition(node, nodes, width, height) {
+        // Sort nodes by size descending
+        const sortedNodes = [...nodes].sort((a, b) => b.n_pairings - a.n_pairings);
+        const index = sortedNodes.findIndex(n => n.id === node.id);
+        
+        // Calculate radius (using same scale as in visualization)
+        const rScale = scaleLinear()
+            .domain([0, max(nodes, d => d.n_pairings)])
+            .range([3, 12]);
+        const radius = rScale(node.n_pairings);
+        
+        // Calculate positions with padding based on radius
+        const padding = 0; // Space between nodes
+        //const maxPerRow = Math.floor(width / (radius * 2 + padding));
+        const maxPerRow = width < 768 ? 6 : 9;
+        const row = Math.floor(index / maxPerRow);
+        const col = index % maxPerRow;
+
+        console.log("row", row, "col", col, "index", index, "maxPerRow", maxPerRow);
+        
+        return {
+            x: (col * (30 + padding)) + 0 + padding + (width / 4),
+            y: (row * (30 + padding)) + 0 + padding + (height / 4)
+        };
+    }
   
     const linkForce = forceLink(links).id((d) => d.id);
     const chargeForce = forceManyBody();
     const collideForce = forceCollide();
-    const centerForce = forceCenter(0, 0);
+    const centerForce = forceCenter();
     const xForce = forceX();
     const yForce = forceY();
 
@@ -85,7 +113,7 @@
 
     $: {
         reheatSimulation({ index });
-        chargeForce.strength(index <= 2 ? -30 : -120)
+        chargeForce.strength(currentLinks.length === 0 ? -20 : -120)
     }
 
     let visibleNodes = nodes; 
@@ -95,21 +123,26 @@
 <Chart 
     data={nodes}
     x="type"
+    r="n_pairings"
+    rRange={[3, 12]}
     let:xGet
+    let:rGet
     let:width
     let:height
     let:tooltip
 >
 <!-- <p>Height: {height}; width: {width}</p> -->
  <!--alphaTarget={0.15}-->
-<Svg center>
+<Svg>
     <ForceSimulation
         forces={{
             charge: chargeForce,
             collide: collideForce,
-            center: centerForce,
-            ...(currentLinks.length === 0 && { x: xForce.strength(0.1).x((d) => (clusterByType ? getTypeXY(d.type, 0, width) * width : width / 2)) }),
-            ...(currentLinks.length === 0 && { y: yForce.strength(0.1).y((d) => (clusterByType ? getTypeXY(d.type, 1, width) * height : height / 2)) }),
+            center: centerForce.x(width / 2).y(height / 2),
+            ...(currentLinks.length === 0 && !sizeByDegree && { 
+                x: xForce.strength(0.1).x((d) => (clusterByType ? getTypeXY(d.type, 0, width) * width : width / 2)),
+                y: yForce.strength(0.1).y((d) => (clusterByType ? getTypeXY(d.type, 1, width) * height : height / 2))
+            }),
             ...(currentLinks.length > 0 && { link: linkForce.id((d) => d.id).links(links) })
         }}
         bind:alpha
@@ -135,9 +168,9 @@
             />
         {/if}
         <Circle 
-            cx={node.x} 
-            cy={node.y} 
-            r={sizeByDegree ? node.n_pairings : nodeRadius} 
+            cx={sizeByDegree && currentLinks.length == 0 ? getOrderedPosition(node, nodes, width, height).x : node.x} 
+            cy={sizeByDegree && currentLinks.length == 0 ? getOrderedPosition(node, nodes, width, height).y : node.y} 
+            r={sizeByDegree ? node.n_pairings / 4 : nodeRadius} 
             fill={index === 0 ? "#e0e0e0" : typeColours[node.type]}
             stroke={highlightedNodes.includes(node.id) ? "#fff" : "#fff"}
             stroke-width={highlightedNodes.includes(node.id) ? 1.5 : 0}
