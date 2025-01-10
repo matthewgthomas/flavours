@@ -86,8 +86,6 @@
         const maxPerRow = width < 768 ? 6 : 9;
         const row = Math.floor(index / maxPerRow);
         const col = index % maxPerRow;
-
-        console.log("row", row, "col", col, "index", index, "maxPerRow", maxPerRow);
         
         return {
             x: (col * (35 + padding)) + 0 + padding + (width / 5),
@@ -115,18 +113,12 @@
         reheatSimulation({ index });
         chargeForce.strength(currentLinks.length === 0 ? -20 : -120)
     }
-
-    let visibleNodes = nodes; 
-    $: visibleNodes = nodes.filter(node => currentNodes.includes(node.id));
 </script>
 
 <Chart 
     data={nodes}
     x="type"
-    r="n_pairings"
-    rRange={[3, 12]}
     let:xGet
-    let:rGet
     let:width
     let:height
     let:tooltip
