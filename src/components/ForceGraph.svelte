@@ -177,6 +177,9 @@
 
 <Tooltip.Root let:data variant="invert">
     <Tooltip.Header>{data.id}</Tooltip.Header>
-    {data.type}
+    <Tooltip.Item>{data.type}</Tooltip.Item>
+    {#if sizeByDegree && currentLinks.length == 0}
+    <Tooltip.Item>{data.n_pairings} pairings</Tooltip.Item>
+    {/if}
 </Tooltip.Root>
 </Chart>
