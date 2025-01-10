@@ -90,8 +90,8 @@
         console.log("row", row, "col", col, "index", index, "maxPerRow", maxPerRow);
         
         return {
-            x: (col * (30 + padding)) + 0 + padding + (width / 4),
-            y: (row * (30 + padding)) + 0 + padding + (height / 4)
+            x: (col * (35 + padding)) + 0 + padding + (width / 5),
+            y: (row * (35 + padding)) + 0 + padding + (height / 5)
         };
     }
   
@@ -170,7 +170,7 @@
         <Circle 
             cx={sizeByDegree && currentLinks.length == 0 ? getOrderedPosition(node, nodes, width, height).x : node.x} 
             cy={sizeByDegree && currentLinks.length == 0 ? getOrderedPosition(node, nodes, width, height).y : node.y} 
-            r={sizeByDegree ? node.n_pairings / 4 : nodeRadius} 
+            r={sizeByDegree ? node.n_pairings / 2.5 : nodeRadius} 
             fill={index === 0 ? "#e0e0e0" : typeColours[node.type]}
             stroke={highlightedNodes.includes(node.id) ? "#fff" : "#fff"}
             stroke-width={highlightedNodes.includes(node.id) ? 1.5 : 0}
