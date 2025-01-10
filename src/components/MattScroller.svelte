@@ -57,6 +57,7 @@
                 currentLinks = [];
                 highlightedNodes = [];
                 clusterByType = false;
+                sizeByDegree = false;
             },
             // All ingredients, clustered into types
             () => {
@@ -64,6 +65,7 @@
                 currentLinks = [];
                 highlightedNodes = [];
                 clusterByType = true;
+                sizeByDegree = false;
             },
             // Focus on chocolate
 			() => {
@@ -72,6 +74,7 @@
                 hiddenNodeOpacity = 0.1;
                 highlightedNodes = ["Chocolate"];
                 clusterByType = false;
+                sizeByDegree = false;
 			},
             // Show chocolate's pairings
 			() => {
@@ -80,6 +83,7 @@
                 hiddenNodeOpacity = 0;
                 highlightedNodes = ["Chocolate"];
                 clusterByType = false;
+                sizeByDegree = false;
 			},
             // Show chocolate's pairings, highlighting cinnamon
 			() => {
@@ -88,6 +92,7 @@
                 hiddenNodeOpacity = 0;
                 highlightedNodes = ["Chocolate", "Cinnamon"];
                 clusterByType = false;
+                sizeByDegree = false;
 			},
             // Show chocolate's pairings, highlighting cauliflower and bacon
             () => {
@@ -96,6 +101,7 @@
                 hiddenNodeOpacity = 0;
                 highlightedNodes = ["Chocolate", "Cauliflower", "Bacon"];
                 clusterByType = false;
+                sizeByDegree = false;
 			},
             // All ingredients, clustered by type, sized by number of pairings
             () => {
@@ -105,7 +111,37 @@
                 highlightedNodes = [];
                 clusterByType = false;
                 sizeByDegree = true;
-			}
+			},
+            // All ingredients, clustered by type, sized by number of pairings
+            // highlighting shellfish
+            () => {
+				currentNodes = nodes;
+				currentLinks = [];
+                hiddenNodeOpacity = 0;
+                highlightedNodes = ["Shellfish"];
+                clusterByType = false;
+                sizeByDegree = true;
+			},
+            // All ingredients, clustered by type, sized by number of pairings
+            // highlighting beef and pork
+            () => {
+				currentNodes = nodes;
+				currentLinks = [];
+                hiddenNodeOpacity = 0;
+                highlightedNodes = ["Beef", "Pork"];
+                clusterByType = false;
+                sizeByDegree = true;
+			},
+            // All ingredients, clustered by type, sized by number of pairings
+            // highlighting swede
+            () => {
+				currentNodes = nodes;
+				currentLinks = [];
+                hiddenNodeOpacity = 0;
+                highlightedNodes = ["Swede"];
+                clusterByType = false;
+                sizeByDegree = true;
+			},
         ]
     ];
 
@@ -184,6 +220,27 @@
             <div class='col-medium'>
                 <p>
                     Sized by number of pairings.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    Shellfish is the most popular ingredient, with 51 pairings...
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    ... closely followed by beef and pork, with 48 pairings apiece.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    Swede has the fewest pairings, with just 7 other ingredients: anise, beef, carrot, lamb, nutmeg, pork, and potato
                 </p>
             </div>
         </section>

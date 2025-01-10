@@ -101,7 +101,8 @@
     const yForce = forceY();
 
     let alpha = 1;
-    const nodeStrokeWidth = 1;
+    const nodeStrokeWidth = 1.5;
+    const nodeStrokeColour = "#fff";
     const nodeRadius = 10;
 
     function reheatSimulation(args = {}) {
@@ -153,9 +154,9 @@
     {#each nodes as node}
         {#if highlightedNodes.includes(node.id)}
             <Circle 
-                cx={node.x} 
-                cy={node.y} 
-                r={nodeRadius + 4}
+                cx={sizeByDegree && currentLinks.length == 0 ? getOrderedPosition(node, nodes, width, height).x : node.x} 
+                cy={sizeByDegree && currentLinks.length == 0 ? getOrderedPosition(node, nodes, width, height).y : node.y} 
+                r={sizeByDegree ? (node.n_pairings / 2.5) + 4 : nodeRadius + 4} 
                 fill="#e95a85"
             />
         {/if}
@@ -164,8 +165,8 @@
             cy={sizeByDegree && currentLinks.length == 0 ? getOrderedPosition(node, nodes, width, height).y : node.y} 
             r={sizeByDegree ? node.n_pairings / 2.5 : nodeRadius} 
             fill={index === 0 ? "#e0e0e0" : typeColours[node.type]}
-            stroke={highlightedNodes.includes(node.id) ? "#fff" : "#fff"}
-            stroke-width={highlightedNodes.includes(node.id) ? 1.5 : 0}
+            stroke={nodeStrokeColour}
+            stroke-width={nodeStrokeWidth}
             opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : hiddenNodeOpacity}
             on:click={(e) => {if (index > 0 && currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
             on:pointermove={(e) => {if (index > 0 && currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
