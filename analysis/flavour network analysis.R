@@ -15,7 +15,7 @@ nrow(ingredients)
 
 # No. types of ingredients
 unique(ingredients$type)
-length(unique(ingredients$type))
+(n_categories <- length(unique(ingredients$type)))
 
 ingredients |>
   count(type, sort = TRUE)
@@ -33,15 +33,61 @@ assortativity_nominal(flavours, types = ingredients$type_fct)
 # communities <- cluster_optimal(flavours)
 communities <- cluster_fast_greedy(flavours)
 
+communities <- cluster_walktrap(flavours)
+communities
+
 plot(communities, flavours)
 
 # Cliques
+largest_cliques(flavours)
 
 # Betweenness
 ebs <- edge_betweenness(flavours)
 as_edgelist(g)[ebs == max(ebs), ]
 
-betweenness(flavours)
+flavour_betweenness <- betweenness(flavours)
+ingredients$betweenness = flavour_betweenness[ as.character(ingredients$id) ]
+
+flavour_eigen <- eigen_centrality(flavours)
+ingredients$eigen = flavour_eigen$vector[ as.character(ingredients$id) ]
+
+flavour_closeness <- closeness(flavours)
+ingredients$closeness = flavour_closeness[ as.character(ingredients$id) ]
+
+# ---- Which ingredients are paired with the greatest range of other ingredients? ----
+# Count the types/categories each *source* ingredient is paired with
+pair_types_1 <-
+  flavour_combos |>
+  left_join(ingredients, join_by(target == id)) |>
+  count(id = source, type)
+
+# Count the types/categories each *target* ingredient is paired with
+pair_types_2 <-
+  flavour_combos |>
+  left_join(ingredients, join_by(source == id)) |>
+  count(id = target, type)
+
+pair_types <-
+  rbind(pair_types_1, pair_types_2) |>
+  group_by(id, type) |>
+  summarise(n = sum(n)) |>
+  ungroup()
+
+# Check that the sum of these counts is the same as the degree for each node
+pair_types |>
+  group_by(id) |>
+  summarise(total = sum(n)) |>
+  ungroup() |>
+  left_join(ingredients) |>
+  mutate(check = total == n_pairings) |>
+  count(check)
+
+# Which ingredients are paired with the greatest range of types/categories
+pair_types |>
+  count(id, sort = TRUE) |>
+  mutate(prop = n / n_categories)
+
+ingredients$rank_pairings <- nrow(ingredients) - rank(ingredients$n_pairings, ties.method = "first") + 1
 
 # ---- Which flavour pairings don't appear in the book? ----
 all_pairs <-
