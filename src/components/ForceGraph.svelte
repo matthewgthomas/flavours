@@ -176,7 +176,7 @@
     </ForceSimulation>
 </Svg>
 
-<Tooltip.Root let:data variant="invert">
+<Tooltip.Root let:data class="border border-book-spine bg-book-spine/70">
     <Tooltip.Header>{data.id}</Tooltip.Header>
     <Tooltip.Item>{data.type}</Tooltip.Item>
     {#if sizeByDegree && currentLinks.length == 0}
