@@ -1,5 +1,6 @@
 <script>
     import ForceGraph from "../components/ForceGraph.svelte";
+    import Span from "../components/Span.svelte";
     import Scroller from "@sveltejs/svelte-scroller";
 
     import nodes from "$data/ingredients.csv";
@@ -257,35 +258,53 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    They're in 16 categories.
+                    They're in 16 categories:
+                </p>
+                <ul>
+                    <li><Span colour='bg-green-grassy' invert>Green and grassy</Span></li>
+                    <li><Span colour='bg-sulphurous'>Sulphurous</Span></li>
+                    <li><Span colour='bg-fresh-fruity' invert>Fresh fruity</Span></li>
+                    <li><Span colour='bg-bramble-hedge' invert>Bramble and hedge</Span></li>
+                    <li><Span colour='bg-floral-fruity' invert>Floral fruity</Span></li>
+                    <li><Span colour='bg-citrussy'>Citrussy</Span></li>
+                    <li><Span colour='bg-creamy-fruity' >Creamy fruity</Span></li>
+                    <li><Span colour='bg-earthy' invert>Earthy</Span></li>
+                    <li><Span colour='bg-meaty' invert>Meaty</Span></li>
+                    <li><Span colour='bg-woodland' invert>Woodland</Span></li>
+                    <li><Span colour='bg-brine-salt' invert>Brine and salt</Span></li>
+                    <li><Span colour='bg-cheesy'>Cheesy</Span></li>
+                    <li><Span colour='bg-marine' invert>Marine</Span></li>
+                    <li><Span colour='bg-spicy' invert>Spicy</Span></li>
+                    <li><Span colour='bg-mustardy' invert>Mustardy</Span></li>
+                    <li><Span colour='bg-roasted' invert>Roasted</Span></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    This is <Span colour='bg-roasted' invert>chocolate</Span>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    This is chocolate.
+                    <Span colour='bg-roasted' invert>Chocolate</Span> is paired with X ingredients.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    Chocolate is paired with X ingredients.
+                    <Span colour='bg-roasted' invert>Chocolate</Span> is paired with obvious things like <Span colour='bg-spicy' invert>cinnamon</Span>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    Chocolate is paired with obvious things like cinnamon.
-                </p>
-            </div>
-        </section>
-        <section>
-            <div class='col-medium'>
-                <p>
-                    ... but also with weird things like cauliflower or bacon.
+                    ... but also with weird things like <Span colour='bg-sulphurous'>cauliflower</Span> or <Span colour='bg-brine-salt'>bacon</Span>.
                 </p>
             </div>
         </section>
@@ -299,45 +318,45 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    Shellfish is the most popular ingredient, with 51 pairings...
+                    <Span colour='bg-marine' invert>Shellfish</Span> is the most popular ingredient, with 51 pairings...
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    ... closely followed by beef and pork, with 48 pairings apiece.
+                    ... closely followed by <Span colour='bg-meaty' invert>beef</Span> and <Span colour='bg-meaty' invert>pork</Span>, with 48 pairings apiece.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    Swede has the fewest pairings, with just 7 other ingredients: anise, beef, carrot, lamb, nutmeg, pork, and potato.
+                    <Span colour='bg-sulphurous'>Swede</Span> has the fewest pairings, with just 7 other ingredients: <Span colour="bg-green-grassy" invert>anise</Span>, <Span colour='bg-meaty' invert>beef</Span>, <Span colour='bg-woodland' invert>carrot</Span>, <Span colour='bg-meaty' invert>lamb</Span>, <Span colour='bg-spicy' invert>nutmeg</Span>, <Span colour='bg-meaty' invert>pork</Span>, and <Span colour='bg-earthy' invert>potato</Span>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    Apple deserves a special mention.
+                    <Span colour='bg-fresh-fruity' invert>Apple</Span> deserves a special mention.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    Although apple isn't the most popular ingredient - barely squeaking into the top 20, based on number of pairings - it goes with every type of flavour, whether sulphurous, spicy, or citrussy.
+                    Although <Span colour='bg-fresh-fruity' invert>apple</Span> isn't the most popular ingredient - barely squeaking into the top 20, based on number of pairings - it goes with every type of flavour, whether <Span colour='bg-sulphurous'>sulphurous</Span>, <Span colour='bg-spicy' invert>spicy</Span>, or <Span colour='bg-citrussy'>citrussy</Span>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    Some ingredients are often paired with the most popular ingredients.
+                    Some flavours are often paired with the most popular ingredients.
                 </p>
                 <p>
-                    Anise is one. A  veritable - and <a href='https://www.bbcgoodfood.com/glossary/star-anise-glossary' target='_blank'>literal</a> - star among other star ingredients.
+                    <Span colour="bg-green-grassy" invert>Anise</Span> is one. A  veritable - and <a href='https://www.bbcgoodfood.com/glossary/star-anise-glossary' target='_blank'>literal</a> - star among other star ingredients.
                 </p>
                 <p>
                     <img src='https://images.immediate.co.uk/production/volatile/sites/30/2020/02/star-anise-ff5c1d1.jpg?quality=90&webp=true&resize=750,681' alt='Star anise. Source: BBC Good Food.' /> 
@@ -347,7 +366,7 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    In the book, Niki Segnit describes anise as a "very combinable flavour."
+                    In the book, Niki Segnit describes <Span colour="bg-green-grassy" invert>anise</Span> as a "very combinable flavour."
                 </p>
                 <p>
                     It appears in star and seed form, in liquorice, fennel, and herbs like tarragon and chervil. Even some varieties of basil have liquorice notes (Thai basil in particular).
@@ -357,14 +376,14 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    If you're a fan of oysters, you can add a dash of <a href='https://www.healthyseasonalrecipes.com/tarragon-vinaigrette/' target='_blank'>tarragon vinaigrette</a>.
+                    If you're a fan of <Span colour='bg-marine' invert>oysters</Span>, you could try adding a dash of <a href='https://www.healthyseasonalrecipes.com/tarragon-vinaigrette/' target='_blank'>tarragon vinaigrette</a>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    Apparently anise seeds and lemon play nicely together in <a href='https://italianfoodforever.com/2012/02/lemon-anise-biscotti/' target='_blank'>biscotti</a>.
+                    Apparently <Span colour="bg-green-grassy" invert>anise seeds</Span> and <Span colour='bg-citrussy'>lemon</Span> play nicely together in <a href='https://italianfoodforever.com/2012/02/lemon-anise-biscotti/' target='_blank'>biscotti</a>.
                 </p>
                 <p>
                     The Flavour Thesaurus calls pastis - the <a href='https://en.wikipedia.org/wiki/Pastis' target='_blank'>anise-y aperitif</a> - an "odd but successful match for lemon in a sorbet."
@@ -374,7 +393,7 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    Even the relatively unpopular swede has a friend in anise.
+                    Even the relatively unpopular <Span colour='bg-sulphurous'>swede</Span> has a friend in <Span colour="bg-green-grassy" invert>anise</Span>.
                 </p>
                 <p>
                     The Flavour Thesaurus recommends Hugh Fearnley-Whittingstall's <a href='https://www.google.co.uk/books/edition/The_River_Cottage_Meat_Book/a-r5GwAACAAJ?hl=en#ba_cen=lat_e7:%20515331909%0Alng_e7:%204294736586%0A&ba_loc=London%20E3%202PY' target='_blank'>leftover goose pasties</a>, which sound superb even to an anise-skeptic like me.

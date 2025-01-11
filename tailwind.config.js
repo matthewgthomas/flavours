@@ -6,7 +6,11 @@ export default {
   ],
 
   theme: {
+    extend: {
     colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
       'book-spine': '#e95a85',
       'roasted': '#654d4b',  /* 4c5256 */
       'meaty': '#a16f89',
@@ -24,7 +28,7 @@ export default {
       'citrussy': '#eceb01',
       'bramble-hedge': '#765970',
       'floral-fruity': '#b15582',
-    }
+    }}
   },
 
   plugins: []
