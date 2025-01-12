@@ -2,12 +2,10 @@
     import ForceGraph from "../components/ForceGraph.svelte";
     import Span from "../components/Span.svelte";
     import Scroller from "@sveltejs/svelte-scroller";
+    import Select from "svelte-select";
 
     import nodes from "$data/ingredients.csv";
     import links from "$data/flavour-combos.csv";
-    import flavours from '$data/flavours.json';
-
-    const data = { "nodes": nodes, "links": links };
 
     function filterLinks(links, filter) {
         // Convert single string to array for consistent handling
@@ -15,39 +13,55 @@
         
         // Filter links where either source or target exactly matches any filter value
         return links.filter(link => 
-            filters.includes(link.source) || filters.includes(link.target)
+            filters.includes(typeof link.source === 'object' ? link.source.id : link.source) || 
+            filters.includes(typeof link.target === 'object' ? link.target.id : link.target)
         );
     }
 
-    function filterLinksToNodes(links, nodeIds) {
-        return links.filter(link => 
-            nodeIds.includes(link.source) && nodeIds.includes(link.target)
-        );
-    }
+    // function filterLinksToNodes(links, nodeIds) {
+    //     return links.filter(link => 
+    //         nodeIds.includes(link.source) && nodeIds.includes(link.target)
+    //     );
+    // }
 
     function filterNodes(nodes, links) {
         // Get unique ingredients from links
         const linkedIngredients = new Set([
-            ...links.map(link => link.source),
-            ...links.map(link => link.target)
+            ...links.map(link => typeof link.source === 'object'? link.source.id : link.source),
+            ...links.map(link => typeof link.target === 'object'? link.target.id : link.target)
         ]);
         
         // Filter nodes to only those that appear in links
         return nodes.filter(node => linkedIngredients.has(node.id));
     }
 
+    // Filter nodes and links for chocolate and anise, for the scrolly story
     const chocolateLinks = filterLinks(links, "Chocolate");
     const chocolateNodes = filterNodes(nodes, chocolateLinks);
 
     const aniseLinks = filterLinks(links, "Anise");
     const aniseNodes = filterNodes(nodes, aniseLinks);
 
+    // CONFIG FOR FORCEGRAPH COMPONENT
     let currentNodes = nodes;
     let currentLinks = links;
     let hiddenNodeOpacity = 0;
     let highlightedNodes = [];
     let sizeByDegree = false;
     let clusterByType = false;
+
+    // CONFIG FOR SELECT COMPONENT
+    let selectedFlavour = {id: "Anise"};  // Start the reader off with anise, since that's the flavour they'll have just read about
+    const groupBy = (item) => item.type;
+
+    function handleSelect(e) {
+        currentLinks = filterLinks(links, e.detail.id);
+        //console.log("New links based on", e.detail.id, "are", currentLinks);
+        
+        currentNodes = filterNodes(nodes, currentLinks);
+        //console.log("5. Filtered nodes:", currentNodes);
+        highlightedNodes = [e.detail.id];
+    }
 
     // CONFIG FOR SCROLLER COMPONENTS
 	// Config
@@ -216,6 +230,15 @@
                 clusterByType = false;
                 sizeByDegree = false;
 			},
+            // Reader can explore flavour pairings
+			() => {
+				currentNodes = aniseNodes;
+				currentLinks = aniseLinks;
+                hiddenNodeOpacity = 0;
+                highlightedNodes = ["Anise"];
+                clusterByType = false;
+                sizeByDegree = false;
+			},
         ]
     ];
 
@@ -223,8 +246,6 @@
         chartActions[0][+index]();
         indexPrev = index;
     }
-
-    // Set <Scroller> top and bottom based on whether mobile or not
 </script>
 
 <Scroller {threshold} top="{0}" bottom="{0.8}" bind:index bind:offset bind:progress>
@@ -397,6 +418,31 @@
                 </p>
                 <p>
                     The Flavour Thesaurus recommends Hugh Fearnley-Whittingstall's <a href='https://www.google.co.uk/books/edition/The_River_Cottage_Meat_Book/a-r5GwAACAAJ?hl=en#ba_cen=lat_e7:%20515331909%0Alng_e7:%204294736586%0A&ba_loc=London%20E3%202PY' target='_blank'>leftover goose pasties</a>, which sound superb even to an anise-skeptic like me.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <h3>Explore the flavour pairings yourself</h3>
+                <p>
+                    <label for="flavours-select">Use the selection box below to choose an ingredient. Your chosen ingredient and its flavour pairings will appear. Tap/hover the circles to see what they are.</label>
+                </p>
+                <div class="p-4">
+                    <Select 
+                        id="flavours-select" 
+                        items={nodes} 
+                        itemId="id" 
+                        label="id" 
+                        {groupBy}
+                        showChevron={true}
+                        clearable={false}
+                        placeholder="Choose an ingredient..."
+                        bind:value={selectedFlavour}
+                        on:change={handleSelect}
+                    />
+                </div>
+                <p>
+                    {selectedFlavour.id} has {selectedFlavour.n_pairings} pairings
                 </p>
             </div>
         </section>
