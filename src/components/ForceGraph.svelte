@@ -11,7 +11,7 @@
     export let nodes, links;
     export let currentNodes, currentLinks;
     export let index = 0;
-    export let hiddenNodeOpacity = 0;
+    export let showHiddenNodes = false;
     export let highlightedNodes = [];
     export let sizeByDegree = false;
     export let clusterByType = false;
@@ -152,6 +152,7 @@
     {/key}
 
     {#each nodes as node}
+    {#if showHiddenNodes || currentNodes.some(currentNode => currentNode.id === node.id)}
         {#if highlightedNodes.includes(node.id)}
             <Circle 
                 cx={sizeByDegree && currentLinks.length == 0 ? getOrderedPosition(node, nodes, width, height).x : node.x} 
@@ -167,11 +168,12 @@
             fill={index === 0 ? "#e0e0e0" : typeColours[node.type]}
             stroke={nodeStrokeColour}
             stroke-width={nodeStrokeWidth}
-            opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : hiddenNodeOpacity}
+            opacity={currentNodes.some(currentNode => currentNode.id === node.id) ? 1 : 0.1}
             on:click={(e) => {if (index > 0 && currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
             on:pointermove={(e) => {if (index > 0 && currentNodes.some(currentNode => currentNode.id === node.id)) tooltip.show(e, node)}}
             on:pointerleave={tooltip.hide}
         />
+    {/if}
     {/each}
     </ForceSimulation>
 </Svg>

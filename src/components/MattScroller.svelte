@@ -49,7 +49,7 @@
     // CONFIG FOR FORCEGRAPH COMPONENT
     let currentNodes = nodes;
     let currentLinks = links;
-    let hiddenNodeOpacity = 0;
+    let showHiddenNodes = false;
     let highlightedNodes = [];
     let sizeByDegree = false;
     let clusterByType = false;
@@ -100,6 +100,7 @@
                 currentNodes = nodes;
                 currentLinks = [];
                 highlightedNodes = [];
+                showHiddenNodes = false;
                 clusterByType = true;
                 sizeByDegree = false;
             },
@@ -107,7 +108,7 @@
 			() => {
 				currentNodes = [{id: "Chocolate", type: "Roasted"}];
                 currentLinks = [];
-                hiddenNodeOpacity = 0.1;
+                showHiddenNodes = true;
                 highlightedNodes = ["Chocolate"];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -116,7 +117,7 @@
 			() => {
 				currentNodes = chocolateNodes;
 				currentLinks = chocolateLinks;
-                hiddenNodeOpacity = 0;
+                showHiddenNodes = false;
                 highlightedNodes = ["Chocolate"];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -125,7 +126,6 @@
 			() => {
 				currentNodes = chocolateNodes;
 				currentLinks = chocolateLinks;
-                hiddenNodeOpacity = 0;
                 highlightedNodes = ["Chocolate", "Cinnamon"];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -134,7 +134,6 @@
             () => {
 				currentNodes = chocolateNodes;
 				currentLinks = chocolateLinks;
-                hiddenNodeOpacity = 0;
                 highlightedNodes = ["Chocolate", "Cauliflower", "Bacon"];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -143,7 +142,6 @@
             () => {
 				currentNodes = chocolateNodes;
 				currentLinks = chocolateLinks;
-                hiddenNodeOpacity = 0;
                 highlightedNodes = ["Chocolate", "Cauliflower"];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -152,7 +150,6 @@
             () => {
 				currentNodes = nodes;
 				currentLinks = [];
-                hiddenNodeOpacity = 0;
                 highlightedNodes = [];
                 clusterByType = false;
                 sizeByDegree = true;
@@ -162,7 +159,6 @@
             () => {
 				currentNodes = nodes;
 				currentLinks = [];
-                hiddenNodeOpacity = 0;
                 highlightedNodes = ["Shellfish"];
                 clusterByType = false;
                 sizeByDegree = true;
@@ -172,7 +168,6 @@
             () => {
 				currentNodes = nodes;
 				currentLinks = [];
-                hiddenNodeOpacity = 0;
                 highlightedNodes = ["Beef", "Pork"];
                 clusterByType = false;
                 sizeByDegree = true;
@@ -182,7 +177,6 @@
             () => {
 				currentNodes = nodes;
 				currentLinks = [];
-                hiddenNodeOpacity = 0;
                 highlightedNodes = ["Swede"];
                 clusterByType = false;
                 sizeByDegree = true;
@@ -192,7 +186,6 @@
             () => {
 				currentNodes = nodes;
 				currentLinks = [];
-                hiddenNodeOpacity = 0;
                 highlightedNodes = ["Apple"];
                 clusterByType = false;
                 sizeByDegree = true;
@@ -201,7 +194,7 @@
             () => {
 				currentNodes = nodes;
 				currentLinks = [];
-                hiddenNodeOpacity = 0;
+                showHiddenNodes = false;
                 highlightedNodes = ["Apple"];
                 clusterByType = false;
                 sizeByDegree = true;
@@ -210,7 +203,7 @@
 			() => {
 				currentNodes = [{id: "Anise", type: "Green & Grassy"}];
                 currentLinks = [];
-                hiddenNodeOpacity = 0.1;
+                showHiddenNodes = true;
                 highlightedNodes = ["Anise"];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -219,7 +212,7 @@
 			() => {
 				currentNodes = aniseNodes;
 				currentLinks = aniseLinks;
-                hiddenNodeOpacity = 0;
+                showHiddenNodes = false;
                 highlightedNodes = ["Anise"];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -228,7 +221,6 @@
 			() => {
 				currentNodes = aniseNodes;
 				currentLinks = aniseLinks;
-                hiddenNodeOpacity = 0;
                 highlightedNodes = ["Anise", "Oyster"];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -237,7 +229,6 @@
 			() => {
 				currentNodes = aniseNodes;
 				currentLinks = aniseLinks;
-                hiddenNodeOpacity = 0;
                 highlightedNodes = ["Anise", "Lemon"];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -246,7 +237,6 @@
 			() => {
 				currentNodes = aniseNodes;
 				currentLinks = aniseLinks;
-                hiddenNodeOpacity = 0;
                 highlightedNodes = ["Anise", "Swede"];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -255,7 +245,6 @@
 			() => {
                 currentLinks = filterLinks(links, selectedFlavour.id);
                 currentNodes = filterNodes(nodes, currentLinks);
-                hiddenNodeOpacity = 0;
                 highlightedNodes = [selectedFlavour.id];
                 clusterByType = false;
                 sizeByDegree = false;
@@ -311,7 +300,7 @@
                     {links} 
                     {currentLinks} 
                     {index} 
-                    {hiddenNodeOpacity} 
+                    {showHiddenNodes}
                     {highlightedNodes}
                     {sizeByDegree}
                     {clusterByType}
