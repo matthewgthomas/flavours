@@ -504,6 +504,12 @@
                         showChevron={true}
                         clearable={false}
                         placeholder="Choose an ingredient..."
+                        --chevron-color="#e56c8f"
+                        --item-hover-bg="#e56c8f90"
+                        --item-is-active-bg="#e56c8f"
+                        --item-is-not-selectable-color="#e56c8f"
+                        --placeholder-color="#e56c8f"
+                        --border-focused="1px solid #e56c8f"
                         bind:value={selectedFlavour}
                         on:change={handleSelect}
                     />
