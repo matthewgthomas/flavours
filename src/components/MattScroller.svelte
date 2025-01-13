@@ -253,10 +253,10 @@
 			},
             // Reader can explore flavour pairings
 			() => {
-				currentNodes = aniseNodes;
-				currentLinks = aniseLinks;
+                currentLinks = filterLinks(links, selectedFlavour.id);
+                currentNodes = filterNodes(nodes, currentLinks);
                 hiddenNodeOpacity = 0;
-                highlightedNodes = ["Anise"];
+                highlightedNodes = [selectedFlavour.id];
                 clusterByType = false;
                 sizeByDegree = false;
 			},
