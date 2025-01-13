@@ -7,6 +7,10 @@
     import nodes from "$data/ingredients.csv";
     import links from "$data/flavour-combos.csv";
 
+    function getNumPairings(nodeId) {
+        return nodes.filter(node => node.id === nodeId)[0].n_pairings;
+    }
+
     function filterLinks(links, filter) {
         // Convert single string to array for consistent handling
         const filters = Array.isArray(filter) ? filter : [filter];
@@ -91,6 +95,14 @@
                 clusterByType = true;
                 sizeByDegree = false;
             },
+            // Continuing with all ingredients, clustered into types
+            () => {
+                currentNodes = nodes;
+                currentLinks = [];
+                highlightedNodes = [];
+                clusterByType = true;
+                sizeByDegree = false;
+            },
             // Focus on chocolate
 			() => {
 				currentNodes = [{id: "Chocolate", type: "Roasted"}];
@@ -124,6 +136,15 @@
 				currentLinks = chocolateLinks;
                 hiddenNodeOpacity = 0;
                 highlightedNodes = ["Chocolate", "Cauliflower", "Bacon"];
+                clusterByType = false;
+                sizeByDegree = false;
+			},
+            // Show chocolate's pairings, highlighting cauliflower
+            () => {
+				currentNodes = chocolateNodes;
+				currentLinks = chocolateLinks;
+                hiddenNodeOpacity = 0;
+                highlightedNodes = ["Chocolate", "Cauliflower"];
                 clusterByType = false;
                 sizeByDegree = false;
 			},
@@ -248,6 +269,37 @@
     }
 </script>
 
+<header>
+    <div class='col-wide pt-10'>
+        <h1>EXPLORING THE <span class="text-[3.5rem] italic">flavour</span> THESAURUS</h1>
+    </div>
+</header>
+
+<section>
+    <div class='col-wide'>
+        <p>
+            <a href='https://uk.bookshop.org/p/books/the-flavour-thesaurus-niki-segnit/1209294?ean=9780747599777' target='_blank'>The Flavour Thesaurus</a> is a book by Niki Segnit that pairs off 99 ingredients in a delicious series of flavour combinations. Some pairings are all-time classics, many are creative, and a handful are confusing.
+        </p>
+        <p>
+            If you've ever sipped your morning coffee while pondering what to do with that extra avocado, the Flavour Thesaurus suggests whizzing them in a blender with milk and sugar.
+        </p>
+        <p>
+            (If you like the sound of that, immediately book a flight to Vietnam, Indonesia and/or the Philippines, where you'll be in good company.)
+        </p>
+        <p>
+            <img src="images/flavour-thesaurus.webp" alt="The Flavour Thesaurus by Niki Segnit" />
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class='col-wide'>
+        <p>
+            This interactive story explores the Flavour Thesaurus in a never-before-seen way. Keep scrolling to go on a visual safari through this menagerie of flavours.
+        </p>
+    </div>
+</section>
+
 <Scroller {threshold} top="{0}" bottom="{0.8}" bind:index bind:offset bind:progress>
     <div slot="background">
         <figure>
@@ -272,14 +324,14 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    Look at all these 99 ingredients.
+                    The Flavour Thesaurus offers 1,089 flavour pairings between 99 ingredients.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    They're in 16 categories:
+                    There are 16 categories of ingredient:
                 </p>
                 <ul>
                     <li><Span colour='bg-green-grassy' invert>Green and grassy</Span></li>
@@ -304,35 +356,61 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    This is <Span colour='bg-roasted' invert>chocolate</Span>.
+                    Tap on the circles to see the names and categories of each ingredient.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    <Span colour='bg-roasted' invert>Chocolate</Span> is paired with X ingredients.
+                    Let's explore <Span colour='bg-roasted' invert>chocolate</Span>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    <Span colour='bg-roasted' invert>Chocolate</Span> is paired with obvious things like <Span colour='bg-spicy' invert>cinnamon</Span>.
+                    <Span colour='bg-roasted' invert>Chocolate</Span> pairs with {getNumPairings("Chocolate")} other ingredients.
+                </p>
+                <p>
+                    Tap / hover over each circle to see what they are.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    ... but also with weird things like <Span colour='bg-sulphurous'>cauliflower</Span> or <Span colour='bg-brine-salt'>bacon</Span>.
+                    <Span colour='bg-roasted' invert>Chocolate</Span> goes well with obvious things like <Span colour='bg-spicy' invert>cinnamon</Span>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    Sized by number of pairings.
+                    ... but also pairs with seemingly odd choices, such as <Span colour='bg-sulphurous'>cauliflower</Span> or <Span colour='bg-brine-salt' invert>bacon</Span>.
+                </p>
+                <p>
+                    Heston Blumenthal's restaurant The Fat Duck used to serve a cauliflower risotto with chocolate jelly...
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    In 2013, this dish even featured in a scientific paper called "<a href='https://www.researchgate.net/publication/259230080_Science_and_Technology_for_New_Culinary_Techniques' target='_blank'>Science and Technology for New Culinary Techniques</a>':
+                </p>
+                <p>
+                    <img src="images/cauliflower-risotto.webp" alt="Cauliflower risotto from Heston Blumenthal's Fat Duck restaurant in the UK"/>
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class='col-medium'>
+                <p>
+                    Some ingredients are paired more often than others.
+                </p>
+                <p>
+                    Here are the 99 ingredients again. The size of each circle represents its number of pairings.
                 </p>
             </div>
         </section>

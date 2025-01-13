@@ -51,6 +51,20 @@ header, section, nav, footer, figure, caption {
 	padding: 0;
 }
 
+h1 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin: 40px 0 -10px 0;
+}
+
+p {
+	margin: 30px 0 0 0;
+}
+
 a {
     transition: background-position 80ms ease-out;
     background-image: linear-gradient(180deg, transparent 0, var(--book-spine-light) 0);
