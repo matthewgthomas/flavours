@@ -53,7 +53,8 @@ write_csv(flavour_combos_edges, "src/data/flavour-combos.csv")
 ingredients <-
   ingredients |>
   mutate(Ingredient = if_else(!is.na(`Ingredient (UK)`), `Ingredient (UK)`, Ingredient)) |>
-  select(id = Ingredient, type = Type)
+  select(id = Ingredient, type = Type) |>
+  arrange(type, id)
 
 # - Calculate number of pairings (degree) for each ingredient
 # Make a network

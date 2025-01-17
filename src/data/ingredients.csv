@@ -1,100 +1,100 @@
 id,type,n_pairings
-Chocolate,Roasted,39
-Coffee,Roasted,19
-Peanut,Roasted,24
-Chicken,Meaty,39
-Pork,Meaty,48
-Black Pudding,Meaty,12
-Liver,Meaty,12
-Beef,Meaty,48
-Lamb,Meaty,33
-Goat Cheese,Cheesy,28
-Washed-rind Cheese,Cheesy,8
+Blackberry,Berry & Bush,8
+Blackcurrant,Berry & Bush,8
+Juniper,Berry & Bush,12
+Mint,Berry & Bush,35
+Rosemary,Berry & Bush,22
+Sage,Berry & Bush,15
+Thyme,Berry & Bush,18
+Anchovy,Brine & Salt,23
+Bacon,Brine & Salt,38
+Olive,Brine & Salt,22
+Prosciutto,Brine & Salt,17
+Smoked Fish,Brine & Salt,16
 Blue Cheese,Cheesy,20
+Goat Cheese,Cheesy,28
 Hard Cheese,Cheesy,33
 Soft Cheese,Cheesy,20
-Mushroom,Earthy,30
+Washed-rind Cheese,Cheesy,8
+Cardamom,Citrussy,18
+Ginger,Citrussy,27
+Grapefruit,Citrussy,9
+Lemon,Citrussy,41
+Lime,Citrussy,23
+Orange,Citrussy,40
+Apricot,Creamy Fruity,18
+Banana,Creamy Fruity,20
+Coconut,Creamy Fruity,30
+Mango,Creamy Fruity,17
+Melon,Creamy Fruity,11
+Peach,Creamy Fruity,14
 Aubergine,Earthy,10
-Cumin,Earthy,18
 Beetroot,Earthy,19
-Potato,Earthy,44
 Celery,Earthy,21
-Watercress,Mustardy,16
-Caper,Mustardy,17
-Horseradish,Mustardy,12
-Onion,Sulphurous,32
-Garlic,Sulphurous,35
-Truffle,Sulphurous,17
-Cabbage,Sulphurous,20
-Swede,Sulphurous,7
-Cauliflower,Sulphurous,16
-Broccoli,Sulphurous,12
-Globe Artichoke,Sulphurous,12
-Asparagus,Sulphurous,16
-Egg,Sulphurous,37
-Shellfish,Marine,51
-White Fish,Marine,31
-Oyster,Marine,17
-Caviar,Marine,11
-Oily Fish,Marine,30
-Anchovy,Brine & Salt,23
-Smoked Fish,Brine & Salt,16
-Bacon,Brine & Salt,38
-Prosciutto,Brine & Salt,17
-Olive,Brine & Salt,22
-Saffron,Green & Grassy,15
+Cumin,Earthy,18
+Mushroom,Earthy,30
+Potato,Earthy,44
+Blueberry,Floral Fruity,9
+Coriander Seed,Floral Fruity,12
+Fig,Floral Fruity,16
+Raspberry,Floral Fruity,15
+Rose,Floral Fruity,12
+Vanilla,Floral Fruity,28
+White Chocolate,Floral Fruity,13
+Apple,Fresh Fruity,32
+Cherry,Fresh Fruity,13
+Grape,Fresh Fruity,16
+Pear,Fresh Fruity,18
+Pineapple,Fresh Fruity,25
+Rhubarb,Fresh Fruity,15
+Strawberry,Fresh Fruity,20
+Tomato,Fresh Fruity,40
+Watermelon,Fresh Fruity,13
 Anise,Green & Grassy,44
+Avocado,Green & Grassy,22
+Bell Pepper,Green & Grassy,11
+Chili,Green & Grassy,38
+Coriander Leaf,Green & Grassy,23
 Cucumber,Green & Grassy,21
 Dill,Green & Grassy,17
 Parsley,Green & Grassy,17
-Coriander Leaf,Green & Grassy,23
-Avocado,Green & Grassy,22
 Pea,Green & Grassy,22
-Bell Pepper,Green & Grassy,11
-Chili,Green & Grassy,38
+Saffron,Green & Grassy,15
+Caviar,Marine,11
+Oily Fish,Marine,30
+Oyster,Marine,17
+Shellfish,Marine,51
+White Fish,Marine,31
+Beef,Meaty,48
+Black Pudding,Meaty,12
+Chicken,Meaty,39
+Lamb,Meaty,33
+Liver,Meaty,12
+Pork,Meaty,48
+Caper,Mustardy,17
+Horseradish,Mustardy,12
+Watercress,Mustardy,16
+Chocolate,Roasted,39
+Coffee,Roasted,19
+Peanut,Roasted,24
 Basil,Spicy,16
 Cinnamon,Spicy,32
 Clove,Spicy,14
 Nutmeg,Spicy,21
 Parsnip,Spicy,14
-Carrot,Woodland,18
-Butternut Squash,Woodland,16
-Chestnut,Woodland,12
-Walnut,Woodland,34
-Hazelnut,Woodland,18
+Asparagus,Sulphurous,16
+Broccoli,Sulphurous,12
+Cabbage,Sulphurous,20
+Cauliflower,Sulphurous,16
+Egg,Sulphurous,37
+Garlic,Sulphurous,35
+Globe Artichoke,Sulphurous,12
+Onion,Sulphurous,32
+Swede,Sulphurous,7
+Truffle,Sulphurous,17
 Almond,Woodland,40
-Cherry,Fresh Fruity,13
-Watermelon,Fresh Fruity,13
-Grape,Fresh Fruity,16
-Rhubarb,Fresh Fruity,15
-Tomato,Fresh Fruity,40
-Strawberry,Fresh Fruity,20
-Pineapple,Fresh Fruity,25
-Apple,Fresh Fruity,32
-Pear,Fresh Fruity,18
-Banana,Creamy Fruity,20
-Melon,Creamy Fruity,11
-Apricot,Creamy Fruity,18
-Peach,Creamy Fruity,14
-Coconut,Creamy Fruity,30
-Mango,Creamy Fruity,17
-Orange,Citrussy,40
-Grapefruit,Citrussy,9
-Lime,Citrussy,23
-Lemon,Citrussy,41
-Ginger,Citrussy,27
-Cardamom,Citrussy,18
-Rosemary,Berry & Bush,22
-Sage,Berry & Bush,15
-Juniper,Berry & Bush,12
-Thyme,Berry & Bush,18
-Mint,Berry & Bush,35
-Blackcurrant,Berry & Bush,8
-Blackberry,Berry & Bush,8
-Raspberry,Floral Fruity,15
-Fig,Floral Fruity,16
-Rose,Floral Fruity,12
-Blueberry,Floral Fruity,9
-Coriander Seed,Floral Fruity,12
-Vanilla,Floral Fruity,28
-White Chocolate,Floral Fruity,13
+Butternut Squash,Woodland,16
+Carrot,Woodland,18
+Chestnut,Woodland,12
+Hazelnut,Woodland,18
+Walnut,Woodland,34
