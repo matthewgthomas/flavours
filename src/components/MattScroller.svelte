@@ -522,6 +522,24 @@
     </div>
 </Scroller>
 
+<section>
+    <div class='col-wide'>
+        <h3>How I made this</h3>
+        <p>
+            The pairings of ingredients in the Flavour Thesaurus can be treated as a 'social network', which -- gleefully -- means you can analyse them statistically. After <a href="https://github.com/matthewgthomas/flavours/blob/main/analysis/extract%20flavour%20combos.R" target="_blank">extracting the flavour combinations</a> from a (legally obtained!) copy of the e-book, I ran some standard <a href="https://faculty.ucr.edu/~hanneman/nettext/" target="_blank">social network analysis</a> methods, for example calculating an ingredient's 'popularity' based on its degree (the number of connections it has to other ingredients), and finding the 'star' among star ingredients using measures of centrality such as eigenvector centrality.
+        </p>
+        <p>
+            All the code is <a href="https://github.com/matthewgthomas/flavours" taget="_blank">on GitHub</a> and released under a <a href="https://choosealicense.com/licenses/mit/" target="_blank">permissive license</a>, should you wish to play about with it.
+        </p>
+        <p>
+            'The Flavour Thesaurus' is a trademark of Niki Segnit. The choice of ingredients and their pairings are her intellectual property, and she owns the copyright to the content of the Flavour Thesaurus. This interactive story simply showcases her work -- and the sheer amount of effort she would've put into compiling it -- in a snazzy and hopefully interesting way.
+        </p>
+        <p class="pb-10">
+            You can find more of my nerdery at <a href="https://matthewgthomas.co.uk" target="_blank">matthewgthomas.co.uk</a>.
+        </p>
+    </div>
+</section>
+
 <style>
 	/* Styles specific to elements within the demo */
 	:global(svelte-scroller-foreground) {
