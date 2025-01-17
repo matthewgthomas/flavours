@@ -3,7 +3,6 @@
     import { max } from 'd3-array';
     import { scaleLinear } from 'd3-scale';
     import { curveLinear } from 'd3-shape';
-    import { schemeCategory10 } from 'd3-scale-chromatic';
   
     import { typeColours } from '$lib/colours.js';
     import { Chart, Circle, ForceSimulation, Link, Svg, Tooltip } from 'layerchart';
