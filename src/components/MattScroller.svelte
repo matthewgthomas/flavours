@@ -273,7 +273,7 @@
             If you've ever sipped your morning coffee while pondering what to do with that extra avocado, the Flavour Thesaurus is the book for you. It suggests whizzing them in a blender with milk and sugar.
         </p>
         <p>
-            (If you like the sound of that, immediately book a flight to Vietnam, Indonesia and/or the Philippines, where you'll be in good company.)
+            (If you like the sound of that, immediately book a flight to Vietnam, Indonesia and/or the Philippines, where you&rsquo;ll be in good company.)
         </p>
         <p>
             <img src="images/flavour-thesaurus.webp" alt="The Flavour Thesaurus by Niki Segnit" />
@@ -352,7 +352,7 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    Let's explore <Span colour='bg-roasted' invert>chocolate</Span>.
+                    Let&rsquo;s explore <Span colour='bg-roasted' invert>chocolate</Span>.
                 </p>
             </div>
         </section>
@@ -376,17 +376,17 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    ... but also pairs with seemingly odd choices, such as <Span colour='bg-sulphurous'>cauliflower</Span> or <Span colour='bg-brine-salt' invert>bacon</Span>.
+                    But also pairs with seemingly odd choices, such as <Span colour='bg-sulphurous'>cauliflower</Span> or <Span colour='bg-brine-salt' invert>bacon</Span>.
                 </p>
                 <p>
-                    Heston Blumenthal's restaurant The Fat Duck used to serve a cauliflower risotto with chocolate jelly...
+                    Heston Blumenthal&rsquo;s restaurant <a href="https://thefatduck.co.uk/" target="_blank">The Fat Duck</a> used to serve a cauliflower risotto with chocolate jelly&hellip;
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    In 2013, this dish even featured in a scientific paper called "<a href='https://www.researchgate.net/publication/259230080_Science_and_Technology_for_New_Culinary_Techniques' target='_blank'>Science and Technology for New Culinary Techniques</a>':
+                    In 2013, this dish even featured in a scientific paper called <q><a href='https://www.researchgate.net/publication/259230080_Science_and_Technology_for_New_Culinary_Techniques' target='_blank'>Science and Technology for New Culinary Techniques</a></q>:
                 </p>
                 <p>
                     <img src="images/cauliflower-risotto.webp" alt="Cauliflower risotto from Heston Blumenthal's Fat Duck restaurant in the UK"/>
@@ -406,14 +406,14 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    <Span colour='bg-marine' invert>Shellfish</Span> is the most popular ingredient, with 51 pairings...
+                    <Span colour='bg-marine' invert>Shellfish</Span> is the most popular ingredient, with 51 pairings&hellip;
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    ... closely followed by <Span colour='bg-meaty' invert>beef</Span> and <Span colour='bg-meaty' invert>pork</Span>, with 48 pairings apiece.
+                    &hellip; closely followed by <Span colour='bg-meaty' invert>beef</Span> and <Span colour='bg-meaty' invert>pork</Span>, with 48 pairings apiece.
                 </p>
             </div>
         </section>
@@ -434,7 +434,7 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    Although <Span colour='bg-fresh-fruity' invert>apple</Span> isn't the most popular ingredient - barely squeaking into the top 20, based on number of pairings - it goes with every type of flavour, whether <Span colour='bg-sulphurous'>sulphurous</Span>, <Span colour='bg-spicy' invert>spicy</Span>, or <Span colour='bg-citrussy'>citrussy</Span>.
+                    Although <Span colour='bg-fresh-fruity' invert>apple</Span> isn&rsquo;t the most popular ingredient&mdash;barely squeaking into the top 20, based on number of pairings&mdash;it goes with every type of flavour, whether <Span colour='bg-sulphurous'>sulphurous</Span>, <Span colour='bg-spicy' invert>spicy</Span>, or <Span colour='bg-citrussy'>citrussy</Span>.
                 </p>
             </div>
         </section>
@@ -444,7 +444,7 @@
                     Some flavours are often paired with the most popular ingredients.
                 </p>
                 <p>
-                    <Span colour="bg-green-grassy" invert>Anise</Span> is one. A  veritable - and <a href='https://www.bbcgoodfood.com/glossary/star-anise-glossary' target='_blank'>literal</a> - star among other star ingredients.
+                    <Span colour="bg-green-grassy" invert>Anise</Span> is one. A  veritable&mdash;and <a href='https://www.bbcgoodfood.com/glossary/star-anise-glossary' target='_blank'>literal</a>&mdash;star among other star ingredients.
                 </p>
                 <p>
                     <img src='https://images.immediate.co.uk/production/volatile/sites/30/2020/02/star-anise-ff5c1d1.jpg?quality=90&webp=true&resize=750,681' alt='Star anise. Source: BBC Good Food.' /> 
@@ -454,7 +454,7 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    In the book, Niki Segnit describes <Span colour="bg-green-grassy" invert>anise</Span> as a "very combinable flavour."
+                    In the book, Niki Segnit describes <Span colour="bg-green-grassy" invert>anise</Span> as a <q>very combinable flavour.</q>
                 </p>
                 <p>
                     It appears in star and seed form, in liquorice, fennel, and herbs like tarragon and chervil. Even some varieties of basil have liquorice notes (Thai basil in particular).
@@ -464,7 +464,7 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    If you're a fan of <Span colour='bg-marine' invert>oysters</Span>, you could try adding a dash of <a href='https://www.healthyseasonalrecipes.com/tarragon-vinaigrette/' target='_blank'>tarragon vinaigrette</a>.
+                    If you&rsquo;re a fan of <Span colour='bg-marine' invert>oysters</Span>, you could try adding a dash of <a href='https://www.healthyseasonalrecipes.com/tarragon-vinaigrette/' target='_blank'>tarragon vinaigrette</a>.
                 </p>
             </div>
         </section>
@@ -474,7 +474,7 @@
                     Apparently <Span colour="bg-green-grassy" invert>anise seeds</Span> and <Span colour='bg-citrussy'>lemon</Span> play nicely together in <a href='https://italianfoodforever.com/2012/02/lemon-anise-biscotti/' target='_blank'>biscotti</a>.
                 </p>
                 <p>
-                    The Flavour Thesaurus calls pastis - the <a href='https://en.wikipedia.org/wiki/Pastis' target='_blank'>anise-y aperitif</a> - an "odd but successful match for lemon in a sorbet."
+                    The Flavour Thesaurus calls pastis&mdash;the <a href='https://en.wikipedia.org/wiki/Pastis' target='_blank'>anise-y aperitif</a>&mdash;an <q>odd but successful match for lemon in a sorbet.</q>
                 </p>
             </div>
         </section>
@@ -484,7 +484,7 @@
                     Even the relatively unpopular <Span colour='bg-sulphurous'>swede</Span> has a friend in <Span colour="bg-green-grassy" invert>anise</Span>.
                 </p>
                 <p>
-                    The Flavour Thesaurus recommends Hugh Fearnley-Whittingstall's <a href='https://www.google.co.uk/books/edition/The_River_Cottage_Meat_Book/a-r5GwAACAAJ?hl=en#ba_cen=lat_e7:%20515331909%0Alng_e7:%204294736586%0A&ba_loc=London%20E3%202PY' target='_blank'>leftover goose pasties</a>, which sound superb even to an anise-skeptic like me.
+                    The Flavour Thesaurus recommends Hugh Fearnley-Whittingstall&rsquo;s <a href='https://www.google.co.uk/books/edition/The_River_Cottage_Meat_Book/a-r5GwAACAAJ?hl=en#ba_cen=lat_e7:%20515331909%0Alng_e7:%204294736586%0A&ba_loc=London%20E3%202PY' target='_blank'>leftover goose pasties</a>, which sound superb even to an anise-skeptic like me.
                 </p>
             </div>
         </section>
@@ -503,7 +503,7 @@
                         {groupBy}
                         showChevron={true}
                         clearable={false}
-                        placeholder="Choose an ingredient..."
+                        placeholder="Choose an ingredient&hellip;"
                         --chevron-color="#e56c8f"
                         --item-hover-bg="#e56c8f90"
                         --item-is-active-bg="#e56c8f"
@@ -526,13 +526,13 @@
     <div class='col-wide'>
         <h3>How I made this</h3>
         <p>
-            The pairings of ingredients in the Flavour Thesaurus can be treated as a 'social network', which -- gleefully -- means you can analyse them statistically. After <a href="https://github.com/matthewgthomas/flavours/blob/main/analysis/extract%20flavour%20combos.R" target="_blank">extracting the flavour combinations</a> from a (legally obtained!) copy of the e-book, I ran some standard <a href="https://faculty.ucr.edu/~hanneman/nettext/" target="_blank">social network analysis</a> methods, for example calculating an ingredient's 'popularity' based on its degree (the number of connections it has to other ingredients), and finding the 'star' among star ingredients using measures of centrality such as eigenvector centrality.
+            The pairings of ingredients in the Flavour Thesaurus can be treated as a &lsquo;social network&rsquo;, which, gleefully, means you can analyse them statistically. After <a href="https://github.com/matthewgthomas/flavours/blob/main/analysis/extract%20flavour%20combos.R" target="_blank">extracting the flavour combinations</a> from a (legally obtained!) copy of the e-book, I ran some standard <a href="https://faculty.ucr.edu/~hanneman/nettext/" target="_blank">social network analysis</a> methods, for example calculating an ingredient&rsquo;s &lsquo;popularity&rsquo; based on its degree (the number of connections it has to other ingredients), and finding the &lsquo;star&rsquo; among star ingredients using measures of centrality such as <a href="https://www.sciencedirect.com/topics/computer-science/eigenvector-centrality" target="_blank">eigenvector centrality</a>.
         </p>
         <p>
             All the code is <a href="https://github.com/matthewgthomas/flavours" taget="_blank">on GitHub</a> and released under a <a href="https://choosealicense.com/licenses/mit/" target="_blank">permissive license</a>, should you wish to play about with it.
         </p>
         <p>
-            'The Flavour Thesaurus' is a trademark of Niki Segnit. The choice of ingredients and their pairings are her intellectual property, and she owns the copyright to the content of the Flavour Thesaurus. This interactive story simply showcases her work -- and the sheer amount of effort she would've put into compiling it -- in a snazzy and hopefully interesting way.
+            <cite>The Flavour Thesaurus</cite> is a trademark of Niki Segnit. The choice of ingredients and their pairings are her intellectual property, and she owns the copyright to the content of the Flavour Thesaurus. This interactive story simply showcases her work&mdash;and the sheer amount of effort she would&rsquo;ve put into compiling it&mdash;in a snazzy and hopefully interesting way.
         </p>
         <p class="pb-10">
             You can find more of my nerdery at <a href="https://matthewgthomas.co.uk" target="_blank">matthewgthomas.co.uk</a>.
