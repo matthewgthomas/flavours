@@ -362,7 +362,7 @@
                     <Span colour='bg-roasted' invert>Chocolate</Span> pairs with {getNumPairings("Chocolate")} other ingredients.
                 </p>
                 <p>
-                    Tap / hover over each circle to see what they are.
+                    <span class="lg:hidden">Tap</span><span class="max-lg:hidden">Hover over</span> each circle to see what they are.
                 </p>
             </div>
         </section>
@@ -492,7 +492,7 @@
             <div class='col-medium'>
                 <h3>Explore the flavour pairings yourself</h3>
                 <p>
-                    <label for="flavours-select">Use the selection box below to choose an ingredient. Your chosen ingredient and its flavour pairings will appear. Tap/hover the circles to see what they are.</label>
+                    <label for="flavours-select">Use the box below to choose an ingredient. Your chosen ingredient and its flavour pairings will appear. <span class="lg:hidden">Tap</span><span class="max-lg:hidden">Hover over</span> the circles to see what they are.</label>
                 </p>
                 <div class="p-4">
                     <Select 
