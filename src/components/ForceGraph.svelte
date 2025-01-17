@@ -17,6 +17,7 @@
     export let clusterByType = false;
 
     let indexPrev = index;
+    let highlightedPrev;
 
     // There are 16 types of ingredient, so will show the clusters in a 4x4 grid
     const typesXY_desktop = {
@@ -183,9 +184,10 @@
         Hide any open tooltips when the reader scrolls to another section.
         This is the only way I can figure out how to hide tooltips on mobile.
     -->
-    {#if index !== indexPrev}
+    {#if index !== indexPrev || highlightedNodes[0] !== highlightedPrev}
         {tooltip.hide()}
         {indexPrev = index}
+        {highlightedPrev = highlightedNodes[0]}
     {/if}
 </Svg>
 
