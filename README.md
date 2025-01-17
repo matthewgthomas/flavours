@@ -2,7 +2,12 @@
 
 ## Developing
 
-Once you've cloned/degit'd this repo and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've cloned/degit'd this repo, install dependencies with `npm install` (or `pnpm install` or `yarn`).
+
+You'll then need to run `./fix-tooltip.sh` to patch [`TooltipContext.svelte`](https://www.layerchart.com/docs/components/TooltipContext) in the [LayerChart library](https://www.layerchart.com/)
+to [enable touch scrolling on mobile](https://github.com/techniq/layerchart/issues/255).
+
+To start a development server:
 
 ```bash
 npm run dev
