@@ -16,6 +16,8 @@
     export let sizeByDegree = false;
     export let clusterByType = false;
 
+    let indexPrev = index;
+
     // There are 16 types of ingredient, so will show the clusters in a 4x4 grid
     const typesXY_desktop = {
         "Green & Grassy": [0.3, 0.3],
@@ -176,9 +178,18 @@
     {/if}
     {/each}
     </ForceSimulation>
+
+    <!--
+        Hide any open tooltips when the reader scrolls to another section.
+        This is the only way I can figure out how to hide tooltips on mobile.
+    -->
+    {#if index !== indexPrev}
+        {tooltip.hide()}
+        {indexPrev = index}
+    {/if}
 </Svg>
 
-<Tooltip.Root let:data class="border border-book-spine bg-book-spine/70">
+<Tooltip.Root let:data class="border border-book-spine bg-book-spine/80 text-white">
     <Tooltip.Header>{data.id}</Tooltip.Header>
     <Tooltip.Item>{data.type}</Tooltip.Item>
     {#if sizeByDegree && currentLinks.length == 0}
