@@ -1,5 +1,5 @@
 <script>
-    import MattScroller from "../components/MattScroller.svelte";
+    import FlavourScroller from "../components/FlavourScroller.svelte";
 </script>
 
 <svelte:head>
@@ -10,4 +10,4 @@
     <meta name="description" content="Exploring Niki Segnit's Flavour Thesaurus in an interactive scrollytelling story." />
 </svelte:head>
 
-<MattScroller />
+<FlavourScroller />

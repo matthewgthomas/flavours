@@ -96,6 +96,7 @@
         };
     }
   
+    // Set up forces for the network
     const linkForce = forceLink(links).id((d) => d.id);
     const chargeForce = forceManyBody();
     const collideForce = forceCollide();
@@ -127,8 +128,6 @@
     let:height
     let:tooltip
 >
-<!-- <p>Height: {height}; width: {width}</p> -->
- <!--alphaTarget={0.15}-->
 <Svg>
     <ForceSimulation
         forces={{

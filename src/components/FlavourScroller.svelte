@@ -1,6 +1,6 @@
 <script>
-    import ForceGraph from "../components/ForceGraph.svelte";
-    import Span from "../components/Span.svelte";
+    import ForceGraph from "./ForceGraph.svelte";
+    import Span from "./Span.svelte";
     import Scroller from "@sveltejs/svelte-scroller";
     import Select from "svelte-select";
 
@@ -21,12 +21,6 @@
             filters.includes(typeof link.target === 'object' ? link.target.id : link.target)
         );
     }
-
-    // function filterLinksToNodes(links, nodeIds) {
-    //     return links.filter(link => 
-    //         nodeIds.includes(link.source) && nodeIds.includes(link.target)
-    //     );
-    // }
 
     function filterNodes(nodes, links) {
         // Get unique ingredients from links
@@ -71,7 +65,6 @@
 	// Config
 	const threshold = 0.65;
 	// State
-    let offset, progress;
 	let index; // visible section ID of Scroller components
 	let indexPrev; // keep track of previous IDs, to compare for changes
 
@@ -289,7 +282,7 @@
     </div>
 </section>
 
-<Scroller {threshold} top="{0}" bottom="{0.8}" bind:index bind:offset bind:progress>
+<Scroller {threshold} top="{0}" bottom="{0.8}" bind:index>
     <div slot="background">
         <figure>
             <div class="col-wide height-full">
