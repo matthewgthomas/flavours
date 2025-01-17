@@ -260,7 +260,7 @@
 <section>
     <div class='col-wide'>
         <p>
-            <a href='https://uk.bookshop.org/p/books/the-flavour-thesaurus-niki-segnit/1209294?ean=9780747599777' target='_blank'>The Flavour Thesaurus</a> is a book by Niki Segnit that pairs up 99 ingredients in a delicious series of flavour combinations. Some pairings are all-time classics, many are creative, and a handful are confusing.
+            <a href='https://uk.bookshop.org/p/books/the-flavour-thesaurus-niki-segnit/1209294?ean=9780747599777' target='_blank'>The Flavour Thesaurus</a> is a book by Niki Segnit that pairs up 99 ingredients in a delicious series of flavour combinations. Some pairings are all-time classics, many are creative, and a handful are in that sweet spot between intriguing and confusing.
         </p>
         <p>
             If you've ever sipped your morning coffee while pondering what to do with that extra avocado, the Flavour Thesaurus is the book for you. It suggests whizzing them together in a blender with milk and sugar for a creamy coffee shake.
