@@ -440,7 +440,7 @@
                     <Span colour="bg-green-grassy" invert>Anise</Span> is one. A  veritable&mdash;and <a href='https://www.bbcgoodfood.com/glossary/star-anise-glossary' target='_blank'>literal</a>&mdash;star among other star ingredients.
                 </p>
                 <p>
-                    <img src='https://images.immediate.co.uk/production/volatile/sites/30/2020/02/star-anise-ff5c1d1.jpg?quality=90&webp=true&resize=750,681' alt='Star anise. Source: BBC Good Food.' /> 
+                    <img src='images/star-anise.webp' alt='Star anise. Source: BBC Good Food.' /> 
                 </p>
             </div>
         </section>
