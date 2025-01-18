@@ -1,6 +1,6 @@
 <script>
     import ForceGraph from "./ForceGraph.svelte";
-    import Span from "./Span.svelte";
+    import Flavour from "./Flavour.svelte";
     import Scroller from "@sveltejs/svelte-scroller";
     import Select from "svelte-select";
 
@@ -316,22 +316,22 @@
                     There are 16 categories of ingredient:
                 </p>
                 <ul>
-                    <li><Span colour='bg-green-grassy' invert>Green and grassy</Span></li>
-                    <li><Span colour='bg-sulphurous'>Sulphurous</Span></li>
-                    <li><Span colour='bg-fresh-fruity' invert>Fresh fruity</Span></li>
-                    <li><Span colour='bg-bramble-hedge' invert>Bramble and hedge</Span></li>
-                    <li><Span colour='bg-floral-fruity' invert>Floral fruity</Span></li>
-                    <li><Span colour='bg-citrussy'>Citrussy</Span></li>
-                    <li><Span colour='bg-creamy-fruity' >Creamy fruity</Span></li>
-                    <li><Span colour='bg-earthy' invert>Earthy</Span></li>
-                    <li><Span colour='bg-meaty' invert>Meaty</Span></li>
-                    <li><Span colour='bg-woodland' invert>Woodland</Span></li>
-                    <li><Span colour='bg-brine-salt' invert>Brine and salt</Span></li>
-                    <li><Span colour='bg-cheesy'>Cheesy</Span></li>
-                    <li><Span colour='bg-marine' invert>Marine</Span></li>
-                    <li><Span colour='bg-spicy' invert>Spicy</Span></li>
-                    <li><Span colour='bg-mustardy' invert>Mustardy</Span></li>
-                    <li><Span colour='bg-roasted' invert>Roasted</Span></li>
+                    <li><Flavour colour='bg-green-grassy' invert>Green and grassy</Flavour></li>
+                    <li><Flavour colour='bg-sulphurous'>Sulphurous</Flavour></li>
+                    <li><Flavour colour='bg-fresh-fruity' invert>Fresh fruity</Flavour></li>
+                    <li><Flavour colour='bg-bramble-hedge' invert>Bramble and hedge</Flavour></li>
+                    <li><Flavour colour='bg-floral-fruity' invert>Floral fruity</Flavour></li>
+                    <li><Flavour colour='bg-citrussy'>Citrussy</Flavour></li>
+                    <li><Flavour colour='bg-creamy-fruity' >Creamy fruity</Flavour></li>
+                    <li><Flavour colour='bg-earthy' invert>Earthy</Flavour></li>
+                    <li><Flavour colour='bg-meaty' invert>Meaty</Flavour></li>
+                    <li><Flavour colour='bg-woodland' invert>Woodland</Flavour></li>
+                    <li><Flavour colour='bg-brine-salt' invert>Brine and salt</Flavour></li>
+                    <li><Flavour colour='bg-cheesy'>Cheesy</Flavour></li>
+                    <li><Flavour colour='bg-marine' invert>Marine</Flavour></li>
+                    <li><Flavour colour='bg-spicy' invert>Spicy</Flavour></li>
+                    <li><Flavour colour='bg-mustardy' invert>Mustardy</Flavour></li>
+                    <li><Flavour colour='bg-roasted' invert>Roasted</Flavour></li>
                 </ul>
             </div>
         </section>
@@ -345,14 +345,14 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    Let&rsquo;s explore <Span colour='bg-roasted' invert>chocolate</Span>.
+                    Let&rsquo;s explore <Flavour colour='bg-roasted' invert>chocolate</Flavour>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    <Span colour='bg-roasted' invert>Chocolate</Span> pairs with {getNumPairings("Chocolate")} other ingredients.
+                    <Flavour colour='bg-roasted' invert>Chocolate</Flavour> pairs with {getNumPairings("Chocolate")} other ingredients.
                 </p>
                 <p>
                     <span class="lg:hidden">Tap</span><span class="max-lg:hidden">Hover over</span> each circle to see what they are.
@@ -362,14 +362,14 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    <Span colour='bg-roasted' invert>Chocolate</Span> goes well with obvious things like <Span colour='bg-spicy' invert>cinnamon</Span>.
+                    <Flavour colour='bg-roasted' invert>Chocolate</Flavour> goes well with obvious things like <Flavour colour='bg-spicy' invert>cinnamon</Flavour>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    But also pairs with seemingly odd choices, such as <Span colour='bg-sulphurous'>cauliflower</Span> or <Span colour='bg-brine-salt' invert>bacon</Span>.
+                    But also pairs with seemingly odd choices, such as <Flavour colour='bg-sulphurous'>cauliflower</Flavour> or <Flavour colour='bg-brine-salt' invert>bacon</Flavour>.
                 </p>
                 <p>
                     Heston Blumenthal&rsquo;s restaurant <a href="https://thefatduck.co.uk/" target="_blank">The Fat Duck</a> used to serve a cauliflower risotto with chocolate jelly&hellip;
@@ -399,35 +399,35 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    <Span colour='bg-marine' invert>Shellfish</Span> is the most popular ingredient, with 51 pairings&hellip;
+                    <Flavour colour='bg-marine' invert>Shellfish</Flavour> is the most popular ingredient, with 51 pairings&hellip;
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    &hellip; closely followed by <Span colour='bg-meaty' invert>beef</Span> and <Span colour='bg-meaty' invert>pork</Span>, with 48 pairings apiece.
+                    &hellip; closely followed by <Flavour colour='bg-meaty' invert>beef</Flavour> and <Flavour colour='bg-meaty' invert>pork</Flavour>, with 48 pairings apiece.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    <Span colour='bg-sulphurous'>Swede</Span> has the fewest pairings, with just 7 other ingredients: <Span colour="bg-green-grassy" invert>anise</Span>, <Span colour='bg-meaty' invert>beef</Span>, <Span colour='bg-woodland' invert>carrot</Span>, <Span colour='bg-meaty' invert>lamb</Span>, <Span colour='bg-spicy' invert>nutmeg</Span>, <Span colour='bg-meaty' invert>pork</Span>, and <Span colour='bg-earthy' invert>potato</Span>.
+                    <Flavour colour='bg-sulphurous'>Swede</Flavour> has the fewest pairings, with just 7 other ingredients: <Flavour colour="bg-green-grassy" invert>anise</Flavour>, <Flavour colour='bg-meaty' invert>beef</Flavour>, <Flavour colour='bg-woodland' invert>carrot</Flavour>, <Flavour colour='bg-meaty' invert>lamb</Flavour>, <Flavour colour='bg-spicy' invert>nutmeg</Flavour>, <Flavour colour='bg-meaty' invert>pork</Flavour>, and <Flavour colour='bg-earthy' invert>potato</Flavour>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    <Span colour='bg-fresh-fruity' invert>Apple</Span> deserves a special mention.
+                    <Flavour colour='bg-fresh-fruity' invert>Apple</Flavour> deserves a special mention.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    Although <Span colour='bg-fresh-fruity' invert>apple</Span> isn&rsquo;t the most popular ingredient&mdash;barely squeaking into the top 20, based on number of pairings&mdash;it goes with every type of flavour, whether <Span colour='bg-sulphurous'>sulphurous</Span>, <Span colour='bg-spicy' invert>spicy</Span>, or <Span colour='bg-citrussy'>citrussy</Span>.
+                    Although <Flavour colour='bg-fresh-fruity' invert>apple</Flavour> isn&rsquo;t the most popular ingredient&mdash;barely squeaking into the top 20, based on number of pairings&mdash;it goes with every type of flavour, whether <Flavour colour='bg-sulphurous'>sulphurous</Flavour>, <Flavour colour='bg-spicy' invert>spicy</Flavour>, or <Flavour colour='bg-citrussy'>citrussy</Flavour>.
                 </p>
             </div>
         </section>
@@ -437,7 +437,7 @@
                     Some flavours are often paired with the most popular ingredients.
                 </p>
                 <p>
-                    <Span colour="bg-green-grassy" invert>Anise</Span> is one. A  veritable&mdash;and <a href='https://www.bbcgoodfood.com/glossary/star-anise-glossary' target='_blank'>literal</a>&mdash;star among other star ingredients.
+                    <Flavour colour="bg-green-grassy" invert>Anise</Flavour> is one. A  veritable&mdash;and <a href='https://www.bbcgoodfood.com/glossary/star-anise-glossary' target='_blank'>literal</a>&mdash;star among other star ingredients.
                 </p>
                 <p>
                     <img src='images/star-anise.webp' alt='Star anise. Source: BBC Good Food.' /> 
@@ -447,7 +447,7 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    In the book, Niki Segnit describes <Span colour="bg-green-grassy" invert>anise</Span> as a <q>very combinable flavour.</q>
+                    In the book, Niki Segnit describes <Flavour colour="bg-green-grassy" invert>anise</Flavour> as a <q>very combinable flavour.</q>
                 </p>
                 <p>
                     It appears in star and seed form, in liquorice, fennel, and herbs like tarragon and chervil. Even some varieties of basil have liquorice notes (Thai basil in particular).
@@ -457,14 +457,14 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    If you&rsquo;re a fan of <Span colour='bg-marine' invert>oysters</Span>, you could try adding a dash of <a href='https://www.healthyseasonalrecipes.com/tarragon-vinaigrette/' target='_blank'>tarragon vinaigrette</a>.
+                    If you&rsquo;re a fan of <Flavour colour='bg-marine' invert>oysters</Flavour>, you could try adding a dash of <a href='https://www.healthyseasonalrecipes.com/tarragon-vinaigrette/' target='_blank'>tarragon vinaigrette</a>.
                 </p>
             </div>
         </section>
         <section>
             <div class='col-medium'>
                 <p>
-                    Apparently <Span colour="bg-green-grassy" invert>anise seeds</Span> and <Span colour='bg-citrussy'>lemon</Span> play nicely together in <a href='https://italianfoodforever.com/2012/02/lemon-anise-biscotti/' target='_blank'>biscotti</a>.
+                    Apparently <Flavour colour="bg-green-grassy" invert>anise seeds</Flavour> and <Flavour colour='bg-citrussy'>lemon</Flavour> play nicely together in <a href='https://italianfoodforever.com/2012/02/lemon-anise-biscotti/' target='_blank'>biscotti</a>.
                 </p>
                 <p>
                     The Flavour Thesaurus calls pastis&mdash;the <a href='https://en.wikipedia.org/wiki/Pastis' target='_blank'>anise-y aperitif</a>&mdash;an <q>odd but successful match for lemon in a sorbet.</q>
@@ -474,7 +474,7 @@
         <section>
             <div class='col-medium'>
                 <p>
-                    Even the relatively unpopular <Span colour='bg-sulphurous'>swede</Span> has a friend in <Span colour="bg-green-grassy" invert>anise</Span>.
+                    Even the relatively unpopular <Flavour colour='bg-sulphurous'>swede</Flavour> has a friend in <Flavour colour="bg-green-grassy" invert>anise</Flavour>.
                 </p>
                 <p>
                     The Flavour Thesaurus recommends Hugh Fearnley-Whittingstall&rsquo;s <a href='https://www.google.co.uk/books/edition/The_River_Cottage_Meat_Book/a-r5GwAACAAJ?hl=en#ba_cen=lat_e7:%20515331909%0Alng_e7:%204294736586%0A&ba_loc=London%20E3%202PY' target='_blank'>leftover goose pasties</a>, which sound superb even to an anise-skeptic like me.
